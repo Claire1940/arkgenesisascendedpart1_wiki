@@ -38,6 +38,12 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Clock: LucideIcons.Clock,
   X: LucideIcons.X,
 
+  // ARK Genesis Ascended Part 1 工具卡图标
+  Calendar: LucideIcons.Calendar,
+  Scale: LucideIcons.Scale,
+  GraduationCap: LucideIcons.GraduationCap,
+  Map: LucideIcons.Map,
+
   // 默认回退图标
   HelpCircle: LucideIcons.HelpCircle,
 }
