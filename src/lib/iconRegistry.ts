@@ -43,6 +43,10 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Scale: LucideIcons.Scale,
   GraduationCap: LucideIcons.GraduationCap,
   Map: LucideIcons.Map,
+  Compass: LucideIcons.Compass,
+  PawPrint: LucideIcons.PawPrint,
+  Wrench: LucideIcons.Wrench,
+  Newspaper: LucideIcons.Newspaper,
 
   // 默认回退图标
   HelpCircle: LucideIcons.HelpCircle,

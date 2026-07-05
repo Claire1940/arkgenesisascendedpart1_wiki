@@ -5,6 +5,7 @@ import {
   AlertTriangle,
   ArrowRight,
   Check,
+  Compass,
   Download,
   Droplets,
   ExternalLink,
@@ -14,12 +15,15 @@ import {
   Joystick,
   Lightbulb,
   Moon,
+  Newspaper,
+  PawPrint,
   Ship,
   Snowflake,
   Sparkles,
   Store,
   Target,
   Waves,
+  Wrench,
 } from "lucide-react";
 import Link from "next/link";
 import { useMessages } from "next-intl";
@@ -60,6 +64,16 @@ const BIOME_ICON: Record<string, typeof Ship> = {
   "Ascended Ocean Overhaul": Ship,
 };
 
+// M6: tier → badge 样式（S/A 实心→半透明梯度，Launch X-Creature 边框；全 nav-theme 无 hex）
+const TIER_BADGE: Record<string, string> = {
+  S: "bg-[hsl(var(--nav-theme))] text-white border border-transparent",
+  A: "bg-[hsl(var(--nav-theme)/0.22)] text-[hsl(var(--nav-theme-light))] border border-[hsl(var(--nav-theme)/0.4)]",
+  "Launch X-Creature":
+    "bg-white/10 text-foreground border border-border",
+};
+const TIER_BADGE_FALLBACK =
+  "bg-white/5 text-muted-foreground border border-border";
+
 interface HomePageClientProps {
   latestArticles: ContentItemWithType[];
   moduleLinkMap: ModuleLinkMap;
@@ -80,13 +94,34 @@ export default function HomePageClient({
   const siteUrl =
     process.env.NEXT_PUBLIC_SITE_URL || "https://www.arkgenesisascendedpart1.wiki";
 
-  // 工具卡 → section id 1:1 映射（与 en.json tools.cards 顺序一致）
+  // 工具卡 → section id 1:1 映射（与 en.json tools.cards 顺序一致，8 张卡）
   const TOOL_SECTION_IDS = [
     "ark-release-store",
     "ark-dlc-comparison",
     "ark-beginner-guide",
     "ark-map-biomes",
+    "ark-missions-hexagons",
+    "ark-creatures-taming",
+    "ark-gear-weapons",
+    "ark-patch-notes",
   ];
+
+  // M6: 按 tier 分组（S → A → Launch X-Creature），每组保留原 items 顺序
+  const creatureItems = t.modules.arkGenesisCreaturesAndTamingTierList.items;
+  const CREATURE_TIERS = ["S", "A", "Launch X-Creature"]
+    .map((tier) => ({
+      tier,
+      items: creatureItems.filter((it: any) => it.tier === tier),
+    }))
+    .filter((g) => g.items.length > 0);
+
+  // M7: 按 category 分组（按 items 出现顺序去重）
+  const gearItems = t.modules.arkGenesisGearWeaponsVehiclesAndStructures.items;
+  const GEAR_CATEGORIES = gearItems
+    .map((it: any) => it.category)
+    .filter(
+      (c: string, i: number, arr: string[]) => arr.indexOf(c) === i,
+    );
 
   // Structured data
   const structuredData = {
@@ -580,7 +615,7 @@ export default function HomePageClient({
                     </ul>
                     <div className="p-3 rounded-lg bg-[hsl(var(--nav-theme)/0.05)] border border-[hsl(var(--nav-theme)/0.2)]">
                       <p className="flex items-start gap-2 text-sm">
-                        <Lightbulb className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0 flex-shrink-0" />
+                        <Lightbulb className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
                         <span className="text-muted-foreground">{step.beginnerTip}</span>
                       </p>
                     </div>
@@ -686,6 +721,331 @@ export default function HomePageClient({
                 );
               },
             )}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 5: Missions, Hexagons, and Glitches */}
+      <section id="ark-missions-hexagons" className="scroll-mt-24 px-4 py-14 md:py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-8 md:mb-12 scroll-reveal">
+            <div
+              className="inline-flex items-center gap-2 rounded-full px-3 py-1 mb-3 md:mb-4
+                            bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]
+                            text-xs md:text-sm font-medium text-[hsl(var(--nav-theme-light))]"
+            >
+              <Compass className="w-4 h-4" />
+              {t.modules.arkGenesisMissionsHexagonsAndGlitches.eyebrow}
+            </div>
+            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+              {t.modules.arkGenesisMissionsHexagonsAndGlitches.title}
+            </h2>
+            <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto mb-2">
+              {t.modules.arkGenesisMissionsHexagonsAndGlitches.subtitle}
+            </p>
+            <p className="text-sm md:text-base text-muted-foreground max-w-3xl mx-auto">
+              {t.modules.arkGenesisMissionsHexagonsAndGlitches.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal overflow-x-auto rounded-xl border border-border">
+            <table className="w-full text-sm md:text-base">
+              <thead>
+                <tr className="bg-[hsl(var(--nav-theme)/0.1)] border-b border-border">
+                  <th className="text-left p-3 md:p-4 font-semibold whitespace-nowrap">Activity</th>
+                  <th className="text-left p-3 md:p-4 font-semibold whitespace-nowrap">Type</th>
+                  <th className="text-left p-3 md:p-4 font-semibold">Objective</th>
+                  <th className="text-left p-3 md:p-4 font-semibold whitespace-nowrap">Difficulty</th>
+                  <th className="text-left p-3 md:p-4 font-semibold text-[hsl(var(--nav-theme-light))]">
+                    Reward Loop
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                {t.modules.arkGenesisMissionsHexagonsAndGlitches.items.map(
+                  (item: any, index: number) => (
+                    <tr key={index} className="border-b border-border/60 align-top">
+                      <td className="p-3 md:p-4 font-semibold whitespace-nowrap">
+                        {item.activity}
+                      </td>
+                      <td className="p-3 md:p-4 whitespace-nowrap">
+                        <span
+                          className="inline-flex items-center text-xs px-2 py-0.5 rounded-full
+                                     bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]
+                                     text-[hsl(var(--nav-theme-light))]"
+                        >
+                          {item.type}
+                        </span>
+                      </td>
+                      <td className="p-3 md:p-4 text-muted-foreground">{item.objective}</td>
+                      <td className="p-3 md:p-4 text-muted-foreground whitespace-nowrap">
+                        {item.difficulty}
+                      </td>
+                      <td className="p-3 md:p-4 text-muted-foreground">{item.rewardLoop}</td>
+                    </tr>
+                  ),
+                )}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位 5: 第五模块之后的阅读停顿位 */}
+      <AdBanner
+        type="banner-300x250"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250}
+        className="md:hidden"
+      />
+      <AdBanner
+        type="banner-468x60"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_468X60}
+        className="hidden md:flex"
+      />
+
+      {/* Module 6: Creatures and Taming Tier List */}
+      <section
+        id="ark-creatures-taming"
+        className="scroll-mt-24 px-4 py-14 md:py-20 bg-white/[0.02]"
+      >
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-8 md:mb-12 scroll-reveal">
+            <div
+              className="inline-flex items-center gap-2 rounded-full px-3 py-1 mb-3 md:mb-4
+                            bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]
+                            text-xs md:text-sm font-medium text-[hsl(var(--nav-theme-light))]"
+            >
+              <PawPrint className="w-4 h-4" />
+              {t.modules.arkGenesisCreaturesAndTamingTierList.eyebrow}
+            </div>
+            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+              {t.modules.arkGenesisCreaturesAndTamingTierList.title}
+            </h2>
+            <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto mb-2">
+              {t.modules.arkGenesisCreaturesAndTamingTierList.subtitle}
+            </p>
+            <p className="text-sm md:text-base text-muted-foreground max-w-3xl mx-auto">
+              {t.modules.arkGenesisCreaturesAndTamingTierList.intro}
+            </p>
+          </div>
+
+          <div className="space-y-8 md:space-y-10 scroll-reveal">
+            {CREATURE_TIERS.map((group) => (
+              <div key={group.tier}>
+                <div className="flex items-center gap-3 mb-4">
+                  <span
+                    className={`inline-flex items-center text-xs md:text-sm font-bold px-3 py-1 rounded-full whitespace-nowrap ${
+                      TIER_BADGE[group.tier] ?? TIER_BADGE_FALLBACK
+                    }`}
+                  >
+                    {group.tier === "Launch X-Creature"
+                      ? "Launch X-Creature"
+                      : `Tier ${group.tier}`}
+                  </span>
+                  <span className="text-xs md:text-sm text-muted-foreground">
+                    {group.items.length}{" "}
+                    {group.items.length === 1 ? "creature" : "creatures"}
+                  </span>
+                </div>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                  {group.items.map((item: any, idx: number) => (
+                    <div
+                      key={idx}
+                      className="flex flex-col p-5 bg-white/5 border border-border rounded-xl
+                                 hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+                    >
+                      <div className="flex items-start justify-between gap-2 mb-2">
+                        <h3 className="font-bold text-lg leading-tight">{item.creature}</h3>
+                        <span
+                          className={`inline-flex items-center text-xs font-bold px-2 py-0.5 rounded-full whitespace-nowrap ${
+                            TIER_BADGE[item.tier] ?? TIER_BADGE_FALLBACK
+                          }`}
+                        >
+                          {item.tier}
+                        </span>
+                      </div>
+                      <p className="text-sm font-medium text-[hsl(var(--nav-theme-light))] mb-3">
+                        {item.role}
+                      </p>
+                      <ul className="space-y-1.5 text-sm mb-3">
+                        <li className="flex items-start gap-2">
+                          <span className="font-semibold whitespace-nowrap">Movement:</span>
+                          <span className="text-muted-foreground">{item.movement}</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <span className="font-semibold whitespace-nowrap">Combat:</span>
+                          <span className="text-muted-foreground">{item.combat}</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <span className="font-semibold whitespace-nowrap">Base:</span>
+                          <span className="text-muted-foreground">{item.baseUtility}</span>
+                        </li>
+                      </ul>
+                      <p className="text-xs text-muted-foreground italic border-t border-border/60 pt-3 mt-auto">
+                        {item.tamingPriority}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位 6: 第六模块之后的阅读停顿位 */}
+      <AdBanner
+        type="banner-300x250"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250}
+        className="md:hidden"
+      />
+      <AdBanner
+        type="banner-468x60"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_468X60}
+        className="hidden md:flex"
+      />
+
+      {/* Module 7: Gear, Weapons, Vehicles, and Structures */}
+      <section id="ark-gear-weapons" className="scroll-mt-24 px-4 py-14 md:py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-8 md:mb-12 scroll-reveal">
+            <div
+              className="inline-flex items-center gap-2 rounded-full px-3 py-1 mb-3 md:mb-4
+                            bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]
+                            text-xs md:text-sm font-medium text-[hsl(var(--nav-theme-light))]"
+            >
+              <Wrench className="w-4 h-4" />
+              {t.modules.arkGenesisGearWeaponsVehiclesAndStructures.eyebrow}
+            </div>
+            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+              {t.modules.arkGenesisGearWeaponsVehiclesAndStructures.title}
+            </h2>
+            <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto mb-2">
+              {t.modules.arkGenesisGearWeaponsVehiclesAndStructures.subtitle}
+            </p>
+            <p className="text-sm md:text-base text-muted-foreground max-w-3xl mx-auto">
+              {t.modules.arkGenesisGearWeaponsVehiclesAndStructures.intro}
+            </p>
+          </div>
+
+          <div className="space-y-8 md:space-y-10 scroll-reveal">
+            {GEAR_CATEGORIES.map((category: string) => {
+              const categoryItems = gearItems.filter((it: any) => it.category === category);
+              return (
+                <div key={category}>
+                  <h3 className="flex items-center gap-2 text-lg md:text-xl font-bold mb-4">
+                    <span className="inline-block w-1.5 h-6 rounded bg-[hsl(var(--nav-theme))]" />
+                    {category}
+                  </h3>
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                    {categoryItems.map((item: any, idx: number) => (
+                      <div
+                        key={idx}
+                        className="flex flex-col p-5 bg-white/5 border border-border rounded-xl
+                                   hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+                      >
+                        <div className="flex items-start justify-between gap-2 mb-3">
+                          <h4 className="font-bold text-base">{item.item}</h4>
+                          <span
+                            className="inline-flex items-center text-xs px-2 py-0.5 rounded-full whitespace-nowrap
+                                       bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]
+                                       text-[hsl(var(--nav-theme-light))]"
+                          >
+                            {item.displayTag}
+                          </span>
+                        </div>
+                        <p className="text-sm mb-3">{item.useCase}</p>
+                        <p className="text-xs text-muted-foreground mt-auto">
+                          <span className="font-semibold text-foreground/80">Best for: </span>
+                          {item.bestFor}
+                        </p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位 7: 第七模块之后的阅读停顿位 */}
+      <AdBanner
+        type="banner-300x250"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250}
+        className="md:hidden"
+      />
+      <AdBanner
+        type="banner-468x60"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_468X60}
+        className="hidden md:flex"
+      />
+
+      {/* Module 8: Patch Notes, Servers, and System Requirements */}
+      <section
+        id="ark-patch-notes"
+        className="scroll-mt-24 px-4 py-14 md:py-20 bg-white/[0.02]"
+      >
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-8 md:mb-12 scroll-reveal">
+            <div
+              className="inline-flex items-center gap-2 rounded-full px-3 py-1 mb-3 md:mb-4
+                            bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]
+                            text-xs md:text-sm font-medium text-[hsl(var(--nav-theme-light))]"
+            >
+              <Newspaper className="w-4 h-4" />
+              {t.modules.arkGenesisPatchNotesServersAndSystemRequirements.eyebrow}
+            </div>
+            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+              {t.modules.arkGenesisPatchNotesServersAndSystemRequirements.title}
+            </h2>
+            <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto mb-2">
+              {t.modules.arkGenesisPatchNotesServersAndSystemRequirements.subtitle}
+            </p>
+            <p className="text-sm md:text-base text-muted-foreground max-w-3xl mx-auto">
+              {t.modules.arkGenesisPatchNotesServersAndSystemRequirements.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal overflow-x-auto rounded-xl border border-border">
+            <table className="w-full text-sm md:text-base">
+              <thead>
+                <tr className="bg-[hsl(var(--nav-theme)/0.1)] border-b border-border">
+                  <th className="text-left p-3 md:p-4 font-semibold whitespace-nowrap">Date</th>
+                  <th className="text-left p-3 md:p-4 font-semibold whitespace-nowrap">Version</th>
+                  <th className="text-left p-3 md:p-4 font-semibold whitespace-nowrap">Platform</th>
+                  <th className="text-left p-3 md:p-4 font-semibold whitespace-nowrap">Category</th>
+                  <th className="text-left p-3 md:p-4 font-semibold text-[hsl(var(--nav-theme-light))]">
+                    Player Impact
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                {t.modules.arkGenesisPatchNotesServersAndSystemRequirements.items.map(
+                  (item: any, index: number) => (
+                    <tr key={index} className="border-b border-border/60 align-top">
+                      <td className="p-3 md:p-4 font-semibold whitespace-nowrap">{item.date}</td>
+                      <td className="p-3 md:p-4 text-muted-foreground whitespace-nowrap">
+                        {item.version}
+                      </td>
+                      <td className="p-3 md:p-4 text-muted-foreground whitespace-nowrap">
+                        {item.platform}
+                      </td>
+                      <td className="p-3 md:p-4 whitespace-nowrap">
+                        <span
+                          className="inline-flex items-center text-xs px-2 py-0.5 rounded-full
+                                     bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]
+                                     text-[hsl(var(--nav-theme-light))]"
+                        >
+                          {item.category}
+                        </span>
+                      </td>
+                      <td className="p-3 md:p-4 text-muted-foreground">{item.playerImpact}</td>
+                    </tr>
+                  ),
+                )}
+              </tbody>
+            </table>
           </div>
         </div>
       </section>

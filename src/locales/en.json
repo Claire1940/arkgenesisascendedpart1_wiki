@@ -79,6 +79,26 @@
         "icon": "Map",
         "title": "Map Biomes & Ocean Overhaul",
         "description": "Bog, Ocean, Arctic, Volcanic, Lunar, and the Ascended ocean"
+      },
+      {
+        "icon": "Compass",
+        "title": "Missions & Hexagons",
+        "description": "HLN-A mission types, world glitches, and Hexagon reward loops"
+      },
+      {
+        "icon": "PawPrint",
+        "title": "Creatures & Taming Tier List",
+        "description": "Best Genesis Ascended Part 1 tames ranked by role and tier"
+      },
+      {
+        "icon": "Wrench",
+        "title": "Gear, Weapons & Structures",
+        "description": "Plasma Claws, Cruise Missiles, Hover Skiff, and ocean build pieces"
+      },
+      {
+        "icon": "Newspaper",
+        "title": "Patch Notes & Requirements",
+        "description": "Launch patch, server versions, ocean overhaul, and PC specs"
       }
     ]
   },
@@ -389,6 +409,323 @@
             "Large-scale ocean warfare"
           ],
           "routeNote": "Use this featured card to connect Genesis ocean searches with shipbuilding, naval combat, treasure hunts, and Ocean Outpost interest from Tides of Fortune."
+        }
+      ]
+    },
+    "arkGenesisMissionsHexagonsAndGlitches": {
+      "title": "ARK Genesis Ascended Part 1 Missions, Hexagons, and Glitches",
+      "eyebrow": "Missions & Rewards",
+      "displayType": "reward-table",
+      "subtitle": "Track the main Genesis Part 1 progression loop: HLN-A mission tests, world glitches, Hexagon rewards, and exchange priorities.",
+      "intro": "Genesis Ascended Part 1 uses HLN-A as the mission guide inside a fractured simulation. Players progress by clearing missions across different difficulty levels, fixing scattered glitches for extra credit, and spending rewarded Hexagons on resources, TEK items, and other useful supplies.",
+      "items": [
+        {
+          "activity": "HLN-A Mission Tests",
+          "type": "Mission hub",
+          "objective": "Choose from a wide array of simulation missions offered by HLN-A.",
+          "difficulty": "Multiple difficulty levels",
+          "rewardLoop": "Earn Hexagons through mission completion and use them for progression supplies."
+        },
+        {
+          "activity": "Enemy Wave Missions",
+          "type": "Combat",
+          "objective": "Gun down waves of enemies with the aid of mission power-ups.",
+          "difficulty": "Variable by mission tier",
+          "rewardLoop": "Combat-focused missions feed the Hexagon reward economy."
+        },
+        {
+          "activity": "Baby Creature Escort",
+          "type": "Escort",
+          "objective": "Protect vulnerable baby creatures during escort-style mission routes.",
+          "difficulty": "Variable by route and threat level",
+          "rewardLoop": "Successful escorts contribute to the mission reward pool."
+        },
+        {
+          "activity": "Boss Tracking",
+          "type": "Hunt",
+          "objective": "Track powerful bosses through the simulation before the final confrontation.",
+          "difficulty": "Boss-oriented challenge",
+          "rewardLoop": "Boss-track progress supports Genesis story and mission completion goals."
+        },
+        {
+          "activity": "Dino Races",
+          "type": "Race",
+          "objective": "Compete in high-speed Dino Race missions built around movement and route control.",
+          "difficulty": "Speed and handling challenge",
+          "rewardLoop": "Race completions add another repeatable path into Hexagon earnings."
+        },
+        {
+          "activity": "World Glitches",
+          "type": "Exploration",
+          "objective": "Fix glitches scattered throughout the simulation for extra credit.",
+          "difficulty": "Exploration-based",
+          "rewardLoop": "Glitch cleanup adds extra progress beyond standard mission runs."
+        },
+        {
+          "activity": "Hexagon Exchange",
+          "type": "Reward shop",
+          "objective": "Spend rewarded Hexagons after missions and glitch cleanup.",
+          "difficulty": "Economy system",
+          "rewardLoop": "Hexagons can be spent on resources, TEK items, and other useful supplies."
+        }
+      ]
+    },
+    "arkGenesisCreaturesAndTamingTierList": {
+      "title": "Best ARK Genesis Ascended Part 1 Creatures by Role",
+      "eyebrow": "Creatures & Taming",
+      "displayType": "tier-grid",
+      "subtitle": "A practical creature ranking for movement, combat, ocean play, mobile bases, crafting support, and tribe utility.",
+      "intro": "Genesis Ascended Part 1 brings back the major Genesis creature roster and adds Ascended launch creatures. Prioritize tames by what your tribe needs first: fast movement, ocean control, mobile building space, combat pressure, or crafting support.",
+      "items": [
+        {
+          "creature": "Palaeoctopus",
+          "tier": "S",
+          "role": "Ocean control and tribe utility",
+          "movement": "Ocean traversal and cliff climbing",
+          "combat": "Crushing tentacles can seize dual targets",
+          "baseUtility": "Supplies the tribe with limitless colored ink",
+          "tamingPriority": "First-choice ocean utility tame for Genesis Ascended Part 1"
+        },
+        {
+          "creature": "Bloodstalker",
+          "tier": "S",
+          "role": "Mobility hunter",
+          "movement": "Swings through the treacherous bog canopy",
+          "combat": "Web-spinning predator for aggressive traversal and pursuit",
+          "baseUtility": "Strong scouting value for dangerous biomes",
+          "tamingPriority": "High-priority mobility tame"
+        },
+        {
+          "creature": "Magmasaur",
+          "tier": "S",
+          "role": "Combat and crafting support",
+          "movement": "Built for volcanic terrain pressure",
+          "combat": "Fiery battle mount",
+          "baseUtility": "Acts as a living industrial forge",
+          "tamingPriority": "High-priority forge and combat tame"
+        },
+        {
+          "creature": "Megachelon",
+          "tier": "S",
+          "role": "Mobile ocean base",
+          "movement": "Large sea traversal platform",
+          "combat": "Defensive ocean presence",
+          "baseUtility": "Island-sized sea turtle foundation for mobile ocean bases",
+          "tamingPriority": "Core tame for ocean-base tribes"
+        },
+        {
+          "creature": "Ferox",
+          "tier": "A",
+          "role": "Companion and Element-fueled fighter",
+          "movement": "Compact companion form with combat transformation value",
+          "combat": "Shape-shifts into a deadly Element-fueled behemoth",
+          "baseUtility": "Flexible personal combat support",
+          "tamingPriority": "Strong early-to-mid combat companion"
+        },
+        {
+          "creature": "Astrocetus",
+          "tier": "A",
+          "role": "Tribe transport and space whale",
+          "movement": "Hyperspace-capable travel identity",
+          "combat": "Large-scale aerial presence",
+          "baseUtility": "Tribe-level transport and spectacle mount",
+          "tamingPriority": "Major tribe project; launch patch marks Astrocetus as breedable"
+        },
+        {
+          "creature": "X-Acro",
+          "tier": "Launch X-Creature",
+          "role": "Genesis launch roster expansion",
+          "movement": "X-Creature variant slot",
+          "combat": "Added in the Genesis Part 1 launch patch",
+          "baseUtility": "Collection and biome roster value",
+          "tamingPriority": "Track as part of the Ascended X-Creature set"
+        },
+        {
+          "creature": "X-Deinosuchus",
+          "tier": "Launch X-Creature",
+          "role": "Genesis launch roster expansion",
+          "movement": "X-Creature variant slot",
+          "combat": "Added in the Genesis Part 1 launch patch",
+          "baseUtility": "Collection and biome roster value",
+          "tamingPriority": "Track as part of the Ascended X-Creature set"
+        },
+        {
+          "creature": "X-Archelon",
+          "tier": "Launch X-Creature",
+          "role": "Genesis launch roster expansion",
+          "movement": "X-Creature variant slot",
+          "combat": "Added in the Genesis Part 1 launch patch",
+          "baseUtility": "Collection and biome roster value",
+          "tamingPriority": "Track as part of the Ascended X-Creature set"
+        },
+        {
+          "creature": "X-Xiphactinus",
+          "tier": "Launch X-Creature",
+          "role": "Genesis launch roster expansion",
+          "movement": "X-Creature variant slot",
+          "combat": "Added in the Genesis Part 1 launch patch",
+          "baseUtility": "Collection and biome roster value",
+          "tamingPriority": "Track as part of the Ascended X-Creature set"
+        },
+        {
+          "creature": "X-Cryolophosaurus",
+          "tier": "Launch X-Creature",
+          "role": "Genesis launch roster expansion",
+          "movement": "X-Creature variant slot",
+          "combat": "Added in the Genesis Part 1 launch patch",
+          "baseUtility": "Collection and biome roster value",
+          "tamingPriority": "Track as part of the Ascended X-Creature set"
+        }
+      ]
+    },
+    "arkGenesisGearWeaponsVehiclesAndStructures": {
+      "title": "ARK Genesis Ascended Part 1 Gear, Weapons, Vehicles, and Structures",
+      "eyebrow": "Gear & Structures",
+      "displayType": "item-grid",
+      "subtitle": "Use this grid to plan what to craft first: combat weapons, resource tools, vehicle tech, and interactive base structures.",
+      "intro": "Genesis Ascended Part 1 expands the crafting loop with combat gear, survival tools, advanced vehicles, and interactive structures. The most searched items are the Plasma Claws, Cruise Missiles, Fishing Nets, Mining Drills, Hover Skiff, and ocean-building pieces.",
+      "items": [
+        {
+          "item": "Plasma Claws",
+          "category": "Weapon",
+          "useCase": "Combo-capable close-range combat weapon.",
+          "bestFor": "Aggressive melee builds and high-pressure fights",
+          "displayTag": "Combo Weapon"
+        },
+        {
+          "item": "Cruise Missiles",
+          "category": "Weapon",
+          "useCase": "Remote-guided missile weapon for precision attacks.",
+          "bestFor": "Long-range targeting and raid pressure",
+          "displayTag": "Remote Guided"
+        },
+        {
+          "item": "Fishing Nets",
+          "category": "Tool",
+          "useCase": "Fishing-focused tool in the Genesis crafting set.",
+          "bestFor": "Ocean resource play and survival utility",
+          "displayTag": "Fishing Tool"
+        },
+        {
+          "item": "Mining Drills",
+          "category": "Tool",
+          "useCase": "Resource extraction tool for material-heavy progression.",
+          "bestFor": "Gathering routes and crafting preparation",
+          "displayTag": "Resource Tool"
+        },
+        {
+          "item": "Hover Skiff",
+          "category": "Vehicle",
+          "useCase": "Advanced vehicle for traversal and logistics.",
+          "bestFor": "Transport, base support, and tribe operations",
+          "displayTag": "Advanced Vehicle"
+        },
+        {
+          "item": "Pressure Plates",
+          "category": "Interactive Structure",
+          "useCase": "Trigger-based base element for interactive builds.",
+          "bestFor": "Base automation and trap routing",
+          "displayTag": "Trigger"
+        },
+        {
+          "item": "Alarm Systems",
+          "category": "Interactive Structure",
+          "useCase": "Base security structure for alert-focused defense.",
+          "bestFor": "Settlement warning systems and defensive layouts",
+          "displayTag": "Security"
+        },
+        {
+          "item": "Jump Pads",
+          "category": "Interactive Structure",
+          "useCase": "Movement structure for fast repositioning and base routing.",
+          "bestFor": "Traversal setups and vertical base design",
+          "displayTag": "Mobility"
+        },
+        {
+          "item": "Ocean Platforms",
+          "category": "Ocean Structure",
+          "useCase": "Large ocean-building foundation for sea bases.",
+          "bestFor": "Marine bases, ocean staging areas, and tribe platforms",
+          "displayTag": "Ocean Base"
+        }
+      ]
+    },
+    "arkGenesisPatchNotesServersAndSystemRequirements": {
+      "title": "ARK Genesis Ascended Part 1 Patch Notes, Servers, and System Requirements",
+      "eyebrow": "Updates & Requirements",
+      "displayType": "update-log-table",
+      "subtitle": "A bottom-of-page update tracker for Genesis Ascended Part 1 launch changes, platform versions, server status, and install requirements.",
+      "intro": "The launch patch for Genesis Ascended Part 1 updated legacy Genesis content for Ascended, added the new creature lineup, overhauled the Ocean biome, and added multi-layer map support. PC players should also check the 180 GB storage requirement and SSD requirement before installing, because apparently survival begins before the download even finishes.",
+      "items": [
+        {
+          "date": "2026-07-03",
+          "version": "v89.24 server / Steam v89.25 client",
+          "platform": "Steam and official servers",
+          "category": "Genesis Part 1 launch",
+          "playerImpact": "Updated all legacy Genesis creatures, items, structures, and environments for Genesis Ascended Part 1."
+        },
+        {
+          "date": "2026-07-03",
+          "version": "v89.24 server / Xbox v89.19 client",
+          "platform": "Xbox",
+          "category": "Platform client update",
+          "playerImpact": "Xbox client version aligned with the Genesis Part 1 launch patch."
+        },
+        {
+          "date": "2026-07-03",
+          "version": "v89.24 server / PlayStation v89.19 client",
+          "platform": "PlayStation",
+          "category": "Platform client update",
+          "playerImpact": "PlayStation client version aligned with the Genesis Part 1 launch patch."
+        },
+        {
+          "date": "2026-07-03",
+          "version": "Launch patch",
+          "platform": "All launch platforms",
+          "category": "New creatures",
+          "playerImpact": "Added Palaeoctopus, X-Acro, X-Deinosuchus, X-Archelon, X-Xiphactinus, and X-Cryolophosaurus."
+        },
+        {
+          "date": "2026-07-03",
+          "version": "Launch patch",
+          "platform": "All launch platforms",
+          "category": "Breedable creature",
+          "playerImpact": "Astrocetus is listed as a new breedable creature in the launch patch."
+        },
+        {
+          "date": "2026-07-03",
+          "version": "Launch patch",
+          "platform": "All launch platforms",
+          "category": "Ocean biome overhaul",
+          "playerImpact": "Genesis Part 1 received a massive Ocean biome overhaul with the Ascended release."
+        },
+        {
+          "date": "2026-07-03",
+          "version": "Launch patch",
+          "platform": "All launch platforms",
+          "category": "Map UI",
+          "playerImpact": "Added support for multi-layer maps across the various Map UIs."
+        },
+        {
+          "date": "2026-07-03",
+          "version": "Launch patch",
+          "platform": "All launch platforms",
+          "category": "Character customization",
+          "playerImpact": "Added Dreadlocks, Viking, Romantic, and Ponytail with Bangs hairstyle and facial hair options."
+        },
+        {
+          "date": "PC requirements",
+          "version": "Minimum",
+          "platform": "Steam",
+          "category": "System requirements",
+          "playerImpact": "Windows 10/11, AMD Ryzen 5 2600X or Intel Core i7-6800K, 16 GB RAM, AMD Radeon RX 5600 XT or NVIDIA GeForce 1080, DirectX 12, broadband internet, 180 GB available space, SSD required."
+        },
+        {
+          "date": "PC requirements",
+          "version": "Recommended",
+          "platform": "Steam",
+          "category": "System requirements",
+          "playerImpact": "Windows 10/11, AMD Ryzen 5 3600X or Intel i5-10600K, 32 GB RAM, AMD Radeon RX 6800 or NVIDIA GeForce RTX 3080, DirectX 12, broadband internet, 180 GB available space, SSD required."
         }
       ]
     }
