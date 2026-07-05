@@ -158,13 +158,13 @@ export default function HomePageClient({
       },
       {
         "@type": "VideoObject",
-        name: "LUCID BLOCKS | AVAILABLE NOW",
+        name: "ARK: Genesis - Part 1 Expansion Pack!",
         description:
-          "Official Lucid Blocks video featuring the Steam launch trailer and gameplay preview.",
-        uploadDate: "2026-03-12",
+          "Official ARK: Survival Ascended - Genesis: Part 1 expansion pack reveal and gameplay trailer.",
+        uploadDate: "2024-02-26",
         thumbnailUrl: `${siteUrl}/images/hero.webp`,
-        embedUrl: "https://www.youtube.com/embed/7C7fybRM_No",
-        url: "https://www.youtube.com/watch?v=7C7fybRM_No",
+        embedUrl: "https://www.youtube.com/embed/587ZD-y4LQE",
+        url: "https://www.youtube.com/watch?v=587ZD-y4LQE",
       },
     ],
   };
@@ -279,8 +279,8 @@ export default function HomePageClient({
         <div className="scroll-reveal container mx-auto max-w-5xl">
           <div className="relative overflow-hidden rounded-2xl">
             <VideoFeature
-              videoId="7C7fybRM_No"
-              title="LUCID BLOCKS | AVAILABLE NOW"
+              videoId="587ZD-y4LQE"
+              title="ARK: Genesis - Part 1 Expansion Pack!"
             />
           </div>
         </div>
@@ -779,7 +779,7 @@ export default function HomePageClient({
                 >
                   <div className="mb-3">
                     <span
-                      className={`text-xs px-2 py-1 rounded-full border ${["Hostile Enemy", "Major Threat", "Elite Threat"].includes(c.role) ? "bg-red-500/10 border-red-500/30 text-red-400" : "bg-[hsl(var(--nav-theme)/0.1)] border-[hsl(var(--nav-theme)/0.3)]"}`}
+                      className={`text-xs px-2 py-1 rounded-full border ${["Hostile Enemy", "Major Threat", "Elite Threat"].includes(c.role) ? "bg-orange-500/10 border-orange-500/30 text-orange-400" : "bg-[hsl(var(--nav-theme)/0.1)] border-[hsl(var(--nav-theme)/0.3)]"}`}
                     >
                       {c.role}
                     </span>
@@ -969,7 +969,7 @@ export default function HomePageClient({
                   <div className="flex items-center gap-2 mb-3">
                     <Star className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
                     <span
-                      className={`text-xs px-2 py-1 rounded-full border ${p.priority === "Essential" ? "bg-red-500/10 border-red-500/30 text-red-400" : p.priority === "Very High" ? "bg-orange-500/10 border-orange-500/30 text-orange-400" : "bg-[hsl(var(--nav-theme)/0.1)] border-[hsl(var(--nav-theme)/0.3)]"}`}
+                      className={`text-xs px-2 py-1 rounded-full border ${p.priority === "Essential" ? "bg-orange-500/10 border-orange-500/30 text-orange-400" : p.priority === "Very High" ? "bg-amber-500/10 border-amber-500/30 text-amber-400" : "bg-[hsl(var(--nav-theme)/0.1)] border-[hsl(var(--nav-theme)/0.3)]"}`}
                     >
                       {p.priority}
                     </span>

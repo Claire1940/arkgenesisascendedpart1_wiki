@@ -1,12 +1,12 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "ARK Genesis Ascended Part 1 Wiki - Missions, Biomes & Tames",
+  "short_name": "ARK Genesis",
+  "description": "ARK Genesis Ascended Part 1 guide covering missions, biomes, taming, creatures, resources, bosses, ships, and download info for ASA players on Steam, PS5 and Xbox.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "theme_color": "#0e7490",
+  "background_color": "#0a0e17",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
