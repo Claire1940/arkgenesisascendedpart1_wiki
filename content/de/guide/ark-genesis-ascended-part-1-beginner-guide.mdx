@@ -1,0 +1,231 @@
+import { Map, Shield, Target, Swords, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "ARK Genesis Ascended Part 1: Einsteigerleitfaden und Missionen",
+  description: "Lerne, wie du ARK Genesis Ascended Part 1 startest, das richtige Biom auswählst, Missionen abschließt, Hexagone ausgibst und eine sichere frühe Route aufbaust.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Beginner+Guide+and+Missions",
+  date: "2026-07-05",
+  author: "ark genesis ascended part 1 Wiki-Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **ark genesis ascended part 1** ist ein kostenloses DLC für ARK: Survival Ascended, benötigt aber trotzdem die installierte Grundversion.
+- **HLN-A-Missionen** sind der sicherste Weg, die Simulation zu lernen, Hexagone zu verdienen und frühe unnötige Wege zu vermeiden.
+- **Sumpf, Ozean und Arktis** sind die besten Biome, auf die du dich anfangs konzentrieren solltest, weil sie Mobilität, Gefahrenkontrolle und Routendisziplin lehren.
+- **Nützliche Zähmungen und Werkzeuge** sind in den ersten Sessions wichtiger als auffällige Kampfoptionen.
+</Callout>
+
+<Section icon={Map} title="Den richtigen Download-Pfad finden">
+
+Nutze zuerst die offizielle Store-Seite für deine Plattform, bevor du irgendetwas anderes tust. Der häufigste Anfängerfehler ist, die kostenlosen Genesis-Inhalte mit anderen ARK-Erweiterungen zu verwechseln oder die Anforderung an die Grundversion zu übersehen. Wenn du den falschen Produktpfad startest, verlierst du Zeit, bevor du überhaupt HLN-A erreichst.
+
+Öffne zuerst die offizielle [PlayARK-Seite](https://playark.com/) und gleiche sie dann mit dem Store deiner Plattform ab. Steam führt das DLC als kostenlos, während die Konsolen-Stores es ebenfalls als kostenlose Inhalte anzeigen, die an ARK: Survival Ascended gebunden sind.
+
+**Plattformzugriff auf einen Blick**
+
+| Plattform | Store-Status | Veröffentlichungsdatum | Grundspiel nötig | Beste Aktion |
+|---|---|---|---|---|
+| Steam | Kostenloses DLC | 3. Jul. 2026 | ARK: Survival Ascended | Herunterladen |
+| Xbox | Kostenloses DLC | 2. Jul. 2026 | ARK: Survival Ascended | Holen |
+| PlayStation | Kostenloses DLC | 2. Jul. 2026 | ARK: Survival Ascended | Zur Bibliothek hinzufügen |
+
+<Callout type="warning" title="Überspringe das Grundspiel nicht">
+Genesis Ascended Part 1 ist kein eigenständiges Spiel. Installiere zuerst ARK: Survival Ascended und sichere dir dann das DLC auf Steam, Xbox oder PlayStation.
+</Callout>
+
+Ein zweiter Punkt ist für die Klarheit der Seite wichtig: Verwechsele diese Seite nicht mit den älteren Genesis-Inhalten aus ARK: Survival Evolved. Die Mechaniken ähneln sich im Kern, aber die Zielversion ist eine andere. Wenn dein Leitfaden vom falschen Spiel ausgeht, wird jede Ressourcenangabe und jeder Missionstipp schwieriger einzuordnen.
+
+**Kostenloses DLC vs. kostenpflichtige Erweiterung**
+
+| Element | Genesis Ascended Part 1 | Tides of Fortune |
+|---|---|---|
+| Preis | Kostenlos | Kostenpflichtig |
+| Schwerpunkt | Missionen, Biome, Kreaturen, Überleben | Schiffe, Seeschlachten, Schätze, Piratensysteme |
+| Am besten für | Neue Spieler, die Genesis-Inhalte beginnen | Spieler, die wollen, dass der Ozean zum Schiffsspiel wird |
+| Voraussetzung | ARK: Survival Ascended | ARK: Survival Ascended |
+
+Wenn du einen sauberen ersten Spielstart möchtest, sichere dir das kostenlose DLC, prüfe die Installation und starte über das Grundspiel-Menü. So bleibt dein Fortschrittspfad einfach und du vermeidest später viel Verwirrung.
+
+</Section>
+
+<Section icon={Shield} title="Wähle deine erste Biom-Route">
+
+Deine erste Route sollte Überleben lehren, nicht Neugier bestrafen. Genesis Ascended Part 1 ist um fünf Biome und eine große Ozean-Überarbeitung herum aufgebaut, daher lohnt es sich, mit Zonen zu beginnen, die die Regeln des Spiels zeigen, ohne dich mit Gefahren zu überrollen, für die du noch nicht bereit bist.
+
+<Callout type="info" title="Beste frühe Haltung">
+Betrachte die Karte als Trainingssimulation. Lerne Bewegung, Gefahrenmuster und Missionsrhythmus, bevor du dich in risikoreiche Gebiete wagst.
+</Callout>
+
+<CardGrid cols={4}>
+  <Card title="Zuerst Sumpf">
+    - **Am besten für Mobilitätslektionen**
+    - Lehrt vertikale Bewegung und Routen durch das Blätterdach
+    - Gut, um Druck durch Raubtiere zu verstehen
+  </Card>
+  <Card title="Danach Ozean">
+    - **Am besten für Routenplanung**
+    - Zeigt Auftrieb, Wellen und Wasserwege
+    - Stark für Spieler, die Basen und Logistik mögen
+  </Card>
+  <Card title="Später Arktis">
+    - **Am besten für Gefahren-Disziplin**
+    - Kälteüberleben und Kontrolle in den Bergen
+    - Besser, sobald deine Vorräte stabil sind
+  </Card>
+  <Card title="Danach Vulkan und Mond">
+    - **Am besten für fortgeschrittenes Routing**
+    - Hitze und geringe Schwerkraft bestrafen schlampiges Spielen
+    - Heb sie dir auf, bis deine Ausrüstung mithalten kann
+  </Card>
+</CardGrid>
+
+**Biom-Planer**
+
+| Biom | Risikostufe | Was es lehrt | Hauptwarnung |
+|---|---|---|---|
+| Sumpf | Mittel | Bewegung im Blätterdach, Wahrnehmung von Raubtieren | Dichtes Gelände kann schlechte Positionierung bestrafen |
+| Ozean | Mittel | Reiseplanung, Wassersicherheit, Basislogistik | Tiefes Wasser und offene Flächen bestrafen schlechte Vorbereitung |
+| Arktis | Hoch | Kälteüberleben, Routen-Disziplin | Sowohl Kälte als auch Gelände erhöhen den Druck |
+| Vulkan | Hoch | Hitzemanagement, Kampf-Timing | Umweltschaden kann schnell eskalieren |
+| Mond | Hoch | Kontrolle bei geringer Schwerkraft, spezielle Bewegung | Ungewöhnliches Gelände verändert Timing und Abstände |
+
+Die sicherste Art, diese Zonen zu betrachten, ist ganz einfach: Der Sumpf lehrt Bewegung, der Ozean lehrt Planung und die Arktis lehrt Zurückhaltung. Sobald sich diese drei gut lesbar anfühlen, werden die härteren Zonen deutlich weniger chaotisch.
+
+<Callout type="success" title="Clevere Starter-Regel">
+Wenn du eine Route zweimal ohne Panik abschließen kannst, bist du bereit für die nächste Stufe. Wenn nicht, farmst du das gleiche Biom weiter und verbesserst zuerst deine Gewohnheiten.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Nutze Missionen als deine Haupteinnahmequelle">
+
+HLN-A-Missionen sind das Rückgrat eines Anfängerlaufs. Sie geben Struktur, belohnen Bewegungspraxis und schaffen einen klaren Kreislauf zum Verdienen von Hexagonen. Das macht sie viel besser als zielloses Herumwandern, solange du die Simulation noch lernst.
+
+<Callout type="success" title="Warum Missionen wichtig sind">
+Missionen machen aus Erkundung Fortschritt. Nutze sie, um Belohnungen zu verdienen, dein Setup zu testen und Selbstvertrauen aufzubauen, bevor du schwierigere Zonen ansteuerst.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Öffne HLN-A und überprüfe deine Optionen">
+    Beginne mit dem Missions-Hub statt mit freiem Umherziehen. Du willst ein klares Ziel, einen sichtbaren Schwierigkeitsgrad und einen Grund, dich bewusst zu bewegen.
+  </Step>
+  <Step num="2" title="Wähle die leichteste Missionsstufe, die du wiederholen kannst">
+    Frühe Erfolge sind wertvoller als riskante Versuche. Lerne erst den Ablauf der Missionen, bevor du auf bessere Belohnungen gehst.
+  </Step>
+  <Step num="3" title="Nutze die Belohnungsschleife gezielt">
+    Schließe Missionen ab, behebe Glitches, wenn du welche siehst, und gib Hexagone für nützliche Ressourcen oder TEK-Objekte aus, statt sie zu horten.
+  </Step>
+  <Step num="4" title="Steigere dich erst, wenn sich die Route stabil anfühlt">
+    Sobald du Wellen, Begleitungen, Rennen und Verfolgungsmissionen verstehst, wechsle zu härteren Inhalten und erweitere deine Biom-Reichweite.
+  </Step>
+</Steps>
+
+**Missionsarten und was sie für Anfänger bringen**
+
+| Missionsart | Was sie trainiert | Belohnungswert | Beste Nutzung |
+|---|---|---|---|
+| Gegnerwellen | Kampftiming und Zielkontrolle | Zuverlässiger Hexagon-Nachschub | Übe den Umgang mit Waffen |
+| Begleitung eines Baby-Wesens | Positionierung und Schutz | Solide Fortschrittsschleife | Lerne sicheres Routenmanagement |
+| Boss-Verfolgung | Aufmerksamkeit und Vorbereitungsdisziplin | Hochwertige Zielplanung | Baue auf späteren Boss-Inhalt hin |
+| Dino-Rennen | Bewegung und Routenwahl | Wiederholbare Missionsbelohnungen | Lerne Geschwindigkeitskontrolle und Kurven |
+| Welt-Glitches | Erkundung und Kartenlesen | Zusätzlicher Fortschritt nebenbei | Sammle unterwegs Zusatznutzen |
+
+Eine starke Anfänger-Routine ist es, eine Missionsrunde mit einer Biom-Route zu verbinden. So hat jeder Ausflug einen Zweck: Du schließt entweder ein Ziel ab, sammelst Belohnungen oder lernst ein neues Gefahrenmuster. Das Ergebnis ist stetiger Fortschritt statt zielloser Reisen.
+
+<Callout type="tip" title="Hexagon-Gewohnheit">
+Gib Hexagone zuerst für Dinge aus, die Reibung verringern. Nützliches ist meist besser als Luxus, solange dein Charakter noch fragil ist.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Stelle ein praktisches frühes Loadout zusammen">
+
+Dein erster Ausrüstungsplan sollte drei Probleme lösen: Bewegung, Überleben und Ressourcensammlung. Genesis Ascended Part 1 gibt dir viele auffällige Spielzeuge, aber Anfänger profitieren mehr von Werkzeugen und Zähmungen, die ihnen helfen, die nächste Mission sicher zu erreichen.
+
+<Callout type="warning" title="Frühe Überinvestition vermeiden">
+Verliere nicht deinen ganzen Schwung für eine teure Kampfidee. Eine stabile Route, eine nützliche Zähmung und ein zuverlässiges Werkzeug zur Ressourcennutzung sind meist die besseren ersten Investitionen.
+</Callout>
+
+**Frühes Prioritäts-Loadout**
+
+| Gegenstand oder Zähmung | Priorität | Haupteinsatz | Warum das wichtig ist |
+|---|---|---|---|
+| Bloodstalker | Hoch | Mobilität und Aufklärung | Großartig für bewegungsintensives Spielen und gefährliche Routen |
+| Palaeoctopus | Hoch | Ozeankontrolle und Nutzen | Stark für Seereisen und Unterstützung des Stammes |
+| Megachelon | Hoch | Mobile Ozeanbasis | Gibt Ozean-Spielern eine stabile Grundlage |
+| Magmasaur | Mittel | Kampf- und Schmiedeerweiterung | Nützlich, wenn du industrielle Kraft und feuerorientierten Fortschritt brauchst |
+| Hover Skiff | Mittel | Transport und Logistik | Hilft bei Bewegung, Basisunterstützung und Stammesoperationen |
+
+Diese Liste dreht sich nicht nur um rohe Stärke. Es geht darum, die Zahl der Momente zu reduzieren, in denen du stecken bleibst, dich verirrst oder bloßgestellt wirst, während du Missionen abschließen willst. Bloodstalker und Palaeoctopus stechen hervor, weil sie Bewegungsprobleme früh lösen. Megachelon wird wertvoll, wenn du einen Ozean-Basisstil möchtest. Magmasaur hilft, sobald deine Crafting- und Kampfabläufe reifer werden. Das Hover Skiff ist am besten, wenn dein Stamm eher Logistik als Frontschaden braucht.
+
+**Checkliste für die ersten Schritte**
+
+<Checklist
+  id="starter-route"
+  title="Ziele der ersten Session:"
+  items={[
+    "Das kostenlose DLC auf der richtigen Store-Seite sichern",
+    "Über ARK: Survival Ascended einsteigen, nicht über einen separaten Launcher-Pfad",
+    "Mindestens eine einfache HLN-A-Mission abschließen",
+    "Hexagone für ein nützliches Upgrade ausgeben statt alles zu sparen",
+    "Eine Biom-Route auswählen und lernen, bevor du weiter aufteilst"
+  ]}
+/>
+
+Eine disziplinierte Anfängerroute hält dein Inventar und deine Aufmerksamkeit fokussiert. Wenn du immer weißt, warum du die Basis verlässt, welche Gefahr du testest und welche Belohnung du willst, wird das Spiel viel leichter lesbar.
+
+<Callout type="info" title="Praktische Regel">
+Wähle eine Lösung für Bewegung, eine für Überleben und eine für Ressourcen. Das reicht, um deine ersten Stunden zu tragen.
+
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ und finale Planung">
+
+Wenn du an diesem Punkt angekommen bist, drehen sich die größten Anfängerfragen meist um Zugang, Tempo und die Frage, was zuerst Priorität haben sollte. Behalte die offiziellen Stores als Lesezeichen und halte deine Ziele eng gefasst, bis sich die Simulation vertraut anfühlt.
+
+<Callout type="tip" title="Abschließende Erinnerung">
+Wenn eine Aufgabe Bewegung, Überleben oder Missionsfortschritt nicht verbessert, kann sie meist bis später warten.
+</Callout>
+
+**Tabelle für Meilensteine der ersten Session**
+
+| Ziel | Wie Erfolg aussieht | Warum das wichtig ist |
+|---|---|---|
+| Richtig installiert | Grundspiel und DLC sind beide bereit | Verhindert Startverwirrung |
+| Eine Mission abschließen | Du verstehst den Grundablauf | Startet die Hexagon-Schleife |
+| Ein Biom lernen | Du kannst es zweimal sicher bereisen | Baut Kartenvertrauen auf |
+| Einen Nutzen-Fokus freischalten | Eine Zähmung oder ein Werkzeug löst ein Problem | Erleichtert zukünftige Läufe |
+
+**FAQ**
+
+<FAQ items={[
+  {
+    question: "Wie starte ich ark genesis ascended part 1 am besten?",
+    answer: "Beginne damit, das kostenlose DLC in deinem Plattform-Store zu sichern, starte es über ARK: Survival Ascended und nutze HLN-A-Missionen als deinen ersten Fortschrittspfad."
+  },
+  {
+    question: "Brauche ich das Grundspiel, bevor ich spielen kann?",
+    answer: "Ja. Genesis Ascended Part 1 ist ein DLC, daher muss ARK: Survival Ascended bereits installiert sein."
+  },
+  {
+    question: "Welches Biom sollten neue Spieler zuerst ausprobieren?",
+    answer: "Der Sumpf ist eine gute erste Lernzone, während der Ozean eine starke zweite Wahl ist, wenn du Routenplanung und Basislogistik üben möchtest."
+  },
+  {
+    question: "Sollte ich mich auf Missionen oder freie Erkundung konzentrieren?",
+    answer: "Nutze zuerst Missionen. Sie geben Struktur, lehren die Simulation schneller und schaffen die Hexagon-Belohnungsschleife, die den frühen Fortschritt unterstützt."
+  }
+]} />
+
+Für offizielle Referenzen solltest du die [PlayARK-Startseite](https://playark.com/), die [Steam-Store-Seite](https://store.steampowered.com/app/4558470/ARK_Genesis_Ascended_Part_1/), die [Xbox-Store-Seite](https://www.xbox.com/en-US/games/store/ark-genesis-ascended-part-1/9P4ND7M5PKPC/0010) und die [PlayStation-Store-Seite](https://store.playstation.com/en-us/product/UP0691-PPSA16810_00-GENESISASCENDED1) griffbereit halten, während du deinen Lauf aufbaust.
+
+</Section>

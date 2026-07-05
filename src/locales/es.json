@@ -1,1 +1,10 @@
-{}
+{
+  "nav": {
+    "release": "Lanzamiento",
+    "guide": "Guía",
+    "map": "Mapa",
+    "bases": "Bases",
+    "creatures": "Criaturas",
+    "features": "Funciones"
+  }
+}

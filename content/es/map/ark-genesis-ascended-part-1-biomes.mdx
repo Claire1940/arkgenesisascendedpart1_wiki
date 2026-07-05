@@ -1,0 +1,198 @@
+import { Map, Target, Shield, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Biomas de ark genesis ascended part 1: rutas del mapa y peligros",
+  description: "Guía de biomas de ARK Genesis Ascended Part 1 con el orden de las cinco regiones, preparación contra peligros, funciones de las criaturas y prioridades de recursos para explorar con mayor seguridad.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1f3b73/fff?text=Biomes+Guide",
+  date: "2026-07-05",
+  author: "Equipo de Wiki de ark genesis ascended part 1"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Los biomas de ark genesis ascended part 1** giran en torno a cinco zonas de peligro, cada una con exigencias distintas de movimiento y supervivencia.
+- **Bog y Ocean** son las mejores zonas para aprender, porque entrenan la movilidad, la exploración y la disciplina de rutas.
+- **Arctic, Volcanic y Lunar** funcionan mejor cuando tu preparación de domesticación, viaje y peligros ya es estable.
+- **Los Hexagons y las misiones** importan porque ayudan a financiar las herramientas que necesitas para las corridas en biomas más difíciles.
+</Callout>
+
+<Section icon={Map} title="Resumen de biomas y flujo principal">
+
+Los biomas de ark genesis ascended part 1 están diseñados como una prueba de supervivencia, no como un mundo abierto único y fluido. Cada región pone a prueba un conjunto de habilidades distinto: movimiento por la copa de los árboles en Bog, control del mar en Ocean, control de la temperatura en Arctic, presión por calor en Volcanic y desplazamiento con baja gravedad en Lunar. Si quieres empezar con buen pie, trata el mapa como cinco carriles separados en lugar de una sola gran ruta de farmeo.
+
+Para acceder de forma oficial, usa la [página de Steam](https://store.steampowered.com/app/4558470/ARK_Genesis_Ascended_Part_1/), la [página de Xbox](https://www.xbox.com/en-US/games/store/ark-genesis-ascended-part-1/9P4ND7M5PKPC/0010) o la [página de PlayStation](https://store.playstation.com/en-us/product/UP0691-PPSA16810_00-GENESISASCENDED1) antes de planear una expedición. El bioma Ocean también importa más de lo que parece al principio, porque Ascended lo amplía hasta convertirlo en un espacio que abarca todo el mapa, con olas dinámicas, flotabilidad, islas y fortalezas ocultas.
+
+<Callout type="tip" title="Idea principal">
+Construye tu ruta alrededor del bioma en el que puedas sobrevivir más tiempo, no del bioma que parezca más rentable sobre el papel.
+</Callout>
+
+<CardGrid cols={4}>
+  <Card title="Bog">
+    - **Ideal para:** practicar la movilidad  
+    - **Presión:** desplazamiento por la copa, riesgo de pantano  
+    - **Domesticación clave:** Bloodstalker
+  </Card>
+  <Card title="Ocean">
+    - **Ideal para:** viajes por mar y logística de bases  
+    - **Presión:** aguas profundas, olas, flotabilidad  
+    - **Domesticación clave:** Palaeoctopus, Megachelon
+  </Card>
+  <Card title="Arctic">
+    - **Ideal para:** disciplina en clima frío  
+    - **Presión:** terreno gélido, avalanchas  
+    - **Domesticación clave:** Ferox
+  </Card>
+  <Card title="Volcanic">
+    - **Ideal para:** progresión de estilo industrial  
+    - **Presión:** calor, fuego, peligro de erupción  
+    - **Domesticación clave:** Magmasaur
+  </Card>
+</CardGrid>
+
+| Bioma | Presión principal | Mejor uso temprano | Valor central |
+| --- | --- | --- | --- |
+| Bog | Terreno pantanoso, peligro en la copa | Aprender movimiento y exploración | Buen primer bioma para el control vertical |
+| Ocean | Agua profunda, olas, flotabilidad | Practicar viajes y rutas acuáticas | El mejor bioma para la planificación marítima |
+| Arctic | Exposición al frío, riesgo de montaña | Probar la supervivencia bajo presión térmica | Buena prueba de preparación y resistencia |
+| Volcanic | Peligros de calor y fuego | Crear hábitos de rutas industriales | Útil para ciclos avanzados de fabricación |
+| Lunar | Baja gravedad, terreno alienígena | Práctica de desplazamiento en late game | Exige control y movimiento cuidadoso |
+
+La forma más segura de entender estos biomas es simple: Bog te enseña a moverte, Ocean te enseña a viajar, Arctic te enseña a resistir, Volcanic te enseña a gestionar el riesgo y Lunar te enseña a seguir con vida mientras el propio terreno intenta desequilibrarte.
+
+</Section>
+
+<Section icon={Target} title="Mejor orden de ruta para jugadores nuevos">
+
+Si intentas avanzar por el mapa sin agotar tus suministros, usa una ruta escalonada. Empieza en el lugar donde las reglas sean más fáciles de leer y luego pasa a zonas más duras una vez que tu montura, tu inventario y tus hábitos de viaje sean fiables. Ese enfoque suele ser mejor que perseguir primero el bioma más llamativo.
+
+<Callout type="tip" title="Lógica de ruta">
+Elige primero el bioma que te enseñe tu habilidad más débil. Si el problema es el movimiento, empieza en Bog; si el problema es la logística, empieza en Ocean.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Empieza con un bioma que puedas entender rápido">
+    Elige la región en la que comprendas antes las amenazas. Bog es útil si necesitas práctica de movimiento, mientras que Ocean es mejor si quieres aprender rutas de viaje y reposicionamiento seguro.
+  </Step>
+  <Step num="2" title="Adapta tu domesticación al terreno">
+    Usa movilidad al estilo Bloodstalker para Bog, utilidad apta para el mar en Ocean, Ferox para la presión del frío, Magmasaur para el riesgo volcánico y Astrocetus solo cuando ya estés listo para un plan de viaje más avanzado.
+  </Step>
+  <Step num="3" title="Haz objetivos cortos antes de viajes largos">
+    No intentes limpiar todo el mapa de una sola vez. Crea bucles pequeños, recoge la recompensa, vuelve a salvo y luego amplía tu ruta.
+  </Step>
+  <Step num="4" title="Pásate a biomas más difíciles solo cuando tu plan de salida funcione">
+    Si no puedes salir con limpieza, no estás listo para empujes más largos. Los jugadores fuertes sobreviven porque saben cuándo irse, no porque se queden para siempre.
+  </Step>
+</Steps>
+
+| Paso | Bioma | Objetivo | Cuándo irte |
+| --- | --- | --- | --- |
+| 1 | Bog | Aprender movilidad y control de la copa | Puedes moverte y escapar sin entrar en pánico |
+| 2 | Ocean | Aprender viaje acuático y seguridad de rutas | Puedes manejar la flotabilidad y la distancia |
+| 3 | Arctic | Probar la preparación para el frío | Puedes sobrevivir al cambio de temperatura |
+| 4 | Volcanic | Probar resistencia al calor y planificación industrial | Tu equipo soporta la presión del fuego |
+| 5 | Lunar | Probar desplazamiento avanzado | Tu control de movimiento se siente estable |
+
+Un orden inteligente de rutas también reduce el desperdicio de recursos. Pasarás menos tiempo recuperándote de malas decisiones y más tiempo convirtiendo cada bioma en una ruta de farmeo o de misiones predecible.
+
+</Section>
+
+<Section icon={Shield} title="Peligros, criaturas y equipamientos de supervivencia">
+
+El mayor error que cometen los jugadores es asumir que un solo equipamiento sirve para todo. No es así. Cada bioma castiga un punto de fallo diferente, así que la mejor configuración es la que resuelve el peligro principal de la región antes incluso de entrar.
+
+<Callout type="warning" title="No ignores la presión del bioma">
+Una domesticación que parece fuerte en una región aún puede ser la herramienta equivocada en otra. La velocidad, el aislamiento térmico y el control vertical importan más que la comodidad bruta.
+</Callout>
+
+| Bioma | Peligro principal | Preparación recomendada | Mejor opción |
+| --- | --- | --- | --- |
+| Bog | Desorden del pantano, riesgo en la copa | Movimiento rápido, ruta de escape clara | Movilidad al estilo Bloodstalker |
+| Ocean | Agua profunda, olas dinámicas | Plan de viaje preparado para el agua, puntos de anclaje seguros | Palaeoctopus o Megachelon |
+| Arctic | Frío y esfuerzo por la altura | Protección térmica, control de resistencia | Flexibilidad al estilo Ferox |
+| Volcanic | Daño por calor y fuego | Gestión del calor, apoyo industrial | Magmasaur |
+| Lunar | Baja gravedad y terreno alienígena | Movimiento preciso, ritmo cuidadoso | Astrocetus |
+
+El elenco de lanzamiento hace esto todavía más interesante. Palaeoctopus da a los jugadores de Ocean una identidad de utilidad muy sólida, Bloodstalker sigue definiendo el desplazamiento en Bog, Magmasaur sostiene la utilidad de Volcanic, Ferox aporta a Arctic un ángulo de combate flexible, Megachelon apoya el juego de base oceánica y Astrocetus añade una opción de viaje para la fase tardía del juego que parece hecha para la planificación a larga distancia.
+
+<Checklist
+  id="biome-prep"
+  title="Lista de verificación previa:"
+  items={[
+    "Confirma el peligro principal del bioma antes de entrar",
+    "Lleva una domesticación que se adapte al terreno en lugar de forzar tu montura favorita",
+    "Carga una ruta de salida clara y una ruta alternativa",
+    "Lleva suficientes suministros para un regreso corto, no solo para un empuje agresivo",
+    "Deja Lunar y otras rutas avanzadas para cuando tu control de movimiento se sienta estable"
+  ]}
+/>
+
+Si sigues esa lista, cada bioma se convierte en una corrida controlada en lugar de una improvisación caótica. Esa es la diferencia entre explorar y dedicarte a rescates repetidos.
+
+</Section>
+
+<Section icon={Trophy} title="Recursos, misiones y prioridades de Hexagons">
+
+Los biomas de ark genesis ascended part 1 no tratan solo de sobrevivir; también apoyan el bucle de progresión del juego. Las misiones de HLN-A, los glitches y los Hexagons están todos ligados a la velocidad con la que puedes convertir el conocimiento del bioma en ganancias reales. Cuanto mejor entiendas cada región, más fácil será obtener recompensas sin perder tiempo.
+
+<Callout type="success" title="Bucle de recompensas">
+Usa corridas más fáciles en biomas para impulsar tu progreso de misiones y luego convierte ese progreso en Hexagons y suministros útiles antes de intentar terrenos más duros.
+</Callout>
+
+| Bioma | Enfoque de utilidad | Jugada de alto valor | Por qué importa |
+| --- | --- | --- | --- |
+| Bog | Movilidad y exploración | Rutas con Bloodstalker y movimiento por la copa | Te ayuda a aprender a reposicionarte con rapidez |
+| Ocean | Logística marina | Planificación de bases móviles y carriles largos de viaje | Te da una estructura fiable de rutas acuáticas |
+| Arctic | Supervivencia en regiones frías | Apoyo de Ferox y rutas disciplinadas | Prueba si tu preparación es realmente buena |
+| Volcanic | Apoyo industrial | Fabricación al estilo Magmasaur y juego bajo presión | Recompensa la planificación eficiente de recursos |
+| Lunar | Desplazamiento avanzado | Planificación de movimiento al estilo Astrocetus | Encaja con la confianza y el control del late game |
+
+Las misiones en sí mismas apoyan este bucle. Las oleadas de enemigos exigen disciplina de combate, las rutas de escolta recompensan el trazado cuidadoso, el seguimiento de jefes recompensa la preparación, las Dino Races premian el movimiento y la limpieza de glitches añade valor extra de progresión. En la práctica, el mejor bioma suele ser el que hace más limpio tu bucle de misiones, no el que simplemente parece más fuerte en un mapa.
+
+| Actividad de misión | Mejor combinación de biomas | Tipo de recompensa | Mejor uso de Hexagons |
+| --- | --- | --- | --- |
+| Oleadas de enemigos | Bog, Volcanic | Práctica de combate | Comprar suministros de supervivencia o apoyo de combate |
+| Rutas de escolta | Bog, Arctic | Control de ruta | Gastarlos en objetos de utilidad que reduzcan errores |
+| Seguimiento de jefes | Cualquier bioma preparado | Enfoque de progresión | Guardar Hexagons para mejoras importantes |
+| Dino Races | Ocean, Lunar | Dominio del movimiento | Invertir en herramientas favorables para el viaje |
+| Limpieza de glitches | Cualquier bioma | Crédito extra | Usar las recompensas para estabilizar tu siguiente corrida |
+
+Si quieres una regla práctica, guarda tus Hexagons para las cosas que te permitan sobrevivir un nivel más de bioma. Los recursos, los objetos TEK y otros suministros útiles valen más cuando eliminan el cuello de botella en el que siempre tropiezas.
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes">
+
+<Callout type="info" title="Respuestas rápidas">
+Estas respuestas se centran en el orden de los biomas, la planificación de peligros y la estructura del DLC gratuito para que puedas tomar decisiones rápidas sin sobrepensar el mapa.
+</Callout>
+
+<FAQ
+  items={[
+    {
+      question: "¿Cuál es el mejor punto de partida en los biomas de ark genesis ascended part 1?",
+      answer: "Bog suele ser el mejor punto de partida si necesitas practicar el movimiento, mientras que Ocean es mejor si quieres aprender viaje, anclaje y planificación de rutas."
+    },
+    {
+      question: "¿Qué bioma debería evitar al principio?",
+      answer: "Lunar es el bioma más fácil de posponer porque exige un control de movimiento más sólido y un equipo de late game más estable que las regiones anteriores."
+    },
+    {
+      question: "¿Qué hace especial al bioma Ocean?",
+      answer: "Ascended convierte Ocean en un espacio de viaje que abarca todo el mapa, con olas dinámicas, flotabilidad, islas, fortalezas ocultas y una amplia jugabilidad marítima."
+    },
+    {
+      question: "¿Cómo ayudan las misiones con la progresión de biomas?",
+      answer: "Las misiones de HLN-A, los glitches y los Hexagons te dan un bucle de recompensas que apoya los suministros, los objetos de progresión y las corridas de bioma más seguras."
+    }
+  ]}
+/>
+
+La versión corta es simple: planifica el mapa por nivel de presión, no por apariencia. Si tu equipamiento actual maneja el bioma con limpieza, ese es el bioma que merece la pena hacer a continuación.
+
+</Section>

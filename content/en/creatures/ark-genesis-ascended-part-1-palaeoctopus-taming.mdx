@@ -1,0 +1,270 @@
+import { Map, Shield, Target, Trophy, Swords, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "ark genesis ascended part 1: Missions, Biomes & Tames",
+  description: "ARK Genesis Ascended Part 1 guide covering free DLC access, biomes, missions, Hexagons, key creatures, taming priorities, and survival routes.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0b1d33/fff?text=Genesis+Ascended+Guide",
+  date: "2026-07-05",
+  author: "ark genesis ascended part 1 Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **ark genesis ascended part 1** is a free DLC for ARK: Survival Ascended, but the base game is required.
+- **Missions and Hexagons** drive early progression, so learn the reward loop before roaming the map.
+- **Ocean, Bog, Arctic, Volcanic, and Lunar** each punish different mistakes; match gear to biome risk.
+- **Palaeoctopus, Bloodstalker, Magmasaur, and Megachelon** are the highest-value utility targets.
+- **Start with survival utility** first, then chase combat power once your route and supplies are stable.
+</Callout>
+
+<Section icon={Map} title="ark genesis ascended part 1 Release Status and Store Links">
+
+ARK Genesis Ascended Part 1 is best treated as a launch-ready free expansion for ARK: Survival Ascended, not a separate standalone game. The cleanest user path is simple: confirm your platform, verify that ASA is installed, then claim the DLC from the official store page.
+
+<Callout type="warning" title="Access Check">
+Do not treat this as a standalone purchase. If ARK: Survival Ascended is not installed, the DLC will not give you a playable entry point.
+</Callout>
+
+| Platform | Status | Price | Base Game Needed | Action |
+| --- | --- | --- | --- | --- |
+| Steam | Released | Free | ARK: Survival Ascended | Download |
+| Xbox | Released | Free | ARK: Survival Ascended | Get |
+| PlayStation 5 | Released | Free | ARK: Survival Ascended | Add to Library |
+
+| Official Store | Link | Best Use |
+| --- | --- | --- |
+| Steam | https://store.steampowered.com/app/4558470/ARK_Genesis_Ascended_Part_1/ | PC download and review checks |
+| Xbox | https://www.xbox.com/en-US/games/store/ark-genesis-ascended-part-1/9P4ND7M5PKPC/0010 | Xbox and PC storefront access |
+| PlayStation | https://store.playstation.com/en-us/product/UP0691-PPSA16810_00-GENESISASCENDED1 | PS5 library claim and download |
+
+<CardGrid cols={3}>
+  <Card title="Steam">
+    - **Best for PC players**
+    - Clear DLC listing
+    - Easy library verification
+  </Card>
+  <Card title="Xbox">
+    - **Console-friendly entry**
+    - Free claim flow
+    - Good for cross-platform households
+  </Card>
+  <Card title="PlayStation 5">
+    - **Simple add-to-library flow**
+    - Free download
+    - Good if you already own ASA
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Release Note">
+The most important decision is not which store to use, but whether your account already owns ARK: Survival Ascended. That is the real gate.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Biomes, Hazards, and Safe Route Planning">
+
+The fastest way to die in Genesis is to enter a biome with the wrong expectations. Treat each area as a different survival puzzle. The map is built around pressure: weather, terrain, mobility limits, and specialized threats all matter more than raw damage.
+
+<Callout type="tip" title="Route First, Loot Second">
+If your route is unsafe, your loot plan does not matter. Pick the biome that matches your current movement tools and temperature protection.
+</Callout>
+
+| Biome | Main Threat | Best For | Early Risk Level |
+| --- | --- | --- | --- |
+| Bog | Swamp terrain, canopy danger | Bloodstalker scouting, swamp traversal | High |
+| Ocean | Deep water, waves, whirlpools | Sea travel, base platforms, exploration | High |
+| Arctic | Cold exposure, mountain routes | Ferox prep, cold-region exploration | High |
+| Volcanic | Heat, eruptions, lava pressure | Magmasaur utility, fire-zone runs | Very High |
+| Lunar | Low gravity, alien terrain | Astrocetus routes, movement practice | High |
+
+| Biome | Practical Advice | What To Bring |
+| --- | --- | --- |
+| Bog | Move vertically and avoid getting pinned | Mobility tame, medical items, spare armor |
+| Ocean | Plan for long travel and poor visibility | Water-ready tame, oxygen support, scouting tools |
+| Arctic | Expect stamina drain and temperature stress | Cold protection, food, emergency shelter |
+| Volcanic | Keep distance from heat spikes and hazards | Heat protection, resilient tame, backup gear |
+| Lunar | Control movement carefully in low gravity | Compact loadout, movement tools, patience |
+
+<CardGrid cols={4}>
+  <Card title="Bog">
+    - **Vertical danger**
+    - Best early scouting
+    - Strong mobility value
+  </Card>
+  <Card title="Ocean">
+    - **Travel-heavy zone**
+    - Great for mobile bases
+    - Excellent utility targets
+  </Card>
+  <Card title="Arctic">
+    - **Cold survival test**
+    - Better after prep
+    - Punishes weak armor
+  </Card>
+  <Card title="Volcanic">
+    - **Highest hazard pressure**
+    - Rewards disciplined routing
+    - Strong late-entry zone
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Practical Priority">
+For a first pass, focus on Bog or Ocean utility, then expand into Arctic, Volcanic, and Lunar once your tame lineup is ready.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Missions, Hexagons, and Early Progression">
+
+Genesis progression is built around HLN-A mission loops, reward spending, and simulation cleanup. That means your early game should not be random wandering. You want repeatable tasks that teach the map and feed your Hexagon economy.
+
+<Callout type="info" title="Core Loop">
+Complete missions, fix glitches, earn Hexagons, and convert that currency into supplies that let you survive the next biome.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Claim the DLC and launch into ASA">
+    Install ARK: Survival Ascended first, then activate the Genesis DLC from your platform store. This prevents wasted time and makes sure your entry point actually appears.
+  </Step>
+  <Step num="2" title="Use HLN-A as your mission hub">
+    Start with the mission menu and scan the available difficulty tiers. The goal is not speed; it is learning the simulation’s rhythm without overcommitting.
+  </Step>
+  <Step num="3" title="Run low-risk missions first">
+    Prioritize easier combat, escort, or race-style tasks. These teach movement and combat while building a safer early reward base.
+  </Step>
+  <Step num="4" title="Spend Hexagons on survival value">
+    Convert rewards into supplies, TEK items, and other useful progression pieces. Treat Hexagons as your early-game stabilization currency.
+  </Step>
+</Steps>
+
+| Activity | Type | Main Purpose | Reward Value |
+| --- | --- | --- | --- |
+| HLN-A mission test | Mission hub | Unlock and repeat simulation objectives | High |
+| Enemy wave run | Combat | Practice pressure fights | Medium to High |
+| Baby creature escort | Escort | Learn pathing and protection timing | Medium |
+| Boss tracking | Hunt | Progress story and late objectives | High |
+| Dino Race | Speed challenge | Train movement and route control | Medium |
+| Glitch cleanup | Exploration | Add extra progression value | Medium |
+
+| Early Goal | Why It Matters | Recommended Mindset |
+| --- | --- | --- |
+| Learn mission layouts | Reduces avoidable deaths | Play cautiously |
+| Build Hexagon income | Stabilizes supplies | Farm before risk |
+| Keep a backup kit | Prevents total loss | Expect mistakes |
+| Unlock mobility options | Opens harder routes | Utility over vanity |
+
+<Callout type="tip" title="Best Early Habit">
+Do not save mission practice for later. The earlier you learn the reward loop, the faster every biome becomes manageable.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Best Creatures, Taming Priority, and Utility Picks">
+
+The strongest tames in Genesis are not always the biggest fighters. In this map, mobility, ocean control, crafting support, and tribe utility often matter more than brute force. That is why the top priorities are practical, not flashy.
+
+<Callout type="success" title="Taming Rule">
+Choose creatures that solve a problem your tribe actually has: movement, storage, forging, scouting, or ocean access.
+</Callout>
+
+| Creature | Tier | Primary Role | Best Use |
+| --- | --- | --- | --- |
+| Palaeoctopus | S | Ocean control and tribe utility | Sea traversal, dual-target control, ink utility |
+| Bloodstalker | S | Mobility hunter | Bog movement, scouting, pursuit |
+| Magmasaur | S | Combat and crafting support | Volcano routes, forge utility |
+| Megachelon | S | Mobile ocean base | Sea platform logistics |
+| Ferox | A | Companion fighter | Flexible combat and mobility support |
+| Astrocetus | A | Tribe transport | Large-scale movement and late-game utility |
+
+| Creature | Why It Ranks High | Taming Priority |
+| --- | --- | --- |
+| Palaeoctopus | Solves ocean mobility and utility in one tame | Very High |
+| Bloodstalker | Makes dangerous swamp routing far easier | Very High |
+| Magmasaur | Strong for industrial support and combat | High |
+| Megachelon | Excellent for tribes that want ocean bases | High |
+| Ferox | Useful for players who want a versatile fighter | Medium to High |
+| Astrocetus | Better as a tribe project than a first tame | Medium |
+
+<CardGrid cols={3}>
+  <Card title="Palaeoctopus">
+    - **Ocean control**
+    - Tribe utility
+    - Strong exploratory value
+  </Card>
+  <Card title="Bloodstalker">
+    - **Bog mobility**
+    - Fast route changes
+    - Excellent scouting tame
+  </Card>
+  <Card title="Magmasaur">
+    - **Forge support**
+    - Heavy utility value
+    - Strong midgame pickup
+  </Card>
+</CardGrid>
+
+| Gear or Structure | Category | Why It Matters |
+| --- | --- | --- |
+| Plasma Claws | Weapon | Strong close-range pressure |
+| Cruise Missiles | Weapon | Precision threat option |
+| Mining Drills | Tool | Faster material extraction |
+| Hover Skiff | Vehicle | High-value logistics and transport |
+| Ocean Platforms | Structure | Enables marine base planning |
+| Jump Pads | Structure | Better base mobility |
+
+<Callout type="warning" title="Taming Mistake to Avoid">
+Do not overinvest in combat-only picks before you have movement and harvesting covered. Genesis punishes one-dimensional progress.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Checklist, FAQ, and Final Planning Notes">
+
+Use this section as your last pass before you commit to a route, a tame, or a mission grind. If your setup is thin, you will feel it fast in this DLC.
+
+<Callout type="info" title="Final Filter">
+A good Genesis setup is stable, mobile, and biome-aware. If one of those three is missing, fix that first.
+</Callout>
+
+<Checklist
+  id="genesis-setup"
+  title="Launch Checklist:"
+  items={[
+    "Claim ARK Genesis Ascended Part 1 from the correct platform store",
+    "Confirm ARK: Survival Ascended is installed and up to date",
+    "Choose one biome to learn before expanding your route pool",
+    "Build around a mission loop instead of random wandering",
+    "Prioritize one mobility tame and one utility tame"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "Is ark genesis ascended part 1 free?",
+    answer: "Yes, the DLC is free, but it still requires ARK: Survival Ascended as the base game."
+  },
+  {
+    question: "Which biome should I start with?",
+    answer: "Bog or Ocean are the most practical first choices if you want utility, scouting, and route practice before entering harsher zones."
+  },
+  {
+    question: "What should I spend Hexagons on first?",
+    answer: "Use Hexagons on survival supplies, TEK items, and whatever helps your current biome plan stay consistent."
+  },
+  {
+    question: "What are the best early tames?",
+    answer: "Palaeoctopus, Bloodstalker, Magmasaur, and Megachelon are the strongest utility-focused priorities for most players."
+  }
+]} />
+
+<Callout type="success" title="Bottom Line">
+If you play Genesis like a mission-driven survival map instead of a sightseeing tour, your progress will feel much smoother and more controlled.
+</Callout>
+
+</Section>

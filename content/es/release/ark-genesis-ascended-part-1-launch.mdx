@@ -1,0 +1,246 @@
+import { Map, Target, Shield, Swords, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "ARK Genesis Ascended Parte 1: Guía de lanzamiento y consejos de biomas",
+  description: "Guía de lanzamiento de ARK Genesis Ascended Parte 1 con estado de las plataformas, pasos de misiones, prioridades de biomas, criaturas recomendadas y consejos de supervivencia para el día de lanzamiento.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Genesis+Release+Guide",
+  date: "2026-07-05",
+  author: "Equipo de Wiki de ARK Genesis Ascended Parte 1"
+}
+
+<Callout type="info" title="Guía rápida">
+- **ARK Genesis Ascended Parte 1** es un DLC gratuito para ARK: Survival Ascended, no un juego independiente.
+- Las **misiones de HLN-A** marcan el ritmo inicial, así que genera ingresos de Hexagonos antes de adentrarte en biomas profundos.
+- Los **cinco biomas** más importantes son: Pantano, Océano, Ártico, Volcánico y Lunar.
+- Las **primeras domesticaciones** deberían priorizar movilidad, control oceánico y utilidad de forja.
+- La **preparación para el lanzamiento** significa instalar el juego base, reclamar el DLC y comprobar el espacio de almacenamiento.
+</Callout>
+
+<Section icon={Map} title="Estado del lanzamiento, plataformas y enlaces de la tienda">
+
+ARK Genesis Ascended Parte 1 se lanzó como un complemento gratuito para ARK: Survival Ascended. Trátalo primero como DLC: reclámalo en tu plataforma, confirma que el juego base esté instalado y luego entra.
+
+<Callout type="info" title="Instantánea del lanzamiento">
+El orden más seguro para el lanzamiento es sencillo: tener el juego base, conseguir el DLC gratuito y luego verificar la versión más reciente del cliente antes de entrar en un servidor.
+</Callout>
+
+| Plataforma | Precio | Lanzamiento | Requisito | Acción en la tienda |
+| --- | --- | --- | --- | --- |
+| Steam | Gratis | 2026-07-03 | ARK: Survival Ascended | Descargar |
+| Xbox | Gratis | 2026-07-02 | ARK: Survival Ascended | Obtener |
+| PlayStation 5 | Gratis | 2026-07-02 | ARK: Survival Ascended | Añadir a la biblioteca |
+
+| Enlace oficial | Caso de uso | Notas |
+| --- | --- | --- |
+| [Steam store page](https://store.steampowered.com/app/4558470/ARK_Genesis_Ascended_Part_1/) | Descarga en PC y compatibilidad con idiomas | Muestra el estado de DLC y el requisito del juego base |
+| [Xbox store page](https://www.xbox.com/en-US/games/store/ark-genesis-ascended-part-1/9P4ND7M5PKPC/0010) | Acceso a la biblioteca en consola y PC | Confirma el estado gratuito y la copia de lanzamiento |
+| [PlayStation store page](https://store.playstation.com/en-us/product/UP0691-PPSA16810_00-GENESISASCENDED1) | Acceso a la biblioteca de PS5 | Confirma el estado gratuito y la compatibilidad de la plataforma |
+
+<CardGrid cols={3}>
+  <Card title="Steam">
+    - **La mejor opción para jugadores de PC**
+    - Flujo de instalación sencillo
+    - Buena visibilidad de los parches
+  </Card>
+  <Card title="Xbox">
+    - **Reclamo rápido en la biblioteca**
+    - Ideal para usuarios de consola
+    - Etiquetado claro de DLC gratuito
+  </Card>
+  <Card title="PlayStation 5">
+    - **Acceso pensado para PS5**
+    - Paso simple de añadir a la biblioteca
+    - El juego en línea sigue dependiendo de tu configuración
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Cómo empezar el ciclo de misiones">
+
+Genesis funciona mejor cuando aprovechas su estructura de misiones en lugar de vagar sin rumbo. Las misiones de HLN-A, los glitches y los Hexagonos forman el ciclo inicial de progresión, así que úsalos para estabilizar tu equipo y ganar impulso.
+
+<Callout type="tip" title="Regla para el inicio">
+Si sientes que tu equipo es insuficiente, no fuerces una incursión en un bioma. Farmea misiones más fáciles, guarda las recompensas y vuelve con una mejor configuración.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Reclama y запуска el DLC">
+    Instala primero ARK: Survival Ascended y después añade el contenido gratuito de Genesis en tu plataforma. Si el DLC no aparece en tu biblioteca, detente ahí y soluciona eso antes de seguir.
+  </Step>
+  <Step num="2" title="Abre HLN-A y revisa los niveles de misión">
+    Trata a HLN-A como el centro de misiones. Céntrate primero en los objetivos iniciales más claros, especialmente en rutas de menor riesgo que te ayuden a aprender el movimiento, el combate y el flujo del mapa.
+  </Step>
+  <Step num="3" title="Construye tu ciclo de Hexagonos">
+    Completa misiones y recoge glitches para obtener progreso extra, y luego gasta los Hexagonos en recursos o en objetos de apoyo TEK que resuelvan tu cuello de botella actual.
+  </Step>
+  <Step num="4" title="Sube de nivel solo cuando tu equipo se ponga al día">
+    Una vez que tu inventario y tu plan de domesticación estén estables, pasa a objetivos más difíciles y usa las recompensas de misión para sostener la siguiente incursión en un bioma.
+  </Step>
+</Steps>
+
+| Tipo de misión | Mejor uso | Nivel de riesgo | Enfoque de recompensa |
+| --- | --- | --- | --- |
+| Oleadas de combate | Aprender a manejar la presión | Medio | Hexagonos y práctica de combate |
+| Misiones de escolta | Practicar la protección de rutas | Medio | Progresión más segura con juego en equipo |
+| Seguimiento de jefes | Prepararse para la estructura de final de juego | Alto | Progreso de la historia y profundidad de misión |
+| Carreras de dinos | Entrenar el movimiento y el control de rutas | Bajo a medio | Flujo de progresión repetible |
+| Limpieza de glitches | Añadir valor extra mientras exploras | Bajo | Progreso adicional y familiaridad con el mapa |
+
+<Callout type="info" title="Prioridad práctica">
+Los Hexagonos iniciales deberían destinarse primero a necesidades de supervivencia, no a mejoras llamativas que no te ayuden a sobrevivir la siguiente partida.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Biomas y la renovación del océano">
+
+El diseño del mapa gira en torno a la presión. Pantano, Océano, Ártico, Volcánico y Lunar castigan de formas distintas una ruta descuidada, y la capa oceánica añade un sandbox marítimo mucho más grande de lo que los jugadores clásicos de ARK podrían esperar.
+
+<Callout type="warning" title="Precaución con los biomas">
+No trates el océano como una simple ruta de viaje. Las olas dinámicas, la flotabilidad y los peligros ocultos cambian cómo te mueves, construyes y luchas.
+</Callout>
+
+| Bioma | Amenazas principales | Mejor objetivo inicial |
+| --- | --- | --- |
+| Pantano | Presión del pantano, terreno hostil, peligro en las copas de los árboles | Aprender movimiento vertical y distancias de supervivencia |
+| Océano | Agua profunda, remolinos, olas, flotabilidad | Asegurar movilidad marítima y rutas de exploración |
+| Ártico | Frío, montañas, avalanchas | Construir primero protección contra la temperatura |
+| Volcánico | Calor, peligros de fuego, erupciones | Llevar resistencia al calor y opciones de escape |
+| Lunar | Baja gravedad, terreno alienígena, exposición | Dominar el movimiento y la travesía segura |
+
+| Característica del océano | Por qué importa | Qué cambia |
+| --- | --- | --- |
+| Olas dinámicas | La navegación se siente menos estática | Barcos y bases necesitan mejor planificación |
+| Flotabilidad realista | El movimiento es más físico | Viajar por agua tiene más valor de preparación |
+| Islas y fortalezas | La exploración se vuelve más compleja | El reconocimiento gana más ventaja |
+| Configuración de guerra oceánica a gran escala | El combate se expande más allá de la costa | Las rutas marítimas se vuelven estratégicas, no casuales |
+
+<CardGrid cols={3}>
+  <Card title="Pantano">
+    - **Travesía por la copa de los árboles**
+    - Rutas pantanosas peligrosas
+    - Fuertes comprobaciones de movilidad
+  </Card>
+  <Card title="Océano">
+    - **Exploración marina**
+    - Caza de fortalezas ocultas
+    - Potencial para bases sobre el agua
+  </Card>
+  <Card title="Ártico / Lunar">
+    - **Estrés ambiental**
+    - Disciplina de movimiento
+    - Una mejor preparación da frutos
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Planificación de rutas">
+Usa el bioma más fácil como ancla y luego expándete hacia fuera. Así mantienes baja la pérdida de recursos mientras aprendes la simulación.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Criaturas, domesticación y prioridades de equipo">
+
+La elección de criaturas y de equipo importa más aquí que en un ciclo de supervivencia genérico. Las mejores opciones iniciales resuelven movimiento, control oceánico, utilidad de base o apoyo de fabricación antes de perseguir el daño puro.
+
+<Callout type="success" title="Mejores primeras opciones">
+Si quieres la ruta de progresión más limpia, prioriza una domesticación de movilidad, una del océano y una de apoyo a la fabricación antes de ir a por opciones de lujo.
+</Callout>
+
+| Criatura | Rol | Mejor uso | Prioridad |
+| --- | --- | --- | --- |
+| Palaeoctopus | Utilidad oceánica | Control del mar y apoyo a la tribu | S |
+| Bloodstalker | Cazador de movilidad | Travesía por el pantano y reconocimiento | S |
+| Magmasaur | Apoyo de forja | Fabricación y presión de combate | S |
+| Megachelon | Base marítima móvil | Organización oceánica y viaje en equipo | S |
+| Ferox | Compañero de combate | Apoyo flexible en combate | A |
+| Astrocetus | Transporte de tribu | Viajes a gran escala y espectáculo | A |
+
+| Equipo o estructura | Caso de uso | Por qué fabricarlo |
+| --- | --- | --- |
+| Garras de plasma | Combate a corta distancia | Gran presión para construcciones agresivas |
+| Misiles de crucero | Ataques a larga distancia | Ayudan con daño de precisión |
+| Redes de pesca | Utilidad oceánica | Útiles para el juego centrado en recursos acuáticos |
+| Taladros mineros | Extracción de recursos | Aceleran la recolección de materiales |
+| Plataforma flotante | Movilidad y logística | Excelente para transporte de tribu |
+| Plataformas oceánicas | Bases marítimas | Permiten organizar y defender una base en el mar |
+
+<CardGrid cols={3}>
+  <Card title="Movilidad">
+    - **Bloodstalker**
+    - Ruta rápida
+    - Mejor reconocimiento
+  </Card>
+  <Card title="Control oceánico">
+    - **Palaeoctopus**
+    - **Megachelon**
+    - Estabilidad de base marina
+  </Card>
+  <Card title="Apoyo de fabricación">
+    - **Magmasaur**
+    - Eficiencia de recursos
+    - Gran utilidad de base
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Mentalidad al domesticar">
+No sobrevalores a las criaturas raras antes de poder alimentarlas, defenderlas y transportarlas. Primero la utilidad, luego el prestigio.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación de lanzamiento y preguntas comunes">
+
+Usa esta revisión final para asegurarte de que tu cuenta, tus ajustes y tus objetivos estén alineados antes de invertir tiempo en una mala primera sesión.
+
+<Callout type="info" title="Lista de verificación de lanzamiento">
+Un lanzamiento limpio ahorra más tiempo que cualquier atajo de final de juego. Verifica lo básico antes de empezar a farmear misiones.
+</Callout>
+
+<Checklist
+  id="launch-checklist"
+  title="Antes de entrar en la simulación:"
+  items={[
+    "Confirmar que ARK: Survival Ascended está instalado",
+    "Reclamar ARK Genesis Ascended Parte 1 en tu plataforma",
+    "Comprobar las versiones más recientes del cliente y del servidor",
+    "Preparar una ruta de misión inicial de bajo riesgo",
+    "Dejar suficiente espacio de almacenamiento para las actualizaciones"
+  ]}
+/>
+
+| Problema común | Solución rápida | Resultado |
+| --- | --- | --- |
+| El DLC no aparece | Actualiza la tienda o la biblioteca y confirma que usas la cuenta correcta | Puedes iniciar el contenido |
+| Equipo inicial débil | Haz primero misiones más fáciles | Mejor supervivencia y flujo de recompensas |
+| Perdido en el mapa | Empieza con un bioma y expándete poco a poco | Decisiones de ruta más claras |
+| El océano parece inseguro | Lleva primero herramientas de movilidad y reconocimiento | Menos tiempo de viaje desperdiciado |
+
+<FAQ items={[
+  {
+    question: "¿ARK Genesis Ascended Parte 1 es gratis?",
+    answer: "Sí. Es un DLC gratuito para ARK: Survival Ascended, pero aún necesitas tener instalado el juego base."
+  },
+  {
+    question: "¿Qué debería hacer primero en ARK Genesis Ascended Parte 1?",
+    answer: "Reclama el DLC, abre HLN-A y completa misiones de menor riesgo para construir Hexagonos y equipo inicial."
+  },
+  {
+    question: "¿Con qué bioma es más fácil empezar?",
+    answer: "Empieza con la ruta menos castigadora para tu construcción, y luego pasa a Pantano, Océano, Ártico, Volcánico o Lunar a medida que tu equipo mejore."
+  },
+  {
+    question: "¿Qué criaturas importan más al principio?",
+    answer: "Céntrate primero en la utilidad: Bloodstalker para movilidad, Palaeoctopus o Megachelon para el juego oceánico y Magmasaur para apoyo de forja."
+  }
+]} />
+
+</Section>

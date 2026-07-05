@@ -1,0 +1,256 @@
+import { Map, Shield, Target, Swords, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "ark genesis ascended part 1: Misiones, biomas y domesticaciones",
+  description: "Guía de ARK Genesis Ascended Parte 1 que cubre el acceso al DLC gratuito, los ciclos de misiones, los biomas, las prioridades de criaturas, los cambios del océano y la preparación para jefes para jugadores de ASA.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Missions+Biomes+Tames",
+  date: "2026-07-05",
+  author: "Equipo de la Wiki de ark genesis ascended part 1"
+}
+
+<Callout type="info" title="Guía rápida">
+- **ark genesis ascended part 1** es un DLC gratuito para ARK: Survival Ascended, pero aun así requiere tener instalado el juego base.
+- **Mejor ciclo inicial**: usa las misiones de HLN-A, gana Hexágonos y gástalos en mejoras de supervivencia prácticas.
+- **La preparación del océano y de los biomas** importa más que el daño bruto, porque este mapa castiga las rutas mal planificadas.
+- **Las domesticaciones prioritarias** son movilidad, utilidad oceánica y apoyo de crafteo antes que opciones de lujo.
+- **El momento de lanzamiento** varía según la plataforma, así que confirma la página de la tienda antes de descargarlo.
+</Callout>
+
+<Section icon={Map} title="ark genesis ascended part 1: Fecha de lanzamiento, plataformas y acceso">
+
+ark genesis ascended part 1 se entiende mejor como una lista de verificación de lanzamiento, no solo como un botón de descarga. Es un DLC gratuito vinculado a ARK: Survival Ascended, así que la primera tarea es confirmar que tu biblioteca de la plataforma, la instalación del juego base y el estado de la tienda estén alineados antes de intentar entrar en la simulación.
+
+<Callout type="warning" title="Primero el acceso">
+No asumas que el DLC reemplaza al juego base. Si ARK: Survival Ascended falta, el contenido de Genesis no se cargará como un paquete independiente.
+</Callout>
+
+| Plataforma | Estado | Precio | Requiere juego base | Acción en la tienda | Notas |
+|---|---|---|---|---|---|
+| Steam | Disponible | Gratis | ARK: Survival Ascended | Descargar | Los jugadores de PC deberían verificar el espacio de almacenamiento antes de instalarlo. |
+| Xbox | Disponible | Gratis | ARK: Survival Ascended | Obtener | Funciona en los ecosistemas compatibles de Xbox y PC. |
+| PlayStation | Disponible | Gratis | ARK: Survival Ascended | Añadir a la biblioteca | Los jugadores de PS5 deberían comprobar primero los requisitos de juego en línea. |
+
+| Tienda oficial | Mejor uso | Qué confirmar |
+|---|---|---|
+| Tienda de Steam | Descarga en PC y revisión de opiniones | Estado de DLC gratuito, tamaño de instalación, propiedad del juego base |
+| Tienda de Xbox | Acceso en consola y PC | Disponibilidad, bloqueo por plataforma, derecho gratuito |
+| Tienda de PlayStation | Ruta de descarga en PS5 | Derecho en la biblioteca, necesidades de PS Plus para jugar en línea |
+
+Usa las páginas oficiales de la tienda como fuente de verdad antes de publicar una guía o actualizar la navegación de tu sitio. Para una estructura interna limpia, mantén esta página centrada en el acceso y envía las búsquedas más profundas a los artículos sobre biomas, misiones, criaturas y jefes.
+
+<Callout type="tip" title="Regla editorial">
+Si estás construyendo un sitio alrededor de esta palabra clave, el tráfico con mayor intención de lanzamiento suele venir de consultas sobre fecha de lanzamiento, descarga, plataformas y DLC gratuito.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Biomas del mapa y renovación del océano">
+
+El diseño del mapa es el verdadero gancho. La simulación combina biomas hostiles, peligro vertical y una capa oceánica mucho más grande, así que planificar la ruta importa desde el primer minuto. Los jugadores que se lanzan con equipo genérico suelen perder tiempo, suministros e impulso.
+
+<Callout type="info" title="Prioridad de biomas">
+Trata el Océano y el Pantano como tus zonas de investigación iniciales, el Ártico y el Volcánico como pruebas de equipo, y el Lunar como una zona de peligro para la ruta tardía.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Océano">
+    - **Mejor para**: viajes por mar, fortalezas ocultas, bases oceánicas
+    - **Riesgo**: remolinos, presión de aguas profundas, movimiento complicado
+    - **Recompensa**: movilidad, espacio de expansión, control marítimo
+  </Card>
+  <Card title="Pantano">
+    - **Mejor para**: pruebas de movilidad y rutas por la copa de los árboles
+    - **Riesgo**: densidad de pantano, terreno hostil, pérdida de visión
+    - **Recompensa**: excelente práctica de desplazamiento y valor de exploración
+  </Card>
+  <Card title="Volcánico">
+    - **Mejor para**: recorridos de recursos de alto riesgo
+    - **Riesgo**: calor, castigos estilo erupción, mala posición
+    - **Recompensa**: mejores hábitos de preparación y disciplina de supervivencia
+  </Card>
+</CardGrid>
+
+| Bioma | Amenaza principal | Contenido característico | Uso práctico |
+|---|---|---|---|
+| Pantano | Presión del pantano, peligros en la copa de los árboles | Rutas de Bloodstalker | Práctica de movilidad y exploración |
+| Océano | Aguas profundas, olas, flotabilidad | Islas, fortalezas ocultas, plataformas oceánicas | Bases marinas y viajes de larga distancia |
+| Ártico | Frío y peligro montañoso | Rutas relacionadas con Ferox | Prueba de equipo y preparación para el frío |
+| Volcánico | Riesgo de calor y fuego | Rutas relacionadas con Magmasaur | Progresión estilo forja y recorridos de riesgo |
+| Lunar | Baja gravedad y terreno alienígena | Exploración vinculada a Astrocetus | Desplazamiento de late game y rutas poco comunes |
+
+| Función de la renovación del océano | Por qué importa | Impacto en el jugador |
+|---|---|---|---|
+| Olas dinámicas | Viajar es menos predecible | Las embarcaciones y plataformas necesitan mejor planificación |
+| Flotabilidad realista | El movimiento se siente más físico | Construir bases oceánicas gana más sentido |
+| Fortalezas ocultas | La exploración tiene mejores objetivos | La exploración pasa a estar impulsada por recompensas |
+| Preparación para guerra oceánica a gran escala | El mar ahora es un espacio de combate | La mentalidad naval empieza a importar |
+
+<Callout type="success" title="Mejor hábito de ruta">
+Construye tu ruta priorizando primero la seguridad, después la densidad de recursos y, por último, la preparación para jefes. Ese orden te mantiene con vida el tiempo suficiente para aprovechar el mapa.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Misiones, Hexágonos y el ciclo inicial">
+
+Las misiones de HLN-A son la base del progreso temprano. Enseñan movimiento, presión de combate y flujo de recompensas, al mismo tiempo que te ofrecen una forma clara de convertir el esfuerzo en suministros útiles. Si quieres avanzar de forma eficiente al principio, construye alrededor de la economía de misiones antes de perseguir domesticaciones raras o empujes riesgosos por biomas.
+
+<Callout type="success" title="Enfoque de progresión">
+Usa las misiones para aprender la simulación y luego gasta los Hexágonos solo en objetos que resuelvan problemas inmediatos de supervivencia o de ruta.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Empieza por el centro de misiones">
+    Abre HLN-A y revisa la lista de misiones antes de salir de tu zona segura. Elige primero los objetivos de menor riesgo para aprender el ritmo.
+  </Step>
+  <Step num="2" title="Consigue tus primeras recompensas">
+    Completa una mezcla de tareas de combate, escolta, carrera y exploración. El objetivo es construir un ciclo de recompensas repetible, no apresurarte.
+  </Step>
+  <Step num="3" title="Arregla los glitches en el camino">
+    Trata los glitches del mundo como progreso extra. Añaden valor mientras ya te estás moviendo por rutas de misión y biomas.
+  </Step>
+  <Step num="4" title="Gasta los Hexágonos con disciplina">
+    Usa los Hexágonos en recursos, objetos TEK y suministros clave que desbloqueen el siguiente paso de tu partida, en vez de comprar objetos de conveniencia al azar.
+  </Step>
+</Steps>
+
+| Tipo de misión | Qué pone a prueba | Mejor caso de uso | Valor de recompensa |
+|---|---|---|---|
+| Oleadas de enemigos | Control de combate | Aprender el timing de las armas | Alto para práctica inicial |
+| Escolta de una cría | Protección y control de ruta | Coordinación de equipo | Fuerte si necesitas una ruta segura |
+| Seguimiento de jefes | Conciencia de progresión | Juego orientado a la historia | Bueno para objetivos a largo plazo |
+| Carreras de dinosaurios | Movimiento y manejo | Disciplina de ruta | Útil para quienes aprenden rápido |
+| Limpieza de glitches | Exploración y consistencia | Progreso extra | Eficiente cuando se combina con viajes |
+
+Un buen ritmo de misiones es simple: completa tareas fáciles, guarda las recompensas, mejora para el siguiente bioma y repite. Ese ritmo es más seguro que forzar un objetivo difícil que agote tus suministros.
+
+<Callout type="tip" title="Gasta los Hexágonos con inteligencia">
+Las mejores compras tempranas son las que reducen el riesgo al viajar, mejoran la velocidad de equipamiento o hacen que el siguiente bioma sea menos castigador.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Criaturas, prioridad de domesticación y equipo básico">
+
+La elección de criaturas moldea la sensación de todo el mapa. En este DLC, las mejores opciones no son solo las criaturas más peligrosas; son las que resuelven un problema de movimiento, juego oceánico, forja o logística de tribu.
+
+<Callout type="warning" title="Domesticación por función">
+Prioriza primero la utilidad. Una criatura que te ayude a cruzar terreno, sobrevivir al océano o apoyar el crafteo normalmente rendirá más que una elección vistosa de uso limitado.
+</Callout>
+
+<CardGrid cols={4}>
+  <Card title="Palaeoctopus">
+    - **Rol**: control oceánico
+    - **Valor**: gran utilidad y presión sobre dos objetivos
+    - **Mejor uso**: rutas marítimas y apoyo a la tribu
+  </Card>
+  <Card title="Bloodstalker">
+    - **Rol**: cazador de movilidad
+    - **Valor**: movimiento por la copa de los árboles y exploración
+    - **Mejor uso**: recorrido del Pantano y reposicionamiento rápido
+  </Card>
+  <Card title="Magmasaur">
+    - **Rol**: apoyo de combate y crafteo
+    - **Valor**: utilidad de forja viviente
+    - **Mejor uso**: recorridos volcánicos y preparación industrial
+  </Card>
+  <Card title="Megachelon">
+    - **Rol**: base oceánica móvil
+    - **Valor**: enorme utilidad como plataforma marina
+    - **Mejor uso**: expansión de tribu y despliegue marítimo
+  </Card>
+</CardGrid>
+
+| Criatura | Nivel | Tarea principal | Por qué importa |
+|---|---|---|---|
+| Palaeoctopus | S | Control oceánico | Excelente para movimiento en el mar y apoyo |
+| Bloodstalker | S | Movilidad | Resuelve problemas de recorrido por el Pantano y exploración |
+| Magmasaur | S | Apoyo de forja | Ayuda al combate y al crafteo al mismo tiempo |
+| Megachelon | S | Base móvil | Convierte los viajes oceánicos en una ventaja estratégica |
+| Ferox | A | Luchador compañero | Fuerte para combate flexible y apoyo personal |
+| Astrocetus | A | Transporte de tribu | Valioso para viajes a gran escala y objetivos de late game |
+
+| Equipo o estructura | Tipo | Mejor uso | Prioridad |
+|---|---|---|---|
+| Garras de plasma | Arma | Presión a corta distancia | Alta |
+| Misiles de crucero | Arma | Ataques de precisión | Media |
+| Taladros de minería | Herramienta | Extracción rápida | Alta |
+| Aerodeslizador flotante | Vehículo | Logística y transporte | Alta |
+| Plataformas oceánicas | Estructura | Bases marinas | Alta |
+| Plataformas de salto | Estructura | Movimiento y flujo de la base | Media |
+
+<Checklist
+  id="first-tames-and-crafts"
+  title="Primeras domesticaciones y crafteos a priorizar:"
+  items={[
+    "Asegura una domesticación de movilidad antes de adentrarte más en biomas hostiles",
+    "Prepara una solución capaz de operar en el océano para viajar o almacenar",
+    "Crea al menos una herramienta de recursos que acelere la recolección",
+    "Mantén una opción de combate lista para las rutas de misiones",
+    "Planifica una base que apoye el movimiento y la defensa"
+  ]}
+/>
+
+<Callout type="success" title="Mejor regla temprana">
+Si una domesticación o un objeto mejora tus próximas tres horas de juego, normalmente vale más que una opción de lujo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Notas del parche de lanzamiento, requisitos y FAQ">
+
+El estado de lanzamiento importa porque este contenido se apoya sobre los sistemas de ARK: Survival Ascended, y la capa de parches afecta lo que los jugadores ven el primer día. Una guía práctica siempre debería señalar la versión actual, las especificaciones mínimas y las funciones con más probabilidades de afectar al rendimiento o a la ruta.
+
+<Callout type="info" title="Lista de control de lanzamiento">
+Comprueba los cambios de versión, el espacio de instalación y los requisitos de SSD antes de culpar al mapa por una mala primera sesión.
+</Callout>
+
+| Área de actualización | Qué cambió | Impacto en el jugador |
+|---|---|---|
+| Nuevas criaturas | Palaeoctopus y varias variantes X | Más objetivos de domesticación y variedad en el roster |
+| Renovación del océano | Sistemas de agua ampliados y juego oceánico en todo el mapa | Mejor viaje marítimo, más planificación |
+| Interfaz del mapa | Soporte de mapa multicapa | Navegación más fácil en un mapa complejo |
+| Opciones de personaje | Nuevos peinados y vello facial | Solo variedad estética |
+| Necesidades de almacenamiento | Gran tamaño de instalación y requisito de SSD | La planificación del hardware importa |
+
+| Requisito para PC | Mínimo | Recomendado |
+|---|---|---|
+| SO | Windows 10/11 | Windows 10/11 |
+| CPU | Ryzen 5 2600X o i7-6800K | Ryzen 5 3600X o i5-10600K |
+| RAM | 16 GB | 32 GB |
+| GPU | RX 5600 XT o GTX 1080 | RX 6800 o RTX 3080 |
+| Almacenamiento | 180 GB disponibles, SSD obligatorio | 180 GB disponibles, SSD obligatorio |
+
+La conclusión práctica es simple: si tu máquina ya va justa con ASA, no ignores las notas de instalación y almacenamiento. Un lanzamiento fluido suele ser la diferencia entre aprender el mapa y pelear con la tasa de fotogramas.
+
+<FAQ items={[
+  {
+    question: "¿ark genesis ascended part 1 es gratis?",
+    answer: "Sí, es un DLC gratuito para ARK: Survival Ascended, pero aun así necesitas tener instalado el juego base para acceder a él."
+  },
+  {
+    question: "¿Qué debería hacer primero en ark genesis ascended part 1?",
+    answer: "Empieza con las misiones de HLN-A, recoge Hexágonos y construye tu progreso alrededor de la movilidad y la supervivencia antes de entrar en los biomas más hostiles."
+  },
+  {
+    question: "¿Qué bioma es el más importante al principio?",
+    answer: "El Océano y el Pantano son las zonas de estudio inicial más útiles porque enseñan movimiento, planificación de rutas y control de peligros."
+  },
+  {
+    question: "¿Qué criatura debería priorizar primero?",
+    answer: "Elige primero una domesticación de utilidad. Bloodstalker, Palaeoctopus, Magmasaur y Megachelon resuelven problemas importantes del mapa."
+  }
+]} />
+
+<Callout type="tip" title="Nota de publicación">
+Si estás creando un clúster de sitios, mantén esta página centrada en acceso al lanzamiento, biomas, misiones, criaturas y requisitos de lanzamiento. Esa estructura le da espacio a la palabra clave para posicionarse sin forzar contenido no relacionado.
+</Callout>
+
+</Section>

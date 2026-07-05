@@ -1,0 +1,256 @@
+import { Map, Shield, Target, Swords, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "ark genesis ascended part 1: Missionen, Biome & Tames",
+  description: "Anleitung zu ARK Genesis Ascended Part 1 mit Fokus auf kostenlosen DLC-Zugriff, Missions-Loops, Biome, Kreaturenprioritäten, Ozean-Änderungen und Boss-Vorbereitung für ASA-Spieler.",
+  category: "Anleitung",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Missions+Biomes+Tames",
+  date: "2026-07-05",
+  author: "ark genesis ascended part 1 Wiki-Team"
+}
+
+<Callout type="info" title="Schnellübersicht">
+- **ark genesis ascended part 1** ist ein kostenloser DLC für ARK: Survival Ascended, benötigt aber weiterhin die Installation des Basisspiels.
+- **Bester früher Loop**: Nutze HLN-A-Missionen, verdiene Hexagons und gib sie für praktische Überlebens-Upgrades aus.
+- **Vorbereitung auf Ozean und Biome** ist wichtiger als reiner Schaden, weil diese Karte schwaches Routing hart bestraft.
+- **Top-priorisierte Tames** sind Mobilität, Ozean-Utility und Crafting-Unterstützung noch vor Luxus-Picks.
+- **Release-Timing** variiert je nach Plattform, also prüfe die Store-Seite, bevor du den Download startest.
+</Callout>
+
+<Section icon={Map} title="ark genesis ascended part 1: Erscheinungsdatum, Plattformen und Zugriff">
+
+ark genesis ascended part 1 sollte man am besten als Launch-Checkliste behandeln und nicht nur als Download-Button. Es ist ein kostenloser DLC, der an ARK: Survival Ascended gebunden ist. Deshalb ist die erste Aufgabe, zu prüfen, ob deine Plattformbibliothek, die Installation des Basisspiels und der Store-Status zusammenpassen, bevor du die Simulation betrittst.
+
+<Callout type="warning" title="Zugriff zuerst">
+Gehe nicht davon aus, dass der DLC das Basisspiel ersetzt. Wenn ARK: Survival Ascended fehlt, wird der Genesis-Inhalt nicht als eigenständiges Paket geladen.
+</Callout>
+
+| Plattform | Status | Preis | Basisspiel erforderlich | Store-Aktion | Hinweise |
+|---|---|---|---|---|---|
+| Steam | Veröffentlicht | Kostenlos | ARK: Survival Ascended | Herunterladen | PC-Spieler sollten vor der Installation den Speicherplatz prüfen. |
+| Xbox | Veröffentlicht | Kostenlos | ARK: Survival Ascended | Holen | Funktioniert über unterstützte Xbox- und PC-Store-Ökosysteme hinweg. |
+| PlayStation | Veröffentlicht | Kostenlos | ARK: Survival Ascended | Zur Bibliothek hinzufügen | PS5-Spieler sollten zuerst die Anforderungen für Online-Spiel prüfen. |
+
+| Offizieller Store | Beste Nutzung | Was zu bestätigen ist |
+|---|---|---|
+| Steam Store | PC-Download und Review-Prüfung | Kostenloser DLC-Status, Installationsgröße, Besitz des Basisspiels |
+| Xbox Store | Zugriff über Konsole und PC | Verfügbarkeit, Plattformbindung, kostenlose Berechtigung |
+| PlayStation Store | Download-Pfad für PS5 | Bibliotheksberechtigung, PS-Plus-Anforderungen für Online-Spiel |
+
+Nutze die offiziellen Store-Seiten als maßgebliche Quelle, bevor du eine Anleitung veröffentlichst oder deine eigene Seitennavigation aktualisierst. Für eine saubere interne Struktur sollte diese Seite sich auf den Zugriff konzentrieren und tiefere Suchen an Artikel zu Biomen, Missionen, Kreaturen und Bossen weiterleiten.
+
+<Callout type="tip" title="Redaktionsregel">
+Wenn du eine Site rund um dieses Keyword aufbaust, kommt der stärkste Traffic mit Launch-Intention meist über Suchanfragen zu Erscheinungsdatum, Download, Plattformen und kostenlosen DLCs.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Kartenbiome und Ozean-Überarbeitung">
+
+Das eigentliche Highlight ist das Kartendesign. Die Simulation kombiniert feindliche Biome, vertikale Gefahren und eine deutlich größere Ozeanschicht, daher ist Routenplanung vom ersten Moment an wichtig. Spieler, die mit generischer Ausrüstung hineinrennen, verlieren meist Zeit, Vorräte und Momentum.
+
+<Callout type="info" title="Biome-Priorität">
+Behandle Ozean und Bog als deine frühen Forschungszonen, Arktis und Vulkanisch als Ausrüstungs-Checks und Lunar als Gefahrenzone für späte Routen.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Ozean">
+    - **Am besten für**: Seereisen, versteckte Festungen, Ozeanbasen
+    - **Risiko**: Wirbelströme, Druck in tiefem Wasser, schwierige Fortbewegung
+    - **Nutzen**: Mobilität, mehr Expansionsraum, maritime Kontrolle
+  </Card>
+  <Card title="Bog">
+    - **Am besten für**: Mobilitätstests und Routen durch das Blätterdach
+    - **Risiko**: Sumpfdichte, feindliches Terrain, eingeschränkte Sicht
+    - **Nutzen**: Starkes Traversal-Training und guter Wert fürs Scouting
+  </Card>
+  <Card title="Vulkanisch">
+    - **Am besten für**: Hochriskante Ressourcentouren
+    - **Risiko**: Hitze, Eruptions-artige Bestrafung, schlechte Positionierung
+    - **Nutzen**: Bessere Vorbereitungsgewohnheiten und mehr Überlebensdisziplin
+  </Card>
+</CardGrid>
+
+| Biom | Zentrale Gefahr | Typische Inhalte | Praktische Nutzung |
+|---|---|---|---|
+| Bog | Sumpfdruck, Gefahren im Blätterdach | Bloodstalker-Routen | Mobilitätstraining und Scouting |
+| Ozean | Tiefes Wasser, Wellen, Auftrieb | Inseln, versteckte Festungen, Ozeanplattformen | Marine Basen und Reisen über lange Strecken |
+| Arktis | Kälte und Berggefahren | Ferox-bezogene Routen | Härtetest für Ausrüstung und Kältevorsorge |
+| Vulkanisch | Hitze- und Feuerrisiko | Magmasaur-bezogene Routen | Schmiedeartige Progression und Risk-Runs |
+| Lunar | Geringe Gravitation und fremdartiges Gelände | Erkundung mit Astrocetus-Bezug | Traversal im Endgame und ungewöhnliches Routing |
+
+| Feature der Ozean-Überarbeitung | Warum es wichtig ist | Auswirkung auf den Spieler |
+|---|---|---|
+| Dynamische Wellen | Reisen sind weniger vorhersehbar | Boote und Plattformen brauchen bessere Planung |
+| Realistischer Auftrieb | Bewegung fühlt sich physischer an | Der Bau von Ozeanbasen wird bedeutungsvoller |
+| Versteckte Festungen | Erkundung hat bessere Ziele | Scouting wird belohnungsorientiert |
+| Groß angelegte Ozeankriegsführung | Das Meer ist jetzt ein Kampfgebiet | Denken in maritimen Strategien wird relevant |
+
+<Callout type="success" title="Beste Routengewohnheit">
+Baue deine Route zuerst um Sicherheit, zweitens um Ressourcendichte und drittens um Boss-Vorbereitung. Diese Reihenfolge hält dich lange genug am Leben, um von der Karte zu profitieren.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Missionen, Hexagons und der Einstiegs-Loop">
+
+HLN-A-Missionen sind das Rückgrat der frühen Progression. Sie vermitteln Bewegung, Kampfdruck und Belohnungsfluss und geben dir gleichzeitig einen klaren Weg, Aufwand in nützliche Vorräte umzuwandeln. Wenn du effizient früh vorankommen willst, baue zunächst auf der Missionsökonomie auf, bevor du seltene Tames jagst oder riskante Biome ansteuerst.
+
+<Callout type="success" title="Fortschrittsfokus">
+Nutze Missionen, um die Simulation zu lernen, und gib Hexagons dann nur für Dinge aus, die unmittelbare Überlebens- oder Routing-Probleme lösen.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Starte im Missions-Hub">
+    Öffne HLN-A und sieh dir die Missionsliste an, bevor du dein sicheres Gebiet verlässt. Wähle zuerst Ziele mit geringem Risiko, damit du das Tempo kennenlernen kannst.
+  </Step>
+  <Step num="2" title="Verdiene deine ersten Belohnungen">
+    Erledige eine Mischung aus Kampf-, Eskorten-, Renn- und Erkundungsaufgaben. Das Ziel ist ein wiederholbarer Belohnungs-Loop, nicht das Tempo.
+  </Step>
+  <Step num="3" title="Behebe Glitches unterwegs">
+    Behandle Welt-Glitches als Bonusfortschritt. Sie bringen zusätzlichen Wert, während du ohnehin durch Missionsrouten und Biome unterwegs bist.
+  </Step>
+  <Step num="4" title="Gib Hexagons diszipliniert aus">
+    Verwende Hexagons für Ressourcen, TEK-Items und wichtige Vorräte, die den nächsten Schritt deines Runs freischalten, statt für zufällige Komfortartikel.
+  </Step>
+</Steps>
+
+| Missionstyp | Was getestet wird | Bester Anwendungsfall | Belohnungswert |
+|---|---|---|---|
+| Gegnerwellen | Kampfkontrolle | Waffentiming lernen | Hoch für frühe Übung |
+| Eskorte eines Jungtiers | Schutz und Routenführung | Teamkoordination | Stark, wenn du eine sichere Route brauchst |
+| Boss-Verfolgung | Fortschrittsbewusstsein | Story-orientiertes Spielen | Gut für langfristige Ziele |
+| Dino-Rennen | Bewegung und Handling | Routendisziplin | Nützlich für schnelle Lerner |
+| Glitch-Bereinigung | Erkundung und Konstanz | Bonusfortschritt | Effizient in Kombination mit Reisen |
+
+Ein guter Missionsrhythmus ist einfach: leichte Aufgaben abschließen, Belohnungen sichern, für das nächste Biom aufrüsten und dann wiederholen. Dieser Rhythmus ist sicherer, als ein einziges schweres Ziel zu erzwingen, das deine Vorräte leert.
+
+<Callout type="tip" title="Hexagons klug ausgeben">
+Die besten frühen Käufe sind diejenigen, die das Reiserisiko senken, die Ausrüstungsgeschwindigkeit verbessern oder das nächste Biom weniger hart machen.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Kreaturen, Tame-Priorität und Kern-Ausrüstung">
+
+Die Wahl der Kreaturen prägt, wie sich die ganze Karte anfühlt. In diesem DLC sind die stärksten Picks nicht einfach die gefährlichsten Kreaturen, sondern diejenigen, die ein Problem für Bewegung, Ozean-Spiel, Schmieden oder Stammeslogistik lösen.
+
+<Callout type="warning" title="Nach Funktion zähmen">
+Priorisiere zuerst Utility. Eine Kreatur, die dir beim Überqueren von Terrain hilft, das Meer überlebbar macht oder Crafting unterstützt, ist meist stärker als ein auffälliger Pick mit engem Einsatzgebiet.
+</Callout>
+
+<CardGrid cols={4}>
+  <Card title="Palaeoctopus">
+    - **Rolle**: Ozeankontrolle
+    - **Wert**: starke Utility und Druck auf zwei Ziele
+    - **Bester Einsatz**: See-Routen und Stamm-Unterstützung
+  </Card>
+  <Card title="Bloodstalker">
+    - **Rolle**: Mobilitätsjäger
+    - **Wert**: Bewegung im Blätterdach und Scouting
+    - **Bester Einsatz**: Bog-Durchquerung und schnelles Neupositionieren
+  </Card>
+  <Card title="Magmasaur">
+    - **Rolle**: Kampf- und Crafting-Unterstützung
+    - **Wert**: Utility einer lebenden Schmiede
+    - **Bester Einsatz**: Vulkanische Runs und industrielle Vorbereitung
+  </Card>
+  <Card title="Megachelon">
+    - **Rolle**: mobile Ozeanbasis
+    - **Wert**: enorme Plattform-Utility auf See
+    - **Bester Einsatz**: Stammesausbau und maritime Vorposten
+  </Card>
+</CardGrid>
+
+| Kreatur | Stufe | Hauptaufgabe | Warum sie wichtig ist |
+|---|---|---|---|
+| Palaeoctopus | S | Ozeankontrolle | Stark für Seebewegung und Support-Wert |
+| Bloodstalker | S | Mobilität | Löst Probleme bei Bog-Durchquerung und Scouting |
+| Magmasaur | S | Schmiede-Unterstützung | Hilft gleichzeitig im Kampf und beim Crafting |
+| Megachelon | S | Mobile Basis | Macht aus Ozeanreisen einen strategischen Vorteil |
+| Ferox | A | Begleitkämpfer | Stark für flexiblen Kampf und persönliche Unterstützung |
+| Astrocetus | A | Stammstransport | Wertvoll für Reisen im großen Maßstab und Endgame-Ziele |
+
+| Ausrüstung oder Struktur | Typ | Bester Einsatz | Priorität |
+|---|---|---|---|
+| Plasma Claws | Waffe | Druck im Nahbereich | Hoch |
+| Cruise Missiles | Waffe | Präzisionsangriffe | Mittel |
+| Mining Drills | Werkzeug | Schnelle Ausbeute | Hoch |
+| Hover Skiff | Fahrzeug | Logistik und Transport | Hoch |
+| Ocean Platforms | Struktur | Marine Basen | Hoch |
+| Jump Pads | Struktur | Bewegung und Basisfluss | Mittel |
+
+<Checklist
+  id="first-tames-and-crafts"
+  title="Erste Tames und Crafts, auf die du zielen solltest:"
+  items={[
+    "Sichere dir zuerst ein Mobilitäts-Tame, bevor du tiefer in harte Biome vordringst",
+    "Richte eine Lösung für Reisen oder Lagerung im Ozean ein",
+    "Stelle mindestens ein Ressourcentool her, das das Sammeln beschleunigt",
+    "Halte eine Kampfoption für Missionsrouten bereit",
+    "Plane einen Basisbau, der Bewegung und Verteidigung unterstützt"
+  ]}
+/>
+
+<Callout type="success" title="Beste frühe Regel">
+Wenn ein Tame oder Item deine nächsten drei Spielstunden verbessert, ist es in der Regel mehr wert als ein Luxus-Pick.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Launch-Patchnotes, Anforderungen und FAQ">
+
+Der Launch-Zustand ist wichtig, weil dieser Inhalt auf den Systemen von ARK: Survival Ascended aufbaut und die Patch-Ebene beeinflusst, was Spieler am ersten Tag sehen. Eine praktische Anleitung sollte immer den aktuellen Build, die Mindestanforderungen und die Features erwähnen, die Leistung oder Routing am ehesten beeinflussen.
+
+<Callout type="info" title="Launch-Checkliste">
+Prüfe Versionsänderungen, Installationsgröße und SSD-Anforderungen, bevor du der Karte die Schuld für eine schlechte erste Session gibst.
+</Callout>
+
+| Update-Bereich | Was sich geändert hat | Auswirkung auf den Spieler |
+|---|---|---|
+| Neue Kreaturen | Palaeoctopus und mehrere X-Varianten | Mehr Tame-Ziele und größere Vielfalt im Roster |
+| Ozean-Überarbeitung | Erweiterte Wassersysteme und Ozean-Spiel auf der ganzen Karte | Bessere Seereisen, mehr Planung |
+| Karten-UI | Unterstützung für mehrschichtige Karten | Einfachere Navigation auf einer komplexen Karte |
+| Charakteroptionen | Neue Frisuren und Gesichtsbehaarung | Nur kosmetische Vielfalt |
+| Speicherbedarf | Großer Installationsumfang und SSD-Pflicht | Hardware-Planung ist wichtig |
+
+| PC-Anforderung | Minimum | Empfohlen |
+|---|---|---|
+| OS | Windows 10/11 | Windows 10/11 |
+| CPU | Ryzen 5 2600X oder i7-6800K | Ryzen 5 3600X oder i5-10600K |
+| RAM | 16 GB | 32 GB |
+| GPU | RX 5600 XT oder GTX 1080 | RX 6800 oder RTX 3080 |
+| Speicher | 180 GB verfügbar, SSD erforderlich | 180 GB verfügbar, SSD erforderlich |
+
+Die praktische Schlussfolgerung ist einfach: Wenn dein Rechner bei ASA ohnehin an der Grenze liegt, ignoriere die Hinweise zu Installation und Speicher nicht. Ein reibungsloser Launch ist oft der Unterschied zwischen der Karte lernen und gegen die Framerate kämpfen.
+
+<FAQ items={[
+  {
+    question: "Ist ark genesis ascended part 1 kostenlos?",
+    answer: "Ja, es ist ein kostenloser DLC für ARK: Survival Ascended, aber du brauchst weiterhin das Basisspiel, um darauf zuzugreifen."
+  },
+  {
+    question: "Was sollte ich in ark genesis ascended part 1 zuerst tun?",
+    answer: "Starte mit HLN-A-Missionen, sammle Hexagons und baue zuerst auf Mobilität und Überleben, bevor du die härtesten Biome betrittst."
+  },
+  {
+    question: "Welches Biom ist am Anfang am wichtigsten?",
+    answer: "Ozean und Bog sind die nützlichsten frühen Lernzonen, weil sie Bewegung, Routenplanung und Gefahrenkontrolle vermitteln."
+  },
+  {
+    question: "Welche Kreatur sollte ich zuerst priorisieren?",
+    answer: "Wähle zuerst ein Utility-Tame. Bloodstalker, Palaeoctopus, Magmasaur und Megachelon lösen alle wichtige Probleme auf der Karte."
+  }
+]} />
+
+<Callout type="tip" title="Hinweis zur Veröffentlichung">
+Wenn du einen Site-Cluster aufbaust, halte diese Seite auf Freischaltung, Biome, Missionen, Kreaturen und Launch-Anforderungen fokussiert. Diese Struktur gibt dem Keyword Raum zum Ranken, ohne irrelevante Inhalte zu erzwingen.
+</Callout>
+
+</Section>

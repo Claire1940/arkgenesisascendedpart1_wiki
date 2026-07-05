@@ -1,1 +1,698 @@
-{}
+{
+  "de": {
+    "bases": [
+      {
+        "slug": "ark-genesis-ascended-part-1-basespots",
+        "file": "ark-genesis-ascended-part-1-basespots"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-best-base-locations",
+        "file": "ark-genesis-ascended-part-1-best-base-locations"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-pvp-base-locations",
+        "file": "ark-genesis-ascended-part-1-pvp-base-locations"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-ratholes",
+        "file": "ark-genesis-ascended-part-1-ratholes"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-small-tribe-base-locations",
+        "file": "ark-genesis-ascended-part-1-small-tribe-base-locations"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-solo-base-locations",
+        "file": "ark-genesis-ascended-part-1-solo-base-locations"
+      }
+    ],
+    "creatures": [
+      {
+        "slug": "ark-genesis-ascended-part-1-creature-tier-list",
+        "file": "ark-genesis-ascended-part-1-creature-tier-list"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-creature-vote",
+        "file": "ark-genesis-ascended-part-1-creature-vote"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-creatures",
+        "file": "ark-genesis-ascended-part-1-creatures"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-dino-list",
+        "file": "ark-genesis-ascended-part-1-dino-list"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-dinos",
+        "file": "ark-genesis-ascended-part-1-dinos"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-new-creatures",
+        "file": "ark-genesis-ascended-part-1-new-creatures"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-palaeoctopus-taming",
+        "file": "ark-genesis-ascended-part-1-palaeoctopus-taming"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-palaeoctopus",
+        "file": "ark-genesis-ascended-part-1-palaeoctopus"
+      }
+    ],
+    "features": [
+      {
+        "slug": "ark-genesis-ascended-part-1-details",
+        "file": "ark-genesis-ascended-part-1-details"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-new-engrams",
+        "file": "ark-genesis-ascended-part-1-new-engrams"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-new-features",
+        "file": "ark-genesis-ascended-part-1-new-features"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-new-items",
+        "file": "ark-genesis-ascended-part-1-new-items"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "ark-genesis-ascended-part-1-beginner-guide",
+        "file": "ark-genesis-ascended-part-1-beginner-guide"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-day-1-guide",
+        "file": "ark-genesis-ascended-part-1-day-1-guide"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-everything-you-need-to-know",
+        "file": "ark-genesis-ascended-part-1-everything-you-need-to-know"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-first-10-minutes",
+        "file": "ark-genesis-ascended-part-1-first-10-minutes"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-first-impressions",
+        "file": "ark-genesis-ascended-part-1-first-impressions"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-guide",
+        "file": "ark-genesis-ascended-part-1-guide"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-lore",
+        "file": "ark-genesis-ascended-part-1-lore"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-walkthrough",
+        "file": "ark-genesis-ascended-part-1-walkthrough"
+      }
+    ],
+    "map": [
+      {
+        "slug": "ark-genesis-ascended-part-1-biomes",
+        "file": "ark-genesis-ascended-part-1-biomes"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-element-farm",
+        "file": "ark-genesis-ascended-part-1-element-farm"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-map",
+        "file": "ark-genesis-ascended-part-1-map"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-ocean",
+        "file": "ark-genesis-ascended-part-1-ocean"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-resource-locations",
+        "file": "ark-genesis-ascended-part-1-resource-locations"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-weather",
+        "file": "ark-genesis-ascended-part-1-weather"
+      }
+    ],
+    "release": [
+      {
+        "slug": "ark-genesis-ascended-part-1-delayed",
+        "file": "ark-genesis-ascended-part-1-delayed"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-free",
+        "file": "ark-genesis-ascended-part-1-free"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-launch",
+        "file": "ark-genesis-ascended-part-1-launch"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-price",
+        "file": "ark-genesis-ascended-part-1-price"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-release-date",
+        "file": "ark-genesis-ascended-part-1-release-date"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-release",
+        "file": "ark-genesis-ascended-part-1-release"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-when-does-it-come-out",
+        "file": "ark-genesis-ascended-part-1-when-does-it-come-out"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-when-is-it-coming-out",
+        "file": "ark-genesis-ascended-part-1-when-is-it-coming-out"
+      }
+    ]
+  },
+  "en": {
+    "bases": [
+      {
+        "slug": "ark-genesis-ascended-part-1-basespots",
+        "file": "ark-genesis-ascended-part-1-basespots"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-best-base-locations",
+        "file": "ark-genesis-ascended-part-1-best-base-locations"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-pvp-base-locations",
+        "file": "ark-genesis-ascended-part-1-pvp-base-locations"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-ratholes",
+        "file": "ark-genesis-ascended-part-1-ratholes"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-small-tribe-base-locations",
+        "file": "ark-genesis-ascended-part-1-small-tribe-base-locations"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-solo-base-locations",
+        "file": "ark-genesis-ascended-part-1-solo-base-locations"
+      }
+    ],
+    "creatures": [
+      {
+        "slug": "ark-genesis-ascended-part-1-creature-tier-list",
+        "file": "ark-genesis-ascended-part-1-creature-tier-list"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-creature-vote",
+        "file": "ark-genesis-ascended-part-1-creature-vote"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-creatures",
+        "file": "ark-genesis-ascended-part-1-creatures"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-dino-list",
+        "file": "ark-genesis-ascended-part-1-dino-list"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-dinos",
+        "file": "ark-genesis-ascended-part-1-dinos"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-new-creatures",
+        "file": "ark-genesis-ascended-part-1-new-creatures"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-palaeoctopus-taming",
+        "file": "ark-genesis-ascended-part-1-palaeoctopus-taming"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-palaeoctopus",
+        "file": "ark-genesis-ascended-part-1-palaeoctopus"
+      }
+    ],
+    "features": [
+      {
+        "slug": "ark-genesis-ascended-part-1-details",
+        "file": "ark-genesis-ascended-part-1-details"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-new-engrams",
+        "file": "ark-genesis-ascended-part-1-new-engrams"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-new-features",
+        "file": "ark-genesis-ascended-part-1-new-features"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-new-items",
+        "file": "ark-genesis-ascended-part-1-new-items"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "ark-genesis-ascended-part-1-beginner-guide",
+        "file": "ark-genesis-ascended-part-1-beginner-guide"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-day-1-guide",
+        "file": "ark-genesis-ascended-part-1-day-1-guide"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-everything-you-need-to-know",
+        "file": "ark-genesis-ascended-part-1-everything-you-need-to-know"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-first-10-minutes",
+        "file": "ark-genesis-ascended-part-1-first-10-minutes"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-first-impressions",
+        "file": "ark-genesis-ascended-part-1-first-impressions"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-guide",
+        "file": "ark-genesis-ascended-part-1-guide"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-lore",
+        "file": "ark-genesis-ascended-part-1-lore"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-walkthrough",
+        "file": "ark-genesis-ascended-part-1-walkthrough"
+      }
+    ],
+    "map": [
+      {
+        "slug": "ark-genesis-ascended-part-1-biomes",
+        "file": "ark-genesis-ascended-part-1-biomes"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-element-farm",
+        "file": "ark-genesis-ascended-part-1-element-farm"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-map",
+        "file": "ark-genesis-ascended-part-1-map"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-ocean",
+        "file": "ark-genesis-ascended-part-1-ocean"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-resource-locations",
+        "file": "ark-genesis-ascended-part-1-resource-locations"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-weather",
+        "file": "ark-genesis-ascended-part-1-weather"
+      }
+    ],
+    "release": [
+      {
+        "slug": "ark-genesis-ascended-part-1-delayed",
+        "file": "ark-genesis-ascended-part-1-delayed"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-free",
+        "file": "ark-genesis-ascended-part-1-free"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-launch",
+        "file": "ark-genesis-ascended-part-1-launch"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-price",
+        "file": "ark-genesis-ascended-part-1-price"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-release-date",
+        "file": "ark-genesis-ascended-part-1-release-date"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-release",
+        "file": "ark-genesis-ascended-part-1-release"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-when-does-it-come-out",
+        "file": "ark-genesis-ascended-part-1-when-does-it-come-out"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-when-is-it-coming-out",
+        "file": "ark-genesis-ascended-part-1-when-is-it-coming-out"
+      }
+    ]
+  },
+  "es": {
+    "bases": [
+      {
+        "slug": "ark-genesis-ascended-part-1-basespots",
+        "file": "ark-genesis-ascended-part-1-basespots"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-best-base-locations",
+        "file": "ark-genesis-ascended-part-1-best-base-locations"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-pvp-base-locations",
+        "file": "ark-genesis-ascended-part-1-pvp-base-locations"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-ratholes",
+        "file": "ark-genesis-ascended-part-1-ratholes"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-small-tribe-base-locations",
+        "file": "ark-genesis-ascended-part-1-small-tribe-base-locations"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-solo-base-locations",
+        "file": "ark-genesis-ascended-part-1-solo-base-locations"
+      }
+    ],
+    "creatures": [
+      {
+        "slug": "ark-genesis-ascended-part-1-creature-tier-list",
+        "file": "ark-genesis-ascended-part-1-creature-tier-list"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-creature-vote",
+        "file": "ark-genesis-ascended-part-1-creature-vote"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-creatures",
+        "file": "ark-genesis-ascended-part-1-creatures"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-dino-list",
+        "file": "ark-genesis-ascended-part-1-dino-list"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-dinos",
+        "file": "ark-genesis-ascended-part-1-dinos"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-new-creatures",
+        "file": "ark-genesis-ascended-part-1-new-creatures"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-palaeoctopus-taming",
+        "file": "ark-genesis-ascended-part-1-palaeoctopus-taming"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-palaeoctopus",
+        "file": "ark-genesis-ascended-part-1-palaeoctopus"
+      }
+    ],
+    "features": [
+      {
+        "slug": "ark-genesis-ascended-part-1-details",
+        "file": "ark-genesis-ascended-part-1-details"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-new-engrams",
+        "file": "ark-genesis-ascended-part-1-new-engrams"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-new-features",
+        "file": "ark-genesis-ascended-part-1-new-features"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-new-items",
+        "file": "ark-genesis-ascended-part-1-new-items"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "ark-genesis-ascended-part-1-beginner-guide",
+        "file": "ark-genesis-ascended-part-1-beginner-guide"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-day-1-guide",
+        "file": "ark-genesis-ascended-part-1-day-1-guide"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-everything-you-need-to-know",
+        "file": "ark-genesis-ascended-part-1-everything-you-need-to-know"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-first-10-minutes",
+        "file": "ark-genesis-ascended-part-1-first-10-minutes"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-first-impressions",
+        "file": "ark-genesis-ascended-part-1-first-impressions"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-guide",
+        "file": "ark-genesis-ascended-part-1-guide"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-lore",
+        "file": "ark-genesis-ascended-part-1-lore"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-walkthrough",
+        "file": "ark-genesis-ascended-part-1-walkthrough"
+      }
+    ],
+    "map": [
+      {
+        "slug": "ark-genesis-ascended-part-1-biomes",
+        "file": "ark-genesis-ascended-part-1-biomes"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-element-farm",
+        "file": "ark-genesis-ascended-part-1-element-farm"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-map",
+        "file": "ark-genesis-ascended-part-1-map"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-ocean",
+        "file": "ark-genesis-ascended-part-1-ocean"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-resource-locations",
+        "file": "ark-genesis-ascended-part-1-resource-locations"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-weather",
+        "file": "ark-genesis-ascended-part-1-weather"
+      }
+    ],
+    "release": [
+      {
+        "slug": "ark-genesis-ascended-part-1-delayed",
+        "file": "ark-genesis-ascended-part-1-delayed"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-free",
+        "file": "ark-genesis-ascended-part-1-free"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-launch",
+        "file": "ark-genesis-ascended-part-1-launch"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-price",
+        "file": "ark-genesis-ascended-part-1-price"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-release-date",
+        "file": "ark-genesis-ascended-part-1-release-date"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-release",
+        "file": "ark-genesis-ascended-part-1-release"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-when-does-it-come-out",
+        "file": "ark-genesis-ascended-part-1-when-does-it-come-out"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-when-is-it-coming-out",
+        "file": "ark-genesis-ascended-part-1-when-is-it-coming-out"
+      }
+    ]
+  },
+  "fr": {
+    "bases": [
+      {
+        "slug": "ark-genesis-ascended-part-1-basespots",
+        "file": "ark-genesis-ascended-part-1-basespots"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-best-base-locations",
+        "file": "ark-genesis-ascended-part-1-best-base-locations"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-pvp-base-locations",
+        "file": "ark-genesis-ascended-part-1-pvp-base-locations"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-ratholes",
+        "file": "ark-genesis-ascended-part-1-ratholes"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-small-tribe-base-locations",
+        "file": "ark-genesis-ascended-part-1-small-tribe-base-locations"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-solo-base-locations",
+        "file": "ark-genesis-ascended-part-1-solo-base-locations"
+      }
+    ],
+    "creatures": [
+      {
+        "slug": "ark-genesis-ascended-part-1-creature-tier-list",
+        "file": "ark-genesis-ascended-part-1-creature-tier-list"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-creature-vote",
+        "file": "ark-genesis-ascended-part-1-creature-vote"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-creatures",
+        "file": "ark-genesis-ascended-part-1-creatures"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-dino-list",
+        "file": "ark-genesis-ascended-part-1-dino-list"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-dinos",
+        "file": "ark-genesis-ascended-part-1-dinos"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-new-creatures",
+        "file": "ark-genesis-ascended-part-1-new-creatures"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-palaeoctopus-taming",
+        "file": "ark-genesis-ascended-part-1-palaeoctopus-taming"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-palaeoctopus",
+        "file": "ark-genesis-ascended-part-1-palaeoctopus"
+      }
+    ],
+    "features": [
+      {
+        "slug": "ark-genesis-ascended-part-1-details",
+        "file": "ark-genesis-ascended-part-1-details"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-new-engrams",
+        "file": "ark-genesis-ascended-part-1-new-engrams"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-new-features",
+        "file": "ark-genesis-ascended-part-1-new-features"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-new-items",
+        "file": "ark-genesis-ascended-part-1-new-items"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "ark-genesis-ascended-part-1-beginner-guide",
+        "file": "ark-genesis-ascended-part-1-beginner-guide"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-day-1-guide",
+        "file": "ark-genesis-ascended-part-1-day-1-guide"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-everything-you-need-to-know",
+        "file": "ark-genesis-ascended-part-1-everything-you-need-to-know"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-first-10-minutes",
+        "file": "ark-genesis-ascended-part-1-first-10-minutes"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-first-impressions",
+        "file": "ark-genesis-ascended-part-1-first-impressions"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-guide",
+        "file": "ark-genesis-ascended-part-1-guide"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-lore",
+        "file": "ark-genesis-ascended-part-1-lore"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-walkthrough",
+        "file": "ark-genesis-ascended-part-1-walkthrough"
+      }
+    ],
+    "map": [
+      {
+        "slug": "ark-genesis-ascended-part-1-biomes",
+        "file": "ark-genesis-ascended-part-1-biomes"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-element-farm",
+        "file": "ark-genesis-ascended-part-1-element-farm"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-map",
+        "file": "ark-genesis-ascended-part-1-map"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-ocean",
+        "file": "ark-genesis-ascended-part-1-ocean"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-resource-locations",
+        "file": "ark-genesis-ascended-part-1-resource-locations"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-weather",
+        "file": "ark-genesis-ascended-part-1-weather"
+      }
+    ],
+    "release": [
+      {
+        "slug": "ark-genesis-ascended-part-1-delayed",
+        "file": "ark-genesis-ascended-part-1-delayed"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-free",
+        "file": "ark-genesis-ascended-part-1-free"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-launch",
+        "file": "ark-genesis-ascended-part-1-launch"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-price",
+        "file": "ark-genesis-ascended-part-1-price"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-release-date",
+        "file": "ark-genesis-ascended-part-1-release-date"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-release",
+        "file": "ark-genesis-ascended-part-1-release"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-when-does-it-come-out",
+        "file": "ark-genesis-ascended-part-1-when-does-it-come-out"
+      },
+      {
+        "slug": "ark-genesis-ascended-part-1-when-is-it-coming-out",
+        "file": "ark-genesis-ascended-part-1-when-is-it-coming-out"
+      }
+    ]
+  }
+}

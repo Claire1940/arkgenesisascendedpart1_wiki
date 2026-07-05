@@ -1,0 +1,255 @@
+import { Map, Shield, Swords, Trophy, Target, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "ark genesis ascended part 1: Beste Dinos, Zähmungen & Rollen",
+  description: "ARK Genesis Ascended Part 1 Kreaturenleitfaden mit Release-Details, besten Zähmungen, Biom-Rollen, Fortschrittstipps und offiziellen Download-Links für ASA-Spieler.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Creature+and+Tame+Guide",
+  date: "2026-07-05",
+  author: "ark genesis ascended part 1 Wiki-Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **ark genesis ascended part 1** ist ein kostenloses Genesis-DLC für ARK: Survival Ascended, benötigt aber weiterhin das Basisspiel.
+- **Palaeoctopus, Bloodstalker, Magmasaur und Megachelon** führen das Feld bei Ozean, Mobilität, Schmiede und Basis-Utility an.
+- **Biomes bestimmen deine Zähm-Priorität**; Sumpf, Ozean, Arktis, Vulkan und Mond bestrafen jeweils andere Fehler.
+- **Hexagons und Missionen** liefern den saubersten frühen Fortschritts-Loop für Einzelspieler und kleine Trupps.
+</Callout>
+
+<Section icon={Map} title="ark genesis ascended part 1 Veröffentlichung, Plattformen und Store-Links">
+
+ark genesis ascended part 1 erscheint als kostenloser DLC-Inhalt für ARK: Survival Ascended, also ist der erste Schritt simpel: Plattform prüfen, das DLC holen und sicherstellen, dass das Basisspiel installiert ist. Die offiziellen Seiten machen eines klar, auch wenn die Store-Namen selbst schon genug durcheinanderbringen, um als Miniboss durchzugehen.
+
+<Callout type="warning" title="Nicht verwechseln">
+Dieser Leitfaden behandelt die **Ascended**-Version von Genesis Part 1. Behandle sie nicht wie den alten Genesis-Inhalt und verwechsel sie nicht mit der kostenpflichtigen Erweiterung **Tides of Fortune**.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Steam">
+    - **Preis:** Kostenlos  
+    - **Veröffentlichung:** 3. Jul. 2026  
+    - **Am besten für:** PC-Spieler
+  </Card>
+  <Card title="Xbox">
+    - **Preis:** Kostenlos  
+    - **Veröffentlichung:** 2. Jul. 2026  
+    - **Am besten für:** Series X|S und PC
+  </Card>
+  <Card title="PlayStation">
+    - **Preis:** Kostenlos  
+    - **Veröffentlichung:** 2. Jul. 2026  
+    - **Am besten für:** PS5-Spieler
+  </Card>
+</CardGrid>
+
+| Plattform | Status | Basisspiel benötigt | Store-Aktion | Link |
+| --- | --- | --- | --- | --- |
+| Steam | Veröffentlicht | ARK: Survival Ascended | Herunterladen | [Steam-Seite](https://store.steampowered.com/app/4558470/ARK_Genesis_Ascended_Part_1/) |
+| Xbox | Veröffentlicht | ARK: Survival Ascended | Holen | [Xbox-Seite](https://www.xbox.com/en-US/games/store/ark-genesis-ascended-part-1/9P4ND7M5PKPC/0010) |
+| PlayStation | Veröffentlicht | ARK: Survival Ascended | Zur Bibliothek hinzufügen | [PlayStation-Seite](https://store.playstation.com/en-us/product/UP0691-PPSA16810_00-GENESISASCENDED1) |
+
+| Kerndetail | Bedeutung |
+| --- | --- |
+| **Kostenloses DLC** | Du solltest keinen separaten Kaufpfad erwarten. |
+| **Basisspiel erforderlich** | Installiere zuerst ARK: Survival Ascended. |
+| **Plattformübergreifende Unterstützung** | Der Inhalt ist auf das aktuelle ASA-Ökosystem ausgelegt. |
+| **Offizielle Store-Links** | Verwende die Plattformseite, die zu deinem Konto passt. |
+
+<Callout type="info" title="Veröffentlichungshinweis">
+Wenn ein Suchergebnis Genesis erwähnt, aber nicht **Ascended**, prüfe die Plattformseite noch einmal, bevor du herunterlädst. Dieses eine fehlende Wort verändert die gesamte Version.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Beste Dinos und Zähmungen nach Rolle">
+
+Bei der Wahl von Kreaturen solltest du in Aufgaben denken statt in bloßen Favoriten. Die stärkste Zähmung ist die, die dein nächstes Problem löst — egal, ob es um Bewegung, Ozeankontrolle, Handwerksunterstützung oder Stammeslogistik geht. Das Launch-Roster und die alten Genesis-Kreaturen sind hier beide wichtig, aber einige Namen stechen sofort hervor.
+
+<Callout type="tip" title="Beste frühe Prioritäten">
+Wenn du den schnellsten Nutzen willst, beginne mit einer **Mobilitätszähmung**, dann einer **Ozean-Utility-Zähmung** und danach einer **Handwerks- oder Transportzähmung**.
+</Callout>
+
+<CardGrid cols={4}>
+  <Card title="Bloodstalker">
+    - **Mobilität:** Elite-Reisen durch das Blätterdach  
+    - **Einsatz:** Sumpfrouten und Aufklärung  
+    - **Priorität:** Hoch
+  </Card>
+  <Card title="Palaeoctopus">
+    - **Mobilität:** Ozeanquerung und Klettern  
+    - **Einsatz:** Stammes-Utility und Kontrolle  
+    - **Priorität:** Hoch
+  </Card>
+  <Card title="Magmasaur">
+    - **Mobilität:** Stark in vulkanischen Zonen  
+    - **Einsatz:** Kampf und industrielle Schmiede  
+    - **Priorität:** Hoch
+  </Card>
+  <Card title="Megachelon">
+    - **Mobilität:** Mobile Meeresplattform  
+    - **Einsatz:** Ozeanbasis und Stammes-Setup  
+    - **Priorität:** Hoch
+  </Card>
+</CardGrid>
+
+| Kreatur | Am besten für | Hauptnutzen | Priorität |
+| --- | --- | --- | --- |
+| Palaeoctopus | Ozeankontrolle | Ziele sichern, Utility und Meeresmobilität | S |
+| Bloodstalker | Bewegung im Sumpf | Schnelle Traversierung des Blätterdachs und aggressive Aufklärung | S |
+| Magmasaur | Kampf und Handwerk | Starker Kampfdruck plus lebende Schmieden-Utility | S |
+| Megachelon | Ozeanbasen | Mobile Meeresgrundlage und Stamm-Unterstützung | S |
+| Ferox | Einzelkampf | Flexibler Begleiter, der sich unter Druck verwandelt | A |
+| Astrocetus | Stammes-Transport | Enormer Reisewert und zum Start züchtbar | A |
+| X-Creatures | Sammlung und Roster-Tiefe | Varianten aus dem Launch-Patch für Komplettierungsziele | Sammlerobjekt |
+
+| Wenn du Folgendes brauchst | Beste Kreatur |
+| --- | --- |
+| Schnelle Sumpfreise | Bloodstalker |
+| Ozean-Utility | Palaeoctopus |
+| Mobile Meeresbasis | Megachelon |
+| Schmied-Unterstützung | Magmasaur |
+| Flexibler Einzelkämpfer | Ferox |
+| Großer Stammes-Transport | Astrocetus |
+
+<Callout type="success" title="Schnelles Fazit">
+Für die meisten Spieler sind **Bloodstalker** und **Palaeoctopus** die beiden wichtigsten Utility-Zähmungen, weil sie Bewegung in unterschiedlichen Gefahrenzonen lösen.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Biome, Gefahren und Zähm-Routing">
+
+Genesis Ascended Part 1 ist keine Karte, auf der man überall alles zähmen kann. Jedes Biom stellt eine andere Überlebensprüfung dar, daher sollte deine Zähmung zur Route passen, die du freischalten willst. Das offizielle Biom-Set bietet fünf Kernumgebungen plus eine stark überarbeitete Ozeanschicht.
+
+<Callout type="warning" title="Biom-Regel">
+Wenn du mit der falschen Zähmung unterwegs bist, bestraft das Biom meist die Positionierung und nicht den reinen Schaden. Vorbereitung ist wichtiger als rohe Gewalt.
+</Callout>
+
+| Biom | Hauptgefahren | Gute Zähmungen | Routenziel |
+| --- | --- | --- | --- |
+| Sumpf | Dichter Sumpf, feindliche Fortbewegung im Blätterdach | Bloodstalker | Schnelle Traversierung und Aufklärung |
+| Ozean | Tiefes Wasser, Wellen, Strudel, Auftrieb | Palaeoctopus, Megachelon | Meeresreise und Basis-Spiel |
+| Arktis | Kälte, Berggefahr, Lawinen | Ferox | Sichererer Fortschritt in kalten Regionen |
+| Vulkanisch | Hitze, Feuer, Eruptionsgefahr | Magmasaur | Kampf und industrielle Vorbereitung |
+| Mond | Niedrige Schwerkraft, fremdartiges Terrain, Exposition | Astrocetus | Mobilität und Erkundung |
+
+| Biom | Was du mitbringen solltest | Warum es wichtig ist |
+| --- | --- | --- |
+| Sumpf | Ausdauer, Mobilitätstools, schnellen Fluchtplan | Das Blätterdach und die Sumpfstruktur bestrafen langsame Bewegung |
+| Ozean | Wasser-taugliche Unterstützung, Basisplan, Meereszähmung | Die Ozean-Überarbeitung belohnt kontrolliertes Reisen |
+| Arktis | Hitzeschutz, Nahrung, Ausweichroute | Kalte Zonen können Ressourcen schnell leeren |
+| Vulkanisch | Hohe Resistenz, Kampfkraft, Fluchtroute | Hitzespitzen können gierige Vorstöße ruinieren |
+| Mond | Bewegungssteuerung, leichtes Loadout, gutes Timing | Niedrige Schwerkraft verändert dein Positionsspiel |
+
+<Checklist
+  id="biome-prep"
+  title="Biom-Vorbereitungs-Checkliste:"
+  items={[
+    "Wähle eine Zähmung, die zur Zone passt, nicht nur deine Lieblingskreatur.",
+    "Nimm genug Vorräte mit, um dich zurückzuziehen, bevor ein schlechter Kampf eskaliert.",
+    "Plane eine sichere Route für Wasser-, Hitze- oder Kältestress.",
+    "Nutze die Ozean-Überarbeitung zum Reisen, aber respektiere das Risiko in tiefem Wasser.",
+    "Behandle die Bewegung im Mond wie einen eigenen Reisestil."
+  ]}
+/>
+
+<Callout type="info" title="Routen-Tipp">
+Der effizienteste Weg ist meistens **Sumpf für Mobilität**, **Ozean für Utility** und **Vulkanisch für Unterstützung im Endgame**, sobald dein Stamm bereit ist.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Fortschrittsroute, Missionen und frühes Loadout">
+
+Der sauberste Fortschritts-Loop in ark genesis ascended part 1 ist erst die Mission, dann das Biom. HLN-A-Missionen, Glitches und Hexagon-Belohnungen schaffen einen stabilen Weg für frühe Upgrades, während deine Kreaturenwahl dich lange genug am Leben hält, um sie zu nutzen. Das ist besonders stark für Einzelspieler, die einen planbaren Loop brauchen.
+
+<Callout type="tip" title="Fortschritts-Priorität">
+Nutze Missionen, um deine ersten Upgrades zu finanzieren, und gib Hexagone dann für die Vorräte aus, die das Reiserisiko am stärksten senken.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Sichere dir das kostenlose DLC">
+    Installiere zuerst ARK: Survival Ascended und füge dann das Genesis Ascended Part 1 DLC über deinen Plattform-Store hinzu.
+  </Step>
+  <Step num="2" title="Nutze HLN-A als Missionszentrum">
+    Beginne mit weniger riskanten Zielen, lerne die Missionstypen kennen und baue den Belohnungsfluss auf, bevor du tiefer vorstößt.
+  </Step>
+  <Step num="3" title="Farm Hexagone über einfache Erfolge">
+    Schließe Missionen ab und beseitige Glitches, damit deine Belohnungsökonomie stabil und vorhersehbar bleibt.
+  </Step>
+  <Step num="4" title="Wähle eine Mobilitätszähmung und eine Utility-Zähmung">
+    Kombiniere eine Routen-Kreatur wie Bloodstalker mit einer Unterstützungs-Kreatur wie Palaeoctopus, Megachelon oder Magmasaur.
+  </Step>
+  <Step num="5" title="Wechsle erst in schwierigere Biome, wenn dein Loadout stabil ist">
+    Betritt Arktis-, Vulkanisch- oder Mond-Routen erst, wenn deine Ressourcen und dein Fluchtplan bereit sind.
+  </Step>
+</Steps>
+
+| Früher Gegenstand | Warum er hilft | Bester Einsatz |
+| --- | --- | --- |
+| Mobilitätszähmung | Spart Reisezeit und Paniktode | Sumpf- und Aufklärungsrouten |
+| Ozeanzähmung | Eröffnet sichereren Meereszugang | Transport und mobile Basen |
+| Handwerksunterstützung | Verbessert den Fortschritt auf lange Sicht | Schmiede- und Ressourcen-Loops |
+| Missionsbelohnungen | Finanziert Upgrades ohne blindes Grinden | Hexagon-Ausgaben |
+| Fluchtvorräte | Verhindern verlorene Runs | Hochrisiko-Biom-Vorstöße |
+
+| Missionstyp | Nutzen für den Spieler | Schwierigkeitsgefühl |
+| --- | --- | --- |
+| Gegnerwellen | Kampftraining und Belohnungsfluss | Mittel bis hoch |
+| Eskorten | Disziplin im sicheren Positionieren | Mittel |
+| Dino-Rennen | Meisterung der Bewegung | Variabel |
+| Boss-Tracking | Langfristiger Fortschritt | Höheres Commitment |
+| Glitch-Bereinigung | Zusätzlicher Belohnungswert | Niedrig bis mittel |
+
+<Callout type="success" title="Beste Solo-Einstellung">
+Solo-Fortschritt wird leichter, wenn du jede Zähmung als Werkzeug, jede Mission als Gehaltsscheck und jedes Biom als Vertrag mit strengen Bedingungen behandelst.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Genesis Ascended vs. Tides, plus FAQ">
+
+Spieler suchen oft das Falsche, weil das Store-Ökosystem überfüllt ist. Die kostenlosen Genesis-Inhalte und die kostenpflichtige nautische Erweiterung hängen zusammen, sind aber nicht derselbe Kauf. Diese Trennung klar zu halten, hilft dir, Fehlklicks und falsche Erwartungen zu vermeiden.
+
+<Callout type="warning" title="Inhaltliche Trennung">
+**Genesis Ascended Part 1** ist die kostenlose DLC-Ebene. **Tides of Fortune** ist die kostenpflichtige Schiffs- und Marine-Erweiterung, die auf dieser Ozeanrichtung aufbaut.
+</Callout>
+
+| Merkmal | Genesis Ascended Part 1 | Tides of Fortune |
+| --- | --- | --- |
+| Preis | Kostenlos | Kostenpflichtig |
+| Kernfokus | Missionen, Biome, Kreaturen, Überleben | Schiffe, Marinesysteme, Schätze, Piraten-Gameplay |
+| Basisspiel erforderlich | Ja | Ja |
+| Bester Kaufgrund | Kostenlose Karte und Kreaturen-Inhalte | Spezielles Schiff-Gameplay und Premium-Systeme |
+| Ozean-Identität | Überarbeitetes Ozean-Biom | Marine-Erweiterung auf Basis des Ozean-Gameplays |
+
+<FAQ items={[
+  {
+    question: "Ist ark genesis ascended part 1 kostenlos?",
+    answer: "Ja. Die offiziellen Store-Seiten listen es als kostenloses DLC, es benötigt aber weiterhin ARK: Survival Ascended."
+  },
+  {
+    question: "Was ist die beste erste Zähmung in ark genesis ascended part 1?",
+    answer: "Für die meisten Spieler ist Bloodstalker die beste erste Mobilitätszähmung, während Palaeoctopus die beste erste Ozean-Utility-Zähmung ist."
+  },
+  {
+    question: "Auf welche Dinos sollte ich mich zuerst für die Basis konzentrieren?",
+    answer: "Megachelon und Magmasaur sind die stärksten frühen Unterstützungsoptionen für die Basis, weil sie bei Ozean-Setup und Handwerksunterstützung helfen."
+  },
+  {
+    question: "Sollte ich Genesis Ascended mit Tides of Fortune verwechseln?",
+    answer: "Nein. Genesis Ascended Part 1 ist das kostenlose DLC; Tides of Fortune ist die kostenpflichtige Erweiterung mit Fokus auf Schiffe und Marinesysteme."
+  }
+]} />
+
+<Callout type="info" title="Fazit">
+Wenn du den kürzesten Weg zum Nutzen willst, beginne mit dem kostenlosen DLC, zähme für Mobilität und baue deine Route um das Biom herum auf, das zu deinem nächsten Ziel passt.
+</Callout>
+
+</Section>

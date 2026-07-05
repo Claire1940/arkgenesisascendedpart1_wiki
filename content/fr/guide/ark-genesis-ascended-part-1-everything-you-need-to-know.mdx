@@ -1,0 +1,276 @@
+import { Map, Target, Shield, Swords, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "ark genesis ascended part 1 : sortie, biomes et missions",
+  description: "Un guide pratique 2026 sur les détails de sortie de Genesis Part 1, l’accès au DLC gratuit, les biomes, les missions, les créatures et les conseils de configuration pour les joueurs d’ASA.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1d4ed8/fff?text=Genesis+Part+1+Guide",
+  date: "2026-07-05",
+  author: "Équipe Wiki de ark genesis ascended part 1"
+}
+
+<Callout type="info" title="Guide rapide">
+- **ark genesis ascended part 1** est un DLC gratuit pour **ARK: Survival Ascended**, mais il nécessite toujours le jeu de base.
+- **Commencez par les missions HLN-A** pour accumuler des Hexagones, apprendre les itinéraires et éviter trop tôt les biomes les plus hostiles.
+- **L’Océan, le Marais, l’Arctique, le Volcanique et le Lunaire** exigent chacun un équipement, des déplacements et des priorités de domestication différents.
+- **Les meilleures cibles au début** sont les créatures utilitaires, les récompenses de mission et les outils de fabrication qui améliorent la vitesse de survie.
+</Callout>
+
+<Section icon={Map} title="Guide de sortie de ark genesis ascended part 1">
+
+Genesis Ascended Part 1 est le point d’entrée le plus simple si vous voulez le nouveau contenu Genesis sans payer une extension séparée. Considérez-le comme un téléchargement de carte et de progression, pas comme un jeu autonome.
+
+**Aperçu officiel des boutiques**
+
+| Plateforme | Prix | Sortie | Jeu de base | Action |
+| --- | --- | --- | --- | --- |
+| Steam | Gratuit | 2026-07-03 | ARK: Survival Ascended | [Télécharger](https://store.steampowered.com/app/4558470/ARK_Genesis_Ascended_Part_1/) |
+| Xbox | Gratuit | 2026-07-02 | ARK: Survival Ascended | [Obtenir](https://www.xbox.com/en-US/games/store/ark-genesis-ascended-part-1/9P4ND7M5PKPC/0010) |
+| PlayStation | Gratuit | 2026-07-02 | ARK: Survival Ascended | [Ajouter à la bibliothèque](https://store.playstation.com/en-us/product/UP0691-PPSA16810_00-GENESISASCENDED1) |
+
+<CardGrid cols={3}>
+  <Card title="Steam">
+    - **Le meilleur choix pour les joueurs PC**
+    - Entrée DLC gratuite
+    - Installation directe via la boutique
+  </Card>
+  <Card title="Xbox">
+    - **Accès prêt pour console**
+    - Page produit gratuite
+    - Le jeu de base reste requis
+  </Card>
+  <Card title="PlayStation">
+    - **Sortie orientée PS5**
+    - Ajout gratuit à la bibliothèque
+    - Le jeu en ligne suit toujours les règles de la plateforme
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="À faire d’abord">
+Assurez-vous que **ARK: Survival Ascended** est installé avant d’attendre l’apparition du contenu Genesis. Le DLC est gratuit, mais il reste superposé au jeu de base.
+</Callout>
+
+| Décision | Meilleur choix | Pourquoi |
+| --- | --- | --- |
+| Vous voulez d’abord la carte et les missions | **Genesis Ascended Part 1** | Gratuit, riche en contenu et conçu autour de la progression |
+| Vous voulez un style pirate centré sur les navires | **Tides of Fortune** | Extension payante séparée avec des systèmes nautiques |
+| Vous voulez le démarrage le plus sûr | **Jeu de base plus Genesis** | Vous permet d’apprendre ASA avant une pression de biome plus difficile |
+
+</Section>
+
+<Section icon={Shield} title="Biomes et refonte de l’océan">
+
+La répartition des biomes est la véritable identité de Genesis Part 1. Chaque zone met en avant une compétence de survie différente : déplacement, gestion de la température, navigation sous-marine ou planification de combat pure.
+
+<Callout type="tip" title="Règle des biomes">
+Ne supposez jamais qu’un seul équipement fonctionne partout. Dans Genesis, l’itinéraire le plus sûr est généralement celui qui correspond au profil de danger du biome plutôt que celui qui force une configuration générique.
+</Callout>
+
+| Biome | Danger principal | Bon usage au début |
+| --- | --- | --- |
+| Marais | Pression du marécage, danger de la canopée | Entraînement à la mobilité, exploration du marais |
+| Océan | Eaux profondes, tourbillons, vagues | Voyage maritime, planification de base, routage des ressources |
+| Arctique | Froid, falaises, risque d’avalanche | Tests par temps froid, itinéraires de montagne |
+| Volcanique | Chaleur, feu, menaces d’éruption | Sorties de loot à haut risque, combat avancé |
+| Lunaire | Faible gravité, terrain extraterrestre | Entraînement aux déplacements, reconnaissance à longue portée |
+
+L’océan mérite une attention particulière, car Ascended l’étend en un espace jouable bien plus vaste. Cela change tout, de la vitesse de déplacement à l’emplacement des bases.
+
+| Fonction de l’océan | Ce que cela change | Pourquoi c’est important |
+| --- | --- | --- |
+| Vagues dynamiques | Les déplacements sur l’eau sont moins prévisibles | Les bateaux, les apprivoisés et les nageurs ont besoin d’un meilleur contrôle |
+| Flottabilité réaliste | Les constructions lourdes et les déplacements donnent une sensation différente | Aide à définir la planification des bases océaniques |
+| Îles et forteresses cachées | Davantage de points d’intérêt | Offre aux explorateurs de meilleurs objectifs d’itinéraire |
+| Guerre océanique à grande échelle | De plus grandes batailles en mer | Soutient le combat et le jeu de tribu |
+
+<CardGrid cols={4}>
+  <Card title="Marais">
+    - **Déplacement dans la canopée**
+    - Terrain marécageux hostile
+    - Jeu favorable au Bloodstalker
+  </Card>
+  <Card title="Océan">
+    - **Routes aquatiques à l’échelle de la carte**
+    - Structures cachées
+    - Potentiel de base maritime
+  </Card>
+  <Card title="Volcanique">
+    - **Gestion de la chaleur**
+    - Risque élevé, récompense élevée
+    - Progression de type forge
+  </Card>
+  <Card title="Lunaire">
+    - **Déplacements en faible gravité**
+    - Paysage extraterrestre
+    - Valeur élevée pour la reconnaissance à longue distance
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Missions, Hexagones et progression initiale">
+
+HLN-A est votre centre de progression. Les missions ne sont pas de simples contenus secondaires ; ce sont le moyen le plus rapide d’apprendre la simulation, de gagner des récompenses et de progresser vers des objectifs plus difficiles.
+
+<Callout type="success" title="Meilleure boucle au début">
+Commencez par des missions à faible risque, convertissez les récompenses en Hexagones, puis dépensez ces récompenses dans les matériaux et outils qui débloquent des déplacements plus sûrs entre les biomes.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Passez par le DLC gratuit">
+    Installez le DLC sur votre plateforme et vérifiez que le jeu de base est prêt. Si le contenu n’apparaît pas, le problème vient généralement de l’accès à la bibliothèque, pas de la carte.
+  </Step>
+  <Step num="2" title="Ouvrez les options de mission HLN-A">
+    Commencez par le hub de mission et vérifiez les niveaux de difficulté disponibles. La progression initiale est plus fluide lorsque vous choisissez d’abord des objectifs abordables.
+  </Step>
+  <Step num="3" title="Enchaînez les types de missions répétables">
+    Concentrez-vous sur les missions qui apprennent le combat, les déplacements, l’escorte et le contrôle des itinéraires. Ce sont les moyens les plus rapides de comprendre comment la simulation veut que vous jouiez.
+  </Step>
+  <Step num="4" title="Dépensez les Hexagones avec intention">
+    Considérez les Hexagones comme votre monnaie de progression. Investissez-les dans les ressources, les objets TEK et d’autres améliorations pratiques plutôt que de les accumuler.
+  </Step>
+  <Step num="5" title="Utilisez les glitches comme progression bonus">
+    Nettoyez les glitches du monde pendant vos déplacements. Cette valeur d’exploration supplémentaire alimente la même boucle de récompense sans obliger à refaire une mission complète.
+  </Step>
+</Steps>
+
+| Type de mission | Objectif principal | Meilleur bénéfice pour le joueur |
+| --- | --- | --- |
+| Vague d’ennemis | Survivre à des combats répétés | Entraînement au combat et flux de récompenses |
+| Escorte d’un bébé créature | Protéger une cible mobile | Discipline d’itinéraire et vigilance |
+| Suivi d’un boss | Suivre une cible majeure | Progression de l’histoire et objectifs à long terme |
+| Dino Race | Gagner un défi de déplacement | Contrôle des déplacements et entraînement à la vitesse |
+| Nettoyage de glitch | Trouver et corriger des anomalies | Progression supplémentaire grâce à l’exploration |
+
+<Callout type="info" title="Priorité aux Hexagones">
+Si vous manquez de temps, donnez la priorité aux missions rapides à répéter et faciles à parcourir. Les boucles de récompense efficaces comptent plus qu’une seule grosse sortie risquée.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Créatures et priorités de domestication">
+
+Le roster de créatures favorise l’utilité, la mobilité et la valeur spécifique à un biome. Cela signifie que vos premières domestications devraient résoudre les problèmes de déplacement, de fabrication, de contrôle de l’eau ou de logistique de tribu avant que vous ne visiez des choix prestigieux.
+
+<Callout type="warning" title="État d’esprit pour la domestication">
+Ne courez pas après chaque nouvelle créature dès que vous la voyez. Dans ce DLC, la meilleure domestication est généralement celle qui débloque un biome, un itinéraire ou une boucle de fabrication qui vous manque actuellement.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Meilleur choix pour l’océan">
+    **Palaeoctopus**  
+    Excellente utilité marine, contrôle de deux cibles et valeur de soutien pour la tribu.
+  </Card>
+  <Card title="Meilleur choix pour la mobilité">
+    **Bloodstalker**  
+    Excellent pour les déplacements dans la canopée et les voyages rapides à travers les terrains dangereux.
+  </Card>
+  <Card title="Meilleur choix pour la forge">
+    **Magmasaur**  
+    Idéal lorsque vous voulez de la puissance de combat et un soutien de fabrication de type industriel.
+  </Card>
+</CardGrid>
+
+| Créature | Rôle | Pourquoi c’est important |
+| --- | --- | --- |
+| Palaeoctopus | Utilité océanique | Fort contrôle marin et soutien de tribu |
+| Bloodstalker | Chasseur mobile | Idéal pour la canopée et la reconnaissance |
+| Magmasaur | Combat et fabrication | Utile sur les routes volcaniques et pour la production de base |
+| Megachelon | Base mobile océanique | Permet à une tribu de penser en termes de base maritime |
+| Ferox | Combattant compagnon | Soutien de combat flexible du début au milieu de partie |
+| Astrocetus | Transport de tribu | Déplacement à grande échelle et utilité spectaculaire |
+
+| Créature X de lancement | Cas d’utilisation | Priorité de domestication |
+| --- | --- | --- |
+| X-Acro | Extension du roster | À suivre si vous voulez l’ensemble complet du lancement |
+| X-Deinosuchus | Extension du roster | Bon pour la collection et la variété |
+| X-Archelon | Extension du roster | Utile pour les joueurs axés sur le complétionnisme |
+| X-Xiphactinus | Extension du roster | Bon ajout pour élargir le roster |
+| X-Cryolophosaurus | Extension du roster | Bon choix pour suivre l’ensemble du lancement |
+
+<Callout type="success" title="Règle pratique">
+Si une créature améliore les déplacements, la construction de base ou le flux de ressources, c’est généralement un meilleur investissement initial qu’une simple domestication trophée.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Équipement, construction de base et liste de survie">
+
+Genesis Ascended Part 1 ajoute beaucoup d’équipements qui semblent conçus pour résoudre des problèmes. Votre progression artisanale initiale devrait se concentrer sur les outils qui améliorent les déplacements, l’extraction et la sécurité de la base.
+
+<Callout type="tip" title="Priorité à la fabrication">
+Fabriquez d’abord pour la fonction. Les meilleurs objets du début sont ceux qui vous aident à vous déplacer, à récolter, à défendre ou à stabiliser une route de biome.
+</Callout>
+
+| Objet | Catégorie | Meilleure utilisation |
+| --- | --- | --- |
+| Griffes Plasma | Arme | Pression à courte portée et combat en combo |
+| Missiles de croisière | Arme | Attaques de précision et pression de raid |
+| Filets de pêche | Outil | Exploitation des ressources océaniques et utilité |
+| Foreuses minières | Outil | Extraction rapide et routage des matériaux |
+| Hover Skiff | Véhicule | Transport de tribu et logistique |
+| Plaques de pression | Structure | Pièges et défense déclenchée |
+| Systèmes d’alarme | Structure | Alerte et sécurité de base |
+| Tremplins | Structure | Repositionnement rapide à l’intérieur d’une base |
+| Plates-formes océaniques | Structure | Bases maritimes et déploiement naval |
+
+<Checklist
+  id="survival-priority-list"
+  title="Liste de survie initiale :"
+  items={[
+    "Installez le DLC gratuit et vérifiez que le jeu de base est actif",
+    "Terminez quelques missions HLN-A faciles avant d’entrer dans les zones à haut risque",
+    "Dépensez les Hexagones dans des ressources pratiques, pas seulement dans du stockage",
+    "Construisez en fonction du biome que vous prévoyez d’explorer ensuite",
+    "Domestiquez tôt une créature de mobilité et une créature utilitaire"
+  ]}
+/>
+
+| Phase | Priorité principale | Résultat |
+| --- | --- | --- |
+| Début de partie | Missions, outils, itinéraires sûrs | Apprentissage plus rapide et moins de pertes |
+| Milieu de partie | Spécialisation par biome | Meilleur butin et progression plus fiable |
+| Fin de partie | Constructions de tribu et contrôle océanique | Territoire, transport et options de combat renforcés |
+
+<Callout type="info" title="Note de planification de base">
+Les plates-formes océaniques, les tremplins et les systèmes d’alarme récompensent les joueurs qui construisent autour du mouvement et de la sécurité plutôt que de forteresses statiques.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<Callout type="info" title="Focus FAQ">
+Ces réponses visent les intentions de recherche les plus courantes autour de **ark genesis ascended part 1** : l’accès, la progression, les biomes et les priorités de départ.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "ark genesis ascended part 1 est-il gratuit ?",
+    answer: "Oui. C’est un DLC gratuit, mais vous devez toujours avoir ARK: Survival Ascended installé sur votre plateforme."
+  },
+  {
+    question: "Que dois-je faire en premier dans ark genesis ascended part 1 ?",
+    answer: "Commencez par les missions HLN-A, collectez des Hexagones et apprenez les itinéraires de biome les plus sûrs avant de vous aventurer dans les zones les plus dures."
+  },
+  {
+    question: "Quel biome est le meilleur pour les débutants ?",
+    answer: "La réponse dépend de votre configuration, mais le Marais et l’Océan récompensent souvent les joueurs qui arrivent avec un plan de mobilité clair."
+  },
+  {
+    question: "Quelle est la meilleure domestication de début de partie ?",
+    answer: "Choisissez la domestication qui résout votre problème actuel. Bloodstalker, Palaeoctopus, Magmasaur et Megachelon offrent tous une forte utilité dans la bonne configuration."
+  }
+]} />
+
+<Callout type="success" title="Conclusion">
+Si vous voulez l’itinéraire le plus simple, considérez le DLC comme une carte de survie orientée missions : installez-le, apprenez HLN-A, farmez des Hexagones, puis spécialisez-vous par biome.
+</Callout>
+
+</Section>

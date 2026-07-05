@@ -1,0 +1,236 @@
+import { Map, Target, Trophy, Shield, Sparkles, Swords } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "ARK Genesis Ascended Part 1: Leitfaden zum Release 2026 & Biome",
+  description: "Leitfaden zu ARK Genesis Ascended Part 1 mit Release-Details, Plattform-Links, Biom-Routen, Missionen, Kreaturen-Prioritäten und Einsteiger-Tipps für ASA-Spieler.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Release+Guide+and+Biomes",
+  date: "2026-07-05",
+  author: "ARK Genesis Ascended Part 1 Wiki-Team"
+}
+
+<Callout type="info" title="Schnellübersicht">
+- **ARK Genesis Ascended Part 1** ist das kostenlose Genesis-DLC für **ARK: Survival Ascended**.
+- **Steam, Xbox und PlayStation** führen das DLC alle als veröffentlicht und setzen das Basisspiel voraus.
+- **Bog, Ocean, Arctic, Volcanic und Lunar** sind die Kern-Biome, die du zuerst lernen solltest.
+- **HLN-A-Missionen und Hexagons** treiben die zentrale frühe Progressionsschleife an.
+- **Palaeoctopus, Bloodstalker, Magmasaur und Megachelon** sind die wichtigsten Tame-Prioritäten.
+</Callout>
+
+<Section icon={Map} title="ARK Genesis Ascended Part 1: Erscheinungsdatum und Store-Status">
+
+ARK Genesis Ascended Part 1 ist der kostenlose Genesis-Content-Drop für **ARK: Survival Ascended**, und als Erstes brauchen Spieler einen sauberen Store-Check. Das Veröffentlichungsdatum ist je nach Plattform leicht unterschiedlich, daher lohnt es sich, vor dem Download die genaue Seite zu prüfen. Die offiziellen Store-Seiten sind die beste Quelle für Preis, Plattform-Support und Anforderungen an das Basisspiel: [Steam](https://store.steampowered.com/app/4558470/ARK_Genesis_Ascended_Part_1/), [Xbox Store](https://www.xbox.com/en-US/games/store/ark-genesis-ascended-part-1/9P4ND7M5PKPC/0010) und [PlayStation Store](https://store.playstation.com/en-us/product/UP0691-PPSA16810_00-GENESISASCENDED1).
+
+<CardGrid cols={3}>
+  <Card title="Steam">
+    - **Kostenloses DLC**
+    - **3. Jul. 2026**
+    - Erfordert ASA
+  </Card>
+  <Card title="Xbox">
+    - **Kostenloses DLC**
+    - **2. Jul. 2026**
+    - Erfordert ASA
+  </Card>
+  <Card title="PlayStation">
+    - **Kostenloses DLC**
+    - **2. Jul. 2026**
+    - Erfordert ASA
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Store-Check">
+Nutze die Plattformseite, die zu deinem Konto passt, und bestätige dann, dass **ARK: Survival Ascended** bereits installiert ist. Das DLC ist kostenlos, liegt aber trotzdem auf dem Basisspiel auf.
+</Callout>
+
+| Plattform | Status | Preis | Veröffentlichungsdatum | Voraussetzung | Store-Aktion |
+|---|---|---|---|---|---|
+| Steam | Veröffentlicht | Kostenlos | 3. Jul. 2026 | ARK: Survival Ascended | Herunterladen |
+| Xbox | Veröffentlicht | Kostenlos | 2. Jul. 2026 | ARK: Survival Ascended | Holen |
+| PlayStation | Veröffentlicht | Kostenlos | 2. Jul. 2026 | ARK: Survival Ascended | Zur Bibliothek hinzufügen |
+
+</Section>
+
+<Section icon={Target} title="So startest du, ohne frühe Runs zu verschwenden">
+
+Der sicherste Einstieg ist einfach: Installiere das DLC, betritt die Simulation und behandle HLN-A als deinen Routenplaner. Dieser Teil des Spiels belohnt Vorbereitung mehr als leichtsinniges Herumreisen, vor allem wenn du zu früh in die harten Biome sprinten willst.
+
+<Callout type="tip" title="Tipp für den ersten Login">
+Starte mit dem Missionszentrum, nicht mit ziellosem Erkunden der Karte. Früher Fortschritt geht schneller, wenn du Missionen, Belohnungen und Biom-Routen als einen einzigen Kreislauf nutzt.
+</Callout>
+
+<Steps>
+  <Step num="1" title="DLC installieren und Basisspiel prüfen">
+    Stelle zuerst sicher, dass das kostenlose DLC deiner Bibliothek hinzugefügt wurde. Prüfe dann, ob **ARK: Survival Ascended** installiert, aktualisiert und korrekt startbar ist.
+  </Step>
+  <Step num="2" title="HLN-A öffnen und Missionsoptionen ansehen">
+    Nutze das Missionszentrum, um zu sehen, was die Simulation von dir erwartet. Frühe Missionsarten umfassen Kampf-Wellen, Begleit-Routen, Boss-Verfolgung und Dino-Rennen.
+  </Step>
+  <Step num="3" title="Zuerst Aufgaben mit geringem Druck wählen">
+    Wähle den einfachsten Missionstier, den du sauber abschließen kannst. So bleibt dein Belohnungsfluss stabil und du lernst Bewegung, Timing und Gegnerdruck.
+  </Step>
+  <Step num="4" title="Belohnungen für Überlebensnutzen ausgeben">
+    Verwende **Hexagons** für Ressourcen, TEK-Gegenstände und andere praktische Vorräte, bevor du Jagd auf Luxus-Upgrades oder riskante Biom-Vorstöße machst.
+  </Step>
+</Steps>
+
+<Checklist
+  id="starter-priorities"
+  title="Checkliste für den ersten Run:"
+  items={[
+    "Bestätige, dass das DLC in deiner Bibliothek ist",
+    "Prüfe, ob ARK: Survival Ascended installiert ist",
+    "Lerne das HLN-A-Missionsmenü kennen",
+    "Schließe einen einfachen Missionstier ab",
+    "Gib Hexagons für nützliche Vorräte aus"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Biome und Ocean-Überarbeitung">
+
+Die Karte ist auf Druck ausgelegt. Jedes Biom stellt ein anderes Überlebensproblem, und die Ocean-Überarbeitung macht Wasserreisen zu einem großen System statt zu einer Nebenregion. Wenn du die sauberste Route willst, lerne zuerst die sichereren Zonen und erweitere dich erst dann, wenn deine Ausrüstung und Tames den Schaden abfangen können.
+
+<Callout type="warning" title="Biome-Risiko-Reihenfolge">
+Behandle nicht jedes Biom als gleich. **Bog und Ocean** sind frühe Wissenschecks, während **Volcanic und Lunar** deutlich härter sind, wenn du unterausgerüstet bist.
+</Callout>
+
+| Biom | Hauptgefahr | Bemerkenswerte Inhalte | Bester Einsatz |
+|---|---|---|---|
+| Bog | Sumpfdruck, Gefahren im Blätterdach | Bloodstalker, außerirdische Sumpfrouten | Frühes Traversal-Training |
+| Ocean | Tiefes Wasser, Wirbel, Wellen | Palaeoctopus, Megachelon, Inseln | Seereisen und Basis-Spiel |
+| Arctic | Kälteüberleben, Lawinen | Ferox, Gebirgsrouten | Rüstungs- und Mobilitätstests |
+| Volcanic | Hitze und Eruptionsgefahr | Magmasaur, feuerorientierter Fortschritt | Erkundung mit hohem Risiko |
+| Lunar | Geringe Schwerkraft, außerirdisches Terrain | Astrocetus, Mondbewegung | Fortgeschrittene Traversal-Runs |
+| Ocean Overhaul | Dynamische Wellen, Auftrieb, versteckte Festungen | Maritime Fläche über die ganze Karte | Langstrecken-Seerouten |
+
+<CardGrid cols={3}>
+  <Card title="Bester früher Fokus">
+    Lerne zuerst **Bog** und **Ocean**.
+  </Card>
+  <Card title="Höchster Mobilitätswert">
+    Nutze **Bloodstalker**-Routen zum Üben der Bewegung.
+  </Card>
+  <Card title="Bester See-Nutzen">
+    **Megachelon** und Meeresbasen werden schnell wichtig.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Routenplanung">
+Eine starke Route führt meist von Missionszonen mit geringerem Risiko in biom-spezifisches Farmen und erst danach in Ozean- oder Hochrisikogebiete, wenn dein Tame- und Ausrüstungs-Setup bereit ist.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Missionen, Hexagons und der Belohnungszyklus">
+
+Die Missionsschleife ist das Rückgrat des Genesis-ähnlichen Fortschritts. HLN-A liefert die Struktur, Missionen bringen die Herausforderung, und Hexagons verwandeln Erfolg in greifbare Stärke. Das macht das Spiel deutlich leichter handhabbar, wenn du in Schleifen statt in einzelnen Aufgaben denkst.
+
+<Callout type="success" title="Fortschrittsregel">
+Mach Missionen für **Hexagons**, gib Hexagons für Überlebensnutzen aus und kehre dann mit besseren Werkzeugen zu härteren Missionen zurück. Dieser Kreislauf hält das Momentum stabil.
+</Callout>
+
+| Aktivität | Typ | Hauptziel | Belohnungswert |
+|---|---|---|---|
+| HLN-A-Missionszentrum | Fortschritt | Simulation-Missionen auswählen | Schaltet die gesamte Schleife frei |
+| Gegnerwellen-Missionen | Kampf | Gruppierte Gegner besiegen | Zuverlässiges Hexagon-Einkommen |
+| Begleitung eines Baby-Wesens | Eskorte | Schutz verwundbarer Ziele | Sicherere Lernroute |
+| Boss-Verfolgung | Jagd | Wichtigen Bedrohungen folgen | Story- und Fortschrittswert |
+| Dino-Rennen | Geschwindigkeit | Bewegung und Routenlinien kontrollieren | Schnelle, wiederholbare Runs |
+| Glitch-Beseitigung | Erkundung | Verstreute Glitches beheben | Zusätzlicher Fortschrittsbonus |
+| Hexagon-Tausch | Belohnungsshop | Verdiente Währung ausgeben | Ressourcen und TEK-Unterstützung |
+
+| Was du zuerst kaufen solltest | Warum es wichtig ist | Auswirkung auf den Spieler |
+|---|---|---|
+| Grundressourcen | Hält Runs stabil | Schnellere Erholung |
+| TEK-Gegenstände | Unterstützt den Fortschritt | Bessere Vorbereitung für das Spätspiel |
+| Überlebensvorräte | Decken Fehler ab | Weniger Missionsausfallzeiten |
+| Mobilitätswerkzeuge | Hilft bei Biom-Reisen | Sicherere Erkundung |
+
+<Callout type="tip" title="Effizientes Ausgeben">
+Horte Hexagons nicht ohne Plan. Am Anfang ist Überlebensnutzen wertvoller als Sammler- oder Spaßkäufe, besonders wenn du die Biogefahren noch lernen musst.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Beste Kreaturen, Ausrüstung und Basis-Werkzeuge">
+
+Die Wahl der Kreaturen ist wichtig, weil Genesis Ascended Nutzen belohnt und nicht nur reinen Schaden. Dasselbe gilt für Ausrüstung und Strukturen: Die besten Gegenstände lösen Reisen, Ernte, Verteidigung oder Ozean-Logistik. Ein gutes Setup kombiniert meist ein Mobilitäts-Tame, ein Ressourcen- oder Schmiede-Tame sowie eine Option für Ozean- oder Basisunterstützung.
+
+<Callout type="tip" title="Prioritätsregel">
+Wenn ein Tame oder Gegenstand Bewegung, Überleben oder Ressourcenfluss verbessert, ist er am Anfang meist wertvoller als eine reine Schadenswahl.
+</Callout>
+
+| Kreatur | Beste Rolle | Warum sie heraussticht | Priorität |
+|---|---|---|---|
+| Palaeoctopus | Ozean-Kontrolle | Ozeanreisen, Klettern an Klippen, Triben-Nutzen | S |
+| Bloodstalker | Mobilitätsjäger | Schnelles Traversal durch den Bog | S |
+| Magmasaur | Kampf und Handwerk | Funktioniert wie eine lebende Industriewerkbank | S |
+| Megachelon | Mobile Ozeanbasis | Enorme Nutzung als See-Plattform | S |
+| Ferox | Begleitkämpfer | Starke Unterstützung im persönlichen Kampf | A |
+| Astrocetus | Tribentransport | Reisen im großen Stil und Showcase-Wert | A |
+| X-Kreaturen | Sammlerwert | Erweiterung des Start-Lineups | B+ |
+
+| Ausrüstung oder Struktur | Hauptverwendung | Am besten für |
+|---|---|---|
+| Plasma Claws | Nahkampf | Aggressive Nahkampf-Builds |
+| Cruise Missiles | Präzisionsangriff | Druck auf große Distanz |
+| Fishing Nets | Angel-Utility | Ozean-Rohstoffspiel |
+| Mining Drills | Materialgewinnung | Ressourcenlastige Routen |
+| Hover Skiff | Reisen und Logistik | Tribentransport |
+| Pressure Plates | Basis-Trigger | Fallen-Setups |
+| Alarm Systems | Verteidigungswarnungen | Sicherheitslayouts |
+| Jump Pads | Schnelle Bewegung | Vertikale Basen |
+| Ocean Platforms | Meeresfundamente | Marine Basen |
+
+<Checklist
+  id="build-order"
+  title="Bester früher Aufbauplan:"
+  items={[
+    "Besorge zuerst ein Mobilitäts-Tame",
+    "Füge danach ein Ressourcen- oder Schmiede-Tame hinzu",
+    "Baue einen einfachen, ozeansicheren Basispfad",
+    "Stelle Bewegungs- und Verteidigungswerkzeuge her",
+    "Heb dir fortgeschrittene Waffentechnik für später auf"
+  ]}
+/>
+
+<Callout type="info" title="Tame-Planung">
+Das stärkste frühe Line-up kombiniert meist die Mobilität des **Bloodstalker**, die Handwerksunterstützung des **Magmasaur** und **Megachelon** oder **Palaeoctopus** für Ozean-Nutzen.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<Callout type="info" title="Häufige Fragen">
+Diese Antworten decken die schnellsten Entscheidungen ab, die Spieler meist nach der Installation des DLCs und dem Betreten der Simulation treffen.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Ist ARK Genesis Ascended Part 1 kostenlos?",
+    answer: "Ja. Das DLC ist in den wichtigsten Plattform-Stores als kostenlos aufgeführt, benötigt aber weiterhin ARK: Survival Ascended als Basisspiel."
+  },
+  {
+    question: "Was ist die Haupt-Progressionsschleife in ARK Genesis Ascended Part 1?",
+    answer: "Nutze HLN-A-Missionen, verdiene Hexagons, gib sie für nützliche Vorräte aus und kehre dann mit besserer Vorbereitung zu härteren Missionen oder Biom-Routen zurück."
+  },
+  {
+    question: "Welche Biome sollte ich zuerst lernen?",
+    answer: "Starte mit Bog und Ocean. Sie lehren Traversal und Gefahrenmanagement, ohne dich direkt in die härtesten Überlebensprüfungen zu zwingen."
+  },
+  {
+    question: "Welche Kreaturen verdienen früh besondere Aufmerksamkeit?",
+    answer: "Palaeoctopus, Bloodstalker, Magmasaur und Megachelon sind die klarsten Hochwert-Prioritäten, weil sie Bewegung, Handwerk oder Ozean-Spiel lösen."
+  }
+]} />
+
+</Section>

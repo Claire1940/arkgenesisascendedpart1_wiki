@@ -1,0 +1,208 @@
+import { Map, Shield, Target, Swords, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "ark genesis ascended part 1: Guía de misiones, biomas y domesticaciones",
+  description: "Recorrido de ark genesis ascended part 1 que cubre el estado del lanzamiento, biomas, misiones, prioridades de criaturas y planificación de rutas para jugadores de ASA.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0f172a/fff?text=ARK+Genesis+Ascended+Part+1+Walkthrough",
+  date: "2026-07-05",
+  author: "Equipo de Wiki de ark genesis ascended part 1"
+}
+
+<Callout type="info" title="Guía rápida">
+- **ark genesis ascended part 1** es un DLC gratuito de ARK: Survival Ascended con un sólido ciclo de progresión basado en misiones y biomas.
+- **Empieza con las misiones de HLN-A** para ganar Hexágonos, aprender los peligros y evitar desperdiciar equipo temprano.
+- **Ocean, Bog y Arctic** son los biomas más importantes en los que debes planificar primero.
+- **Bloodstalker, Palaeoctopus y Magmasaur** destacan como domesticaciones utilitarias para movimiento, juego acuático y fabricación.
+- **Diseña tu ruta desde el principio** en torno a misiones, seguridad al viajar y suministros específicos para cada bioma.
+</Callout>
+
+<Section icon={Map} title="Fecha de lanzamiento y plataformas de ark genesis ascended part 1">
+<Callout type="warning" title="Antes de descargar">
+Este DLC está pensado para jugadores de ARK: Survival Ascended, así que primero confirma que el juego base esté instalado. La ventana de lanzamiento también cambia ligeramente según la plataforma, con Steam indicando el 3 de julio de 2026 y las tiendas de consola el 2 de julio de 2026.
+</Callout>
+
+ark genesis ascended part 1 es el tipo de expansión en la que la victoria más rápida es simplemente acertar con la ruta de instalación. Es gratis, pero sigue estando sobre ARK: Survival Ascended, así que el primer paso más limpio es verificar el acceso a la plataforma antes de empezar a planear misiones o rutas de domesticación.
+
+| Plataforma | Precio | Lanzamiento | Juego base | Acción en la tienda |
+|---|---|---|---|---|
+| Steam | Gratis | 3 de julio de 2026 | ARK: Survival Ascended | Descargar |
+| Xbox | Gratis | 2 de julio de 2026 | ARK: Survival Ascended | Obtener |
+| PlayStation | Gratis | 2 de julio de 2026 | ARK: Survival Ascended | Añadir a la biblioteca |
+
+| Enlace oficial | Mejor uso | Notas |
+|---|---|---|---|
+| [Página de Steam](https://store.steampowered.com/app/4558470/ARK_Genesis_Ascended_Part_1/) | Descarga en PC | El mejor lugar para comprobar el soporte de idiomas y el estado del DLC |
+| [Página de Xbox](https://www.xbox.com/en-US/games/store/ark-genesis-ascended-part-1/9P4ND7M5PKPC/0010) | Acceso en consola | Confirma el estado gratuito y la elegibilidad de la plataforma |
+| [Página de PlayStation](https://store.playstation.com/en-us/product/UP0691-PPSA16810_00-GENESISASCENDED1) | Acceso en PS5 | Útil para añadir a la biblioteca y ver detalles del juego en línea |
+
+<CardGrid cols={3}>
+  <Card title="Mejor comprobación inicial">
+    - **Juego base instalado**
+    - Cuenta correcta de la plataforma
+    - DLC añadido a la biblioteca
+  </Card>
+  <Card title="Mejor hábito para empezar">
+    - **Verificar la fecha de lanzamiento**
+    - Confirmar que es gratuito
+    - Abrir el DLC desde ASA
+  </Card>
+  <Card title="Mejor intención de búsqueda">
+    - **Ruta de descarga**
+    - Búsqueda del enlace de la tienda
+    - Compatibilidad de la plataforma
+  </Card>
+</CardGrid>
+</Section>
+
+<Section icon={Shield} title="Biomas, peligros y rutas seguras">
+<Callout type="tip" title="La planificación de rutas importa">
+La progresión temprana más segura suele venir de adaptar tus suministros al bioma en lugar de forzar un único equipo para todo. Eso importa aún más en las zonas Ocean, Lunar y Volcanic, donde el entorno puede castigar un viaje descuidado.
+</Callout>
+
+El mapa está construido en torno a cinco grandes biomas de simulación, y cada uno ejerce un tipo distinto de presión de supervivencia. Si quieres morir menos y progresar con más limpieza, trata la elección del bioma como una decisión táctica, no como una excursión turística.
+
+| Bioma | Peligro principal | Mejor uso temprano | Amenaza clave |
+|---|---|---|---|
+| Bog | Presión por atravesar pantanos | Práctica de movilidad | Terreno denso y rutas hostiles por la copa de los árboles |
+| Ocean | Viaje en aguas profundas | Movimiento base y exploración marina | Remolinos, olas y exposición prolongada |
+| Arctic | Supervivencia al frío | Pruebas de equipo y preparación de monturas | Cumbres gélidas y peligro de avalanchas |
+| Volcanic | Riesgo por calor y erupciones | Preparación para combate de alto nivel | Terreno dominado por fuego y peligro de lava |
+| Lunar | Baja gravedad | Rutas avanzadas de movimiento | Terreno alienígena y riesgo por exposición |
+
+| Prioridad del bioma | Recomendación | Por qué ayuda |
+|---|---|---|---|
+| 1 | Ocean | Gran utilidad, rutas de viaje importantes y buenas oportunidades para bases |
+| 2 | Bog | Bueno para probar movilidad y jugar centrado en Bloodstalker |
+| 3 | Arctic | Mejor cuando mejoran la protección contra el frío y la calidad de la montura |
+| 4 | Volcanic | Zona de alto riesgo solo para jugadores preparados |
+| 5 | Lunar | Déjalo para travesías avanzadas y planificación especializada |
+
+<Callout type="info" title="Regla práctica">
+Si tu equipo no puede con el clima, el viaje submarino o el movimiento a larga distancia, no trates todos los biomas como si fueran iguales. Construye en torno al entorno al que entras, no al que te gustaría tener.
+</Callout>
+</Section>
+
+<Section icon={Target} title="Misiones, Hexágonos y el ciclo de inicio">
+<Callout type="success" title="Tu ciclo de progresión principal">
+Las misiones de HLN-A son la columna vertebral del juego temprano. Completa objetivos manejables, gana Hexágonos y gástalos en recursos o elementos de apoyo antes de avanzar hacia zonas más difíciles.
+</Callout>
+
+| Tipo de misión | Enfoque principal | Uso de la recompensa | Notas de dificultad |
+|---|---|---|---|
+| Pruebas de misión de HLN-A | Progresión central | Hexágonos y ritmo de desbloqueo | Múltiples niveles de dificultad |
+| Misiones de oleadas enemigas | Presión de combate | Farmeo de recompensas | Escalan con el nivel de la misión |
+| Escolta de criatura bebé | Protección y ruta | Aprendizaje de progresión más segura | Castiga el posicionamiento descuidado |
+| Seguimiento de jefes | Caza de objetivos | Progresión de historia | Mejor cuando tu equipo mejora |
+| Carreras de dinos | Movimiento y control | Flujo de recompensas repetible | Muy buenas para jugadores que disfrutan de la velocidad |
+| Glitches | Limpieza de exploración | Valor extra de progresión | Buen relleno entre misiones |
+
+<Steps>
+  <Step num="1" title="Abre primero HLN-A">
+    Empieza revisando las opciones de misión y los niveles de dificultad. El objetivo no es aplastar por fuerza bruta el objetivo más difícil; es entender el ciclo de simulación.
+  </Step>
+  <Step num="2" title="Elige misiones de bajo riesgo">
+    Comienza con las misiones más fáciles que puedas manejar, especialmente si todavía estás aprendiendo movimiento, sincronización de combate o peligros del bioma.
+  </Step>
+  <Step num="3" title="Convierte las recompensas en seguridad">
+    Usa los Hexágonos en recursos y objetos de apoyo que reduzcan el riesgo al viajar, mejoren tu tiempo efectivo de combate o aceleren tu siguiente misión.
+  </Step>
+  <Step num="4" title="Añade la limpieza de glitches">
+    Una vez que el ciclo de misiones se sienta estable, limpia glitches durante los trayectos para seguir ganando progreso sin desperdiciar partidas.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Evita este error">
+No saltes directamente a biomas de alto riesgo antes de que tu ciclo de misiones sea estable. Una economía disciplinada de Hexágonos siempre vence a las repetidas recuperaciones de cadáver.
+</Callout>
+</Section>
+
+<Section icon={Swords} title="Mejores criaturas y prioridades de equipo">
+<Callout type="tip" title="Domestica primero por utilidad">
+Las mejores opciones tempranas no siempre son las más llamativas. Prioriza criaturas que resuelvan problemas de viaje, control del océano o fabricación antes de perseguir puro poder de combate.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Palaeoctopus">
+    - **Control del océano**
+    - Utilidad de doble objetivo
+    - Gran apoyo para la tribu
+  </Card>
+  <Card title="Bloodstalker">
+    - **Movilidad en Bog**
+    - Desplazamiento rápido
+    - Excelente valor para reconocimiento
+  </Card>
+  <Card title="Magmasaur">
+    - **Apoyo para combate y forja**
+    - Utilidad volcánica
+    - Gran valor de fabricación
+  </Card>
+</CardGrid>
+
+| Criatura / equipo | Rol | Por qué importa |
+|---|---|---|---|
+| Palaeoctopus | Utilidad acuática | Muy bueno para viajar por el mar y apoyar a la tribu |
+| Bloodstalker | Domesticación de movilidad | Ideal para moverse entre copas de árboles y explorar |
+| Magmasaur | Fabricación y combate | Funciona como una forja industrial viviente |
+| Megachelon | Base móvil | Bueno para planes de base oceánica |
+| Astrocetus | Transporte de tribu | Útil para progresión avanzada en grupo |
+| Hover Skiff | Vehículo | Ayuda con la logística y los viajes largos |
+| Mining Drills | Herramienta | Acelera la recolección de recursos |
+| Ocean Platforms | Estructura | Apoya la construcción de bases marinas |
+
+| Prioridad de construcción | Valor temprano | Valor en mitad de partida |
+|---|---|---|
+| Herramientas de movimiento | Muy alto | Alto |
+| Utilidad acuática | Muy alto | Muy alto |
+| Apoyo a la fabricación | Alto | Muy alto |
+| Automatización de base | Medio | Alto |
+
+<Callout type="info" title="Regla de equipamiento">
+Si tu configuración no puede manejar al mismo tiempo movimiento, recolección y seguridad del bioma, es demasiado estrecha para una progresión al estilo Genesis. Equilibra la utilidad antes de perseguir opciones de lujo.
+</Callout>
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación y preguntas frecuentes para jugadores nuevos">
+<Callout type="success" title="Objetivos de la sesión">
+Usa este repaso final para mantener tu progreso limpio: instala el DLC, completa misiones tempranas, consigue una domesticación de utilidad y elige una ruta de bioma que encaje con tu equipo actual.
+</Callout>
+
+<Checklist
+  id="genesis-ascended-first-run"
+  title="Lista de verificación de la primera sesión:"
+  items={[
+    "Añade el DLC gratuito a la biblioteca de tu plataforma",
+    "Confirma que ARK: Survival Ascended esté instalado",
+    "Completa al menos un nivel de misión de HLN-A",
+    "Gasta Hexágonos en una mejora temprana útil",
+    "Elige una ruta de bioma y prepárate para sus peligros",
+    "Prioriza una domesticación de movilidad o de utilidad acuática"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "¿Qué es ark genesis ascended part 1?",
+    answer: "Es un DLC gratuito de ARK: Survival Ascended centrado en la progresión de la simulación Genesis, con misiones, biomas, criaturas y sistemas de recompensa."
+  },
+  {
+    question: "¿ark genesis ascended part 1 es gratis?",
+    answer: "Sí. El DLC es gratis, pero sigue requiriendo ARK: Survival Ascended como juego base en la plataforma que elijas."
+  },
+  {
+    question: "¿Qué debo hacer primero en ark genesis ascended part 1?",
+    answer: "Empieza con las misiones de HLN-A, gana Hexágonos y construye en torno a una ruta de bioma segura antes de intentar una exploración más difícil."
+  },
+  {
+    question: "¿Qué criaturas importan más al principio?",
+    answer: "Bloodstalker, Palaeoctopus, Megachelon y Magmasaur son los objetivos tempranos más prácticos porque resuelven problemas de movimiento, juego oceánico y fabricación."
+  }
+]} />
+</Section>

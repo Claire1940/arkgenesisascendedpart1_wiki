@@ -10,7 +10,14 @@
       "twitterDescription": "ARK Genesis Ascended Part 1 guide covering missions, biomes, taming, creatures, resources, bosses, ships, and download info for ASA players."
     }
   },
-  "nav": {},
+  "nav": {
+    "release": "Release",
+    "guide": "Guide",
+    "map": "Map",
+    "bases": "Bases",
+    "creatures": "Creatures",
+    "features": "Features"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -786,125 +793,125 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
+    "release": {
+      "title": "ARK Genesis Ascended Part 1 Release Date & Platforms",
+      "description": "Track the ARK Genesis Ascended Part 1 release date, launch status, free DLC pricing, Steam / PS5 / Xbox platforms, and ARK: Survival Ascended base-game requirements.",
+      "metaTitle": "ARK Genesis Ascended Part 1 Release Date, Price & Platforms",
+      "metaDescription": "Get the ARK Genesis Ascended Part 1 release date, free DLC price, Steam / PS5 / Xbox download links, and ARK: Survival Ascended base-game requirements.",
+      "categoryLabel": "RELEASE INFO",
+      "whatIs": "What is the Release?",
+      "whatIsDescription": "Everything about the ARK Genesis Ascended Part 1 launch — the official release date, free DLC pricing on Steam, PS5, and Xbox, the required ARK: Survival Ascended base game, and current availability across platforms and regions.",
+      "why": "Why check the release info?",
+      "whySteps": {
+        "step1Title": "Confirm the Launch Date",
+        "step1Description": "Verify the official release date and skip outdated rumors about delays",
+        "step2Title": "Pick Your Platform",
+        "step2Description": "Compare Steam, PS5, and Xbox availability, pricing, and download links",
+        "step3Title": "Check Base-Game Requirements",
+        "step3Description": "Make sure you own ARK: Survival Ascended before installing the free DLC"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Release Articles"
+    },
+    "guide": {
       "title": "ARK Genesis Ascended Part 1 Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced mission, biome, and boss strategies for ARK Genesis Ascended Part 1.",
-      "metaTitle": "ARK Genesis Ascended Part 1 Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete ARK Genesis Ascended Part 1 guides covering beginner tips, HLN-A missions, Hexagon rewards, biomes, taming, and expert survival tactics.",
+      "description": "Complete beginner guides, walkthroughs, day-one tips, and lore breakdowns for ARK Genesis Ascended Part 1 survivors.",
+      "metaTitle": "ARK Genesis Ascended Part 1 Guides - Beginner Walkthroughs & Lore",
+      "metaDescription": "Master ARK Genesis Ascended Part 1 with beginner guides, day-one walkthroughs, first 10 minutes tips, and the full lore behind the Genesis simulation.",
       "categoryLabel": "GAME GUIDES",
       "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering ARK Genesis Ascended Part 1 gameplay mechanics, HLN-A missions, Hexagon progression, and survival strategies across the five simulation biomes.",
+      "whatIsDescription": "Full gameplay guides for ARK Genesis Ascended Part 1 — first 10 minutes priorities, day-one survival, complete walkthroughs, and the lore behind HLN-A and the Genesis simulation.",
       "why": "Why read guides?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand HLN-A missions, difficulty levels, and Hexagon rewards to avoid early mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven routes through missions, glitches, and biome preparation",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for taming, crafting, and boss encounters"
+        "step1Title": "Survive Day One",
+        "step1Description": "Learn opening priorities, early gear, and safe-zone routing",
+        "step2Title": "Follow Proven Walkthroughs",
+        "step2Description": "Step through missions, biomes, and progression in the right order",
+        "step3Title": "Understand the Lore",
+        "step3Description": "Unpack HLN-A, the simulation, and the story driving Genesis Part 1"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "crafting": {
-      "title": "ARK Genesis Ascended Part 1 Crafting",
-      "description": "Master Hexagon crafting, TEK items, Plasma Claws, Cruise Missiles, and core gear recipes for ARK Genesis Ascended Part 1.",
-      "metaTitle": "ARK Genesis Ascended Part 1 Crafting - Hexagons, TEK Items & Recipes",
-      "metaDescription": "Master ARK Genesis Ascended Part 1 crafting with Hexagon rewards, TEK items, mission supplies, and recipes for tools, weapons, and structures.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "Crafting in ARK Genesis Ascended Part 1 turns Hexagon rewards, biome resources, and mission supplies into TEK items, weapons, tools, and ocean platforms for survival.",
-      "why": "Why master crafting?",
-      "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Spend Hexagons on TEK items, resources, and mission gear",
-        "step2Title": "Understand Hexagon Rewards",
-        "step2Description": "Learn how missions, glitches, and difficulty levels drive your reward flow",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use biome resources and ocean platforms to maximize output"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
-    },
-    "items": {
-      "title": "ARK Genesis Ascended Part 1 Items",
-      "description": "Detailed item guides covering Plasma Claws, Cruise Missiles, Fishing Nets, Mining Drills, Hover Skiff, and structure options for ARK Genesis Ascended Part 1.",
-      "metaTitle": "ARK Genesis Ascended Part 1 Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for ARK Genesis Ascended Part 1 including Plasma Claws, Cruise Missiles, Fishing Nets, Mining Drills, Hover Skiff, and ocean platforms.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for ARK Genesis Ascended Part 1 tools, weapons, mobility gear, and structures. Learn Hexagon costs, recipe inputs, and best-use scenarios.",
-      "why": "Why check item guides?",
-      "whySteps": {
-        "step1Title": "Learn Hexagon Costs",
-        "step1Description": "Discover how to unlock essential tools and weapons through missions",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the right gear for each biome and hazard profile",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear, traps, and structures to navigate dangerous biomes"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Items"
-    },
-    "biomes": {
-      "title": "ARK Genesis Ascended Part 1 Biomes",
-      "description": "Explore Bog, Ocean, Arctic, Volcanic, and Lunar biomes plus the Ascended ocean overhaul with new water physics and hidden fortresses.",
-      "metaTitle": "ARK Genesis Ascended Part 1 Biomes - Map Regions & Exploration",
-      "metaDescription": "Explore ARK Genesis Ascended Part 1 biomes including Bog, Ocean, Arctic, Volcanic, Lunar, and the Ascended ocean overhaul. Find resources, avoid hazards, and plan routes.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to ARK Genesis Ascended Part 1 biomes, environmental hazards, resource distribution, and danger zones. Learn what to expect and how to prepare for each region.",
-      "why": "Why explore biomes?",
+    "map": {
+      "title": "ARK Genesis Ascended Part 1 Map & Biomes",
+      "description": "Explore the ARK Genesis Ascended Part 1 map — Bog, Ocean, Arctic, Volcanic, and Lunar biomes, resource locations, weather patterns, and element farming routes.",
+      "metaTitle": "ARK Genesis Ascended Part 1 Map - Biomes, Resources & Weather",
+      "metaDescription": "Navigate ARK Genesis Ascended Part 1 with full map coverage of Bog, Ocean, Arctic, Volcanic, and Lunar biomes, resource locations, weather, and element farm routes.",
+      "categoryLabel": "MAP & BIOMES",
+      "whatIs": "What is the Map?",
+      "whatIsDescription": "Complete map coverage for ARK Genesis Ascended Part 1 — the five simulation biomes (Bog, Ocean, Arctic, Volcanic, Lunar), resource locations, weather patterns, the ocean overhaul, and element farming routes.",
+      "why": "Why study the map?",
       "whySteps": {
         "step1Title": "Find Resources",
-        "step1Description": "Locate biome-specific resources, creatures, and Hexagon opportunities",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile wildlife",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right gear, tames, and supplies for each biome"
+        "step1Description": "Locate biome-specific resources, element farm spots, and Hexagon opportunities",
+        "step2Title": "Read the Weather",
+        "step2Description": "Understand biome weather patterns and environmental hazards",
+        "step3Title": "Plan Efficient Routes",
+        "step3Description": "Move between biomes with the right gear, tames, and ocean transport"
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Map Guides"
     },
-    "building": {
-      "title": "ARK Genesis Ascended Part 1 Building",
-      "description": "Master base construction, ocean platforms, pressure plates, alarm systems, jump pads, and interactive structures for ARK Genesis Ascended Part 1.",
-      "metaTitle": "ARK Genesis Ascended Part 1 Building - Bases & Ocean Platforms",
-      "metaDescription": "Master ARK Genesis Ascended Part 1 building with base construction, ocean platforms, interactive structures, traps, and defensive systems.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to ARK Genesis Ascended Part 1 base construction, ocean platforms, pressure plates, alarm systems, and jump pads for safe havens across the simulation.",
-      "why": "Why build bases?",
+    "bases": {
+      "title": "ARK Genesis Ascended Part 1 Base Locations",
+      "description": "Best base locations for ARK Genesis Ascended Part 1 — PvP strongholds, solo survivor spots, small-tribe outposts, hidden ratholes, and defensible basespots across every biome.",
+      "metaTitle": "ARK Genesis Ascended Part 1 Best Base Locations - PvP, Solo & Ratholes",
+      "metaDescription": "Find the best base locations in ARK Genesis Ascended Part 1 — PvP zones, solo spots, small-tribe bases, hidden ratholes, and defensible basespots across all biomes.",
+      "categoryLabel": "BASE LOCATIONS",
+      "whatIs": "What are Base Locations?",
+      "whatIsDescription": "Curated base-location guides for ARK Genesis Ascended Part 1 — the best PvP strongholds, solo survivor spots, small-tribe outposts, hidden ratholes, and defensible basespots across all five biomes.",
+      "why": "Why plan your base?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage, crafting, and regrouping",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize Hexagon rewards, biome resources, and mission supplies",
-        "step3Title": "Use Ocean Platforms",
-        "step3Description": "Build mobile and fixed outposts across the new Ascended ocean"
+        "step1Title": "Pick the Right Spot",
+        "step1Description": "Choose PvP, solo, or small-tribe locations that match your playstyle",
+        "step2Title": "Use Natural Defenses",
+        "step2Description": "Leverage ratholes, terrain, and chokepoints to protect your base",
+        "step3Title": "Adapt to Biomes",
+        "step3Description": "Match base type to biome hazards, resources, and raid exposure"
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Base Locations"
     },
-    "support": {
-      "title": "ARK Genesis Ascended Part 1 Support",
-      "description": "Technical support, platform compatibility, server info, system requirements, and troubleshooting for ARK Genesis Ascended Part 1.",
-      "metaTitle": "ARK Genesis Ascended Part 1 Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for ARK Genesis Ascended Part 1 including install help, server status, system requirements, crash fixes, and platform compatibility.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering ARK Genesis Ascended Part 1 install, base-game requirement, server info, system requirements, crash fixes, and platform compatibility.",
-      "why": "Why check support?",
+    "creatures": {
+      "title": "ARK Genesis Ascended Part 1 Creatures",
+      "description": "Full ARK Genesis Ascended Part 1 creature and dino list — new Ascended additions, X-creatures, Palaeoctopus taming, creature vote winners, and the community tier list.",
+      "metaTitle": "ARK Genesis Ascended Part 1 Creatures - Dino List & Tier List",
+      "metaDescription": "Browse every creature in ARK Genesis Ascended Part 1 — full dino list, new Ascended additions, X-creatures, Palaeoctopus taming, creature vote winners, and the tier list.",
+      "categoryLabel": "CREATURES",
+      "whatIs": "What are Creatures?",
+      "whatIsDescription": "The complete creature database for ARK Genesis Ascended Part 1 — the full dino list, new Ascended additions, X-creatures, Palaeoctopus taming, creature vote winners, and community tier rankings.",
+      "why": "Why study creatures?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve install errors, performance problems, and DLC loading issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for the best experience on Steam, PS5, and Xbox",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about cross-platform multiplayer, Remote Play, and system requirements"
+        "step1Title": "Build the Right Tames",
+        "step1Description": "Choose creatures that fit combat, travel, gathering, and base roles",
+        "step2Title": "Tame New Additions",
+        "step2Description": "Learn how to find and tame Palaeoctopus and other new biome species",
+        "step3Title": "Compare with the Tier List",
+        "step3Description": "Rank creatures by mobility, combat, gathering, and team utility"
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Creatures"
+    },
+    "features": {
+      "title": "ARK Genesis Ascended Part 1 Features",
+      "description": "All the new ARK Genesis Ascended Part 1 features — new items, engrams, gameplay systems, ocean overhaul details, and Ascended-exclusive additions.",
+      "metaTitle": "ARK Genesis Ascended Part 1 Features - New Items, Engrams & Systems",
+      "metaDescription": "Discover every new feature in ARK Genesis Ascended Part 1 — new items, engrams, gameplay systems, ocean overhaul details, and Ascended-exclusive additions.",
+      "categoryLabel": "NEW FEATURES",
+      "whatIs": "What are Features?",
+      "whatIsDescription": "Full breakdown of new ARK Genesis Ascended Part 1 features — new items, new engrams, gameplay systems, the ocean overhaul, and the Ascended-exclusive additions that define this DLC.",
+      "why": "Why learn the features?",
+      "whySteps": {
+        "step1Title": "Unlock New Engrams",
+        "step1Description": "Discover new items, structures, and gear only available in Genesis Ascended",
+        "step2Title": "Master New Systems",
+        "step2Description": "Understand ocean physics, missions, and gameplay additions",
+        "step3Title": "Stay Current",
+        "step3Description": "Track every Ascended-exclusive feature so nothing gets missed"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Features"
     }
   }
 }
