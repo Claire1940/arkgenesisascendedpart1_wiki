@@ -1,10 +1,917 @@
 {
+  "seo": {
+    "home": {
+      "title": "ARK Genesis Ascended - Missions, biomes et apprivoisements",
+      "description": "Guide ARK Genesis Ascended Part 1 avec infos de sortie, missions, biomes, apprivoisement, créatures, ressources, astuces pour les boss, navires et guides de téléchargement pour les joueurs d'ASA.",
+      "keywords": "ARK Genesis Ascended, Genesis Part 1, missions, biomes, apprivoisements, ressources, boss",
+      "ogTitle": "ARK Genesis Ascended - Missions, biomes et apprivoisements",
+      "ogDescription": "Guide ARK Genesis Ascended Part 1 avec infos de sortie, missions, biomes, apprivoisement, créatures, ressources, astuces pour les boss, navires et guides de téléchargement pour les joueurs d'ASA.",
+      "twitterTitle": "ARK Genesis Ascended - Missions, biomes et apprivoisements",
+      "twitterDescription": "Guide ARK Genesis Ascended Part 1 couvrant les missions, les biomes, l'apprivoisement, les créatures, les ressources, les boss, les navires et les infos de téléchargement pour les joueurs d'ASA."
+    }
+  },
   "nav": {
     "release": "Sortie",
     "guide": "Guide",
-    "map": "Carte",
+    "map": "Map",
     "bases": "Bases",
     "creatures": "Créatures",
-    "features": "Fonctions"
+    "features": "Fonctionnalités"
+  },
+  "common": {
+    "home": "Accueil",
+    "more": "Plus",
+    "playNow": "Jouer sur Steam",
+    "switchLanguage": "Changer de langue",
+    "switchTheme": "Changer de thème",
+    "lightMode": "Mode clair",
+    "darkMode": "Mode sombre",
+    "notFound": "Page non trouvée",
+    "notFoundDescription": "La page que vous recherchez n'existe pas.",
+    "backToHome": "Retour à l'accueil",
+    "relatedArticles": "Articles connexes",
+    "readMore": "Lire la suite",
+    "articlesComingSoon": "Articles bientôt disponibles"
+  },
+  "hero": {
+    "badge": "Bac à sable de survie de science-fiction",
+    "title": "Wiki ARK Genesis Ascended Part 1",
+    "description": "Survivez à une simulation Genesis fracturée avec des missions HLN-A, cinq biomes mortels, de nouvelles créatures Ascended, une refonte de l'océan, des récompenses en Hexagons, de la fabrication, de l'apprivoisement et des défis de boss.",
+    "getFreeCodesCTA": "Télécharger le DLC gratuit",
+    "playOnSteamCTA": "Jouer sur Steam",
+    "stats": {
+      "stat1": {
+        "value": "Gratuit",
+        "label": "Prix du DLC"
+      },
+      "stat2": {
+        "value": "Jul 3, 2026",
+        "label": "Date de sortie"
+      },
+      "stat3": {
+        "value": "323",
+        "label": "Évaluations Steam"
+      },
+      "stat4": {
+        "value": "5",
+        "label": "Biomes"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay de ARK Genesis Ascended Part 1",
+    "description": "Surviez à une simulation Genesis fracturée avec des missions HLN-A, cinq biomes mortels, une refonte de l'océan Ascended, des récompenses en Hexagon, l'apprivoisement et des défis de boss."
+  },
+  "tools": {
+    "title": "ARK Genesis Ascended",
+    "titleHighlight": "Hub de la Partie 1",
+    "subtitle": "Infos de sortie, détails du DLC gratuit, itinéraires de départ, biomes, missions, apprivoisement, équipement et notes de mise à jour pour ARK Genesis Ascended Part 1",
+    "cards": [
+      {
+        "icon": "Calendar",
+        "title": "Date de sortie & liens vers les boutiques",
+        "description": "Statut, dates et étapes du DLC gratuit sur Steam, PS5 et Xbox"
+      },
+      {
+        "icon": "Scale",
+        "title": "DLC gratuit vs Tides of Fortune",
+        "description": "Comparez le DLC gratuit Genesis avec l'extension nautique payante"
+      },
+      {
+        "icon": "GraduationCap",
+        "title": "Guide du débutant",
+        "description": "Missions de HLN-A, Hexagons, biomes et premiers itinéraires de survie"
+      },
+      {
+        "icon": "Map",
+        "title": "Biomes de la carte & refonte de l'Ocean",
+        "description": "Bog, Ocean, Arctic, Volcanic, Lunar et l'océan Ascended"
+      },
+      {
+        "icon": "Compass",
+        "title": "Missions & Hexagons",
+        "description": "Types de missions de HLN-A, glitches du monde et boucles de récompenses en Hexagons"
+      },
+      {
+        "icon": "PawPrint",
+        "title": "Tier list des créatures et de l'apprivoisement",
+        "description": "Les meilleures créatures apprivoisées de Genesis Ascended Part 1 classées par rôle et par tier"
+      },
+      {
+        "icon": "Wrench",
+        "title": "Équipement, armes et structures",
+        "description": "Plasma Claws, Cruise Missiles, Hover Skiff et pièces de construction d'océan"
+      },
+      {
+        "icon": "Newspaper",
+        "title": "Notes de patch et configurations requises",
+        "description": "Patch de lancement, versions de serveur, refonte de l'océan et spécifications PC"
+      }
+    ]
+  },
+  "modules": {
+    "arkGenesisReleaseDateAndStoreLinks": {
+      "title": "Date de sortie, plateformes et liens vers les boutiques de ARK Genesis Ascended Part 1",
+      "eyebrow": "Sortie et boutiques",
+      "displayType": "store-card-list",
+      "intro": "Utilisez cette section pour vérifier le statut officiel de la boutique avant de télécharger la simulation Genesis. Le DLC est gratuit, mais il nécessite ARK: Survival Ascended comme jeu de base.",
+      "subtitle": "ARK: Genesis Ascended Part 1 est disponible en tant que DLC gratuit pour ARK: Survival Ascended. Steam indique le July 3, 2026, tandis que les pages de la boutique Xbox et PlayStation américaine indiquent le July 2, 2026.",
+      "items": [
+        {
+          "platform": "Steam",
+          "store": "Steam",
+          "productName": "ARK: Genesis Ascended Part 1",
+          "status": "Sorti",
+          "storeReleaseDate": "July 3, 2026",
+          "price": "Gratuit",
+          "requiresBaseGame": "ARK: Survival Ascended sur Steam",
+          "playableOn": [
+            "Windows PC"
+          ],
+          "storeAction": "Télécharger",
+          "keyFeatures": [
+            "Solo",
+            "PvP en ligne",
+            "Coop en ligne",
+            "Multijoueur cross-plateforme",
+            "Contenu téléchargeable"
+          ],
+          "href": "https://store.steampowered.com/app/4558470/ARK_Genesis_Ascended_Part_1/"
+        },
+        {
+          "platform": "Xbox",
+          "store": "Xbox Store",
+          "productName": "ARK: Genesis Ascended Part 1",
+          "status": "Sorti",
+          "storeReleaseDate": "July 2, 2026",
+          "price": "Gratuit",
+          "requiresBaseGame": "ARK: Survival Ascended",
+          "playableOn": [
+            "PC",
+            "Xbox Series X|S"
+          ],
+          "storeAction": "Obtenir",
+          "keyFeatures": [
+            "Coop en local",
+            "Coop en ligne",
+            "Multijoueur local",
+            "Multijoueur en ligne"
+          ],
+          "href": "https://www.xbox.com/en-US/games/store/ark-genesis-ascended-part-1/9P4ND7M5PKPC/0010"
+        },
+        {
+          "platform": "PlayStation",
+          "store": "PlayStation Store",
+          "productName": "ARK: Genesis Ascended Part 1",
+          "status": "Sorti",
+          "storeReleaseDate": "July 2, 2026",
+          "price": "Gratuit",
+          "requiresBaseGame": "ARK: Survival Ascended",
+          "playableOn": [
+            "PS5",
+            "Amélioré pour la PS5 Pro"
+          ],
+          "storeAction": "Ajouter à la bibliothèque",
+          "keyFeatures": [
+            "PS Plus requis pour le jeu en ligne",
+            "Jeu en ligne facultatif",
+            "1-2 joueurs",
+            "Prend en charge jusqu'à 70 joueurs en ligne avec PS Plus",
+            "Lecture à distance prise en charge"
+          ],
+          "href": "https://store.playstation.com/en-us/product/UP0691-PPSA16810_00-GENESISASCENDED1"
+        }
+      ]
+    },
+    "arkGenesisFreeDlcAndTidesComparison": {
+      "title": "ARK Genesis Ascended Part 1 DLC gratuit vs Tides of Fortune",
+      "eyebrow": "DLC Gratuit vs Payant",
+      "displayType": "comparison-table",
+      "subtitle": "Genesis Ascended Part 1 est le contenu gratuit de ARK: Survival Ascended Genesis. ARK Tides of Fortune est l'extension nautique payante qui s'appuie sur l'Ocean de Genesis avec des navires, des trésors, des combats navals et de nouveaux systèmes premium.",
+      "intro": "Cette comparaison sépare la simulation Genesis gratuite de l'extension nautique payante. Genesis fournit la carte et le contenu de base de la simulation, tandis que Tides of Fortune ajoute des systèmes de haute mer premium axés sur les navires, les trésors, le combat naval, les cinématiques de Bob et de nouveaux outils sur le thème des pirates.",
+      "items": [
+        {
+          "row": "Prix en boutique",
+          "genesisAscendedPart1": "Gratuit",
+          "arkTidesOfFortune": "$19.99",
+          "playerTakeaway": "Téléchargez Genesis d'abord ; achetez Tides uniquement pour le contenu supplémentaire de l'extension nautique."
+        },
+        {
+          "row": "Jeu de base requis",
+          "genesisAscendedPart1": "Nécessite ARK: Survival Ascended",
+          "arkTidesOfFortune": "Requiert ARK: Survival Ascended",
+          "playerTakeaway": "Aucun de ces produits n'est un jeu autonome."
+        },
+        {
+          "row": "Type de contenu principal",
+          "genesisAscendedPart1": "DLC gratuit de simulation Genesis avec des missions, des biomes, des créatures, de l'équipement et une progression de survie axée sur l'histoire.",
+          "arkTidesOfFortune": "DLC nautique payant centré sur Bob avec des navires, des combats navals, des chasses au trésor, des cosmétiques, des structures, des créatures, des cinématiques et des étapes clés.",
+          "playerTakeaway": "Genesis est la base de contenu requise ; Tides est la couche premium facultative."
+        },
+        {
+          "row": "Focus sur l'Ocean",
+          "genesisAscendedPart1": "Ajoute un biome Ocean à l'échelle de la carte avec une physique de l'eau refondue, des vagues dynamiques, une flottabilité réaliste, des îles, des forteresses cachées et un système de guerre dans l'Ocean à grande échelle.",
+          "arkTidesOfFortune": "Étend cet Ocean à la construction navale, aux combats de canons à bordée, à la chasse au trésor, aux rencontres de navires hostiles, aux Ocean Outposts et à une progression de style pirate.",
+          "playerTakeaway": "L'exploration de l'Ocean se fait dans Genesis ; le gameplay de pirate axé sur les navires est dans Tides."
+        },
+        {
+          "row": "Systèmes de progression",
+          "genesisAscendedPart1": "Missions de HLN-A, niveaux de difficulté, glitches, récompenses en Hexagons, ressources, objets TEK et survie dans les biomes.",
+          "arkTidesOfFortune": "Arbres de compétences de navire pour la Piraterie, le Commerce et le Luxe, plus des jalons liés aux flottes navales, aux trésors, aux gantelets de Genesis et aux X-Creatures.",
+          "playerTakeaway": "Genesis récompense la survie aux missions ; Tides récompense la maîtrise nautique."
+        },
+        {
+          "row": "Créatures",
+          "genesisAscendedPart1": "Palaeoctopus, Bloodstalker, Ferox, Megachelon, Magmasaur et Astrocetus sont mis en avant sur les pages officielles de la boutique.",
+          "arkTidesOfFortune": "Tidepup et Parrot sont mis en avant en tant que créatures de DLC payant.",
+          "playerTakeaway": "Les collectionneurs de créatures obtiennent du contenu des deux, mais Tidepup et Parrot appartiennent à Tides."
+        },
+        {
+          "row": "Armes, outils et structures",
+          "genesisAscendedPart1": "Plasma Claws, Cruise Missiles, Fishing Nets, Mining Drills, Hover Skiff, plaques de pression, systèmes d'alarme, tremplins et plateformes océaniques.",
+          "arkTidesOfFortune": "Canon à main, Munitions de mitraille, Pelle, Chantier naval, Compartiment aquatique, Registre de cargaison, Marché, Tableau de primes, Aquarium, cosmétiques de pirate et décorations maritimes.",
+          "playerTakeaway": "Genesis couvre les technologies de survie de base ; Tides ajoute les navires, les trésors, le commerce et l'utilité pirate."
+        },
+        {
+          "row": "Idéal pour",
+          "genesisAscendedPart1": "Les joueurs qui veulent la carte Genesis gratuite, les missions, les biomes, les créatures et la refonte de l'océan Ascended de base.",
+          "arkTidesOfFortune": "Les joueurs qui veulent spécifiquement le combat naval, la personnalisation de navires, les boucles de trésors, les cinématiques de Bob et les systèmes de pirates premium.",
+          "playerTakeaway": "Commencez gratuitement, puis ne passez à la version supérieure que lorsque les systèmes de navires en valent le prix pour vous."
+        }
+      ]
+    },
+    "arkGenesisBeginnerGuide": {
+      "title": "Guide du débutant ARK Genesis Ascended Part 1",
+      "eyebrow": "Itinéraire de départ",
+      "displayType": "étape par étape",
+      "subtitle": "Commencez avec HLN-A, utilisez les missions pour apprendre la simulation, gagnez des Hexagons et préparez-vous pour chaque biome avant de vous attaquer à des objectifs plus difficiles.",
+      "intro": "Genesis Ascended Part 1 vous plonge dans une simulation virtuelle fracturée où HLN-A guide les missions, les choix de difficulté, les récompenses et la progression. Ce guide de démarrage se concentre uniquement sur les systèmes confirmés des pages officielles du magasin : missions, glitches, Hexagons, biomes, créatures, équipement et préparation à la survie.",
+      "steps": [
+        {
+          "title": "Ajoutez le DLC gratuit et lancez-le via ARK: Survival Ascended",
+          "goal": "Assurez-vous que Genesis Ascended Part 1 est dans la bibliothèque de votre plateforme avant de tenter d'accéder au contenu.",
+          "actions": [
+            "Utilisez la page de magasin officielle Steam, Xbox ou PlayStation de votre plateforme.",
+            "Confirmez que ARK: Survival Ascended est installé car Genesis Ascended Part 1 est un DLC.",
+            "Sur Steam, utilisez l'action Télécharger ; sur Xbox, utilisez Obtenir ; sur PlayStation, utilisez Ajouter à la bibliothèque."
+          ],
+          "beginnerTip": "N'achetez pas ARK Tides of Fortune en pensant qu'il remplace Genesis. Tides est une extension payante, pas la carte Genesis gratuite."
+        },
+        {
+          "title": "Considérez HLN-A comme votre premier centre de progression",
+          "goal": "Utilisez votre compagnon holographique pour comprendre ce que la simulation attend de vous.",
+          "actions": [
+            "Ouvrez les options de mission de HLN-A et passez en revue les types de missions disponibles.",
+            "Utilisez les niveaux de difficulté indiqués pour choisir des objectifs de départ gérables.",
+            "Attendez-vous à une grande variété de missions, comme des vagues d'ennemis, des escortes de bébés créatures, de la traque de boss et des courses de dinosaures."
+          ],
+          "beginnerTip": "La progression initiale est plus facile si vous utilisez les missions comme un chemin guidé avant d'explorer des biomes à haut risque."
+        },
+        {
+          "title": "Commencez par des missions à faible pression et accumulez un flux de récompenses.",
+          "goal": "Utilisez les missions pour obtenir des récompenses avant de vous aventurer dans des biomes mortels.",
+          "actions": [
+            "Terminez d'abord les variantes de missions les plus faciles pour apprendre les règles de combat, de déplacement et de survie.",
+            "Récupérez les récompenses de mission et utilisez vos Hexagons pour obtenir des ressources, des objets TEK et d'autres fournitures utiles.",
+            "Corrigez les glitchs tout en explorant pour obtenir des crédits supplémentaires et de la valeur de progression."
+          ],
+          "beginnerTip": "Les Hexagons constituent la boucle de récompense de départ la plus simple mentionnée par les pages officielles, alors basez votre progression autour d'eux."
+        },
+        {
+          "title": "Préparez-vous par biome.",
+          "goal": "Adaptez votre équipement et votre plan au biome avant de vous aventurer plus profondément.",
+          "actions": [
+            "Les zones du Bog mettent l'accent sur la survie dans les marécages extraterrestres hostiles et les menaces de la canopée.",
+            "Les zones de l'Ocean comprennent des fosses profondes, des tourbillons, des vagues dynamiques, la flottabilité, des îles et des forteresses cachées.",
+            "Les zones de l'Arctic apportent des sommets glaciaux et des risques d'avalanche.",
+            "Les zones du Volcanic peuvent vous punir avec des dangers d'incendie et d'éruption.",
+            "Les zones du Lunar utilisent un terrain lunaire extraterrestre et une traversée en faible gravité."
+          ],
+          "beginnerTip": "Les biomes de Genesis sont conçus autour d'une forte pression environnementale, de sorte que les provisions et la préparation aux risques importent dès le départ."
+        },
+        {
+          "title": "Priorisez l'utilité des créatures, des outils et de l'équipement de déplacement",
+          "goal": "Utilisez des créatures et des équipements spécifiques à Genesis pour résoudre les problèmes de déplacement, de survie et de ressources.",
+          "actions": [
+            "Recherchez des rôles de créatures tels que la mobilité du Bloodstalker, l'utilité pour les bases dans l'Ocean du Megachelon, l'utilité de forge du Magmasaur et le fantasme de traversée spatiale de l'Astrocetus.",
+            "Utilisez une progression d'équipement axée sur les Plasma Claws, Cruise Missiles, Fishing Nets, Mining Drills, Hover Skiff et les plateformes océaniques.",
+            "Construisez des structures interactives telles que des plaques de pression, des systèmes d'alarme et des tremplins lorsque votre plan de base nécessite des fonctionnalités utilitaires."
+          ],
+          "beginnerTip": "La liste de contenu officielle privilégie fortement la mobilité, les récompenses de mission, les voyages océaniques et les outils spécialisés, alors préparez-vous pour ces systèmes dès le début."
+        },
+        {
+          "title": "Passez de l'apprentissage des missions à la maîtrise des biomes",
+          "goal": "Utilisez les missions accomplies et les récompenses obtenues pour vous aventurer dans des zones plus difficiles et vers des objectifs plus complexes.",
+          "actions": [
+            "Retournez voir HLN-A lorsque vous serez prêt pour des niveaux de mission plus difficiles.",
+            "Utilisez les ressources gagnées et les objets TEK pour vous préparer aux événements de biome dangereux.",
+            "Étendez-vous vers les routes Ocean, Volcanic, Arctic, Bog et Lunar une fois que votre équipement et votre plan d'apprivoisement peuvent gérer le profil de danger."
+          ],
+          "beginnerTip": "La simulation récompense la préparation, la progression des missions et une planification minutieuse des trajets dans les biomes."
+        }
+      ]
+    },
+    "arkGenesisMapBiomesAndOceanOverhaul": {
+      "title": "Biomes de la carte et refonte de l'Ocean d'ARK Genesis Ascended Part 1",
+      "eyebrow": "Cartes & Biomes",
+      "displayType": "map-biome-grid",
+      "subtitle": "Genesis Ascended Part 1 se concentre sur des biomes de simulation mortels : Bog, Ocean, Arctic, Volcanic et Lunar. Ascended étend l'océan en un espace maritime à l'échelle de la carte avec une nouvelle physique de l'eau, des vagues, de la flottabilité, des îles et des forteresses cachées.",
+      "intro": "Utilisez cette grille de biomes comme planificateur d'itinéraire en page d'accueil pour savoir où aller, à quoi vous attendre et quelles caractéristiques officielles des biomes importent le plus avant d'entrer dans chaque partie de la simulation.",
+      "items": [
+        {
+          "biome": "Bog",
+          "officialDescription": "Des marécages extraterrestres fétides et une survie périlleuse dans la canopée.",
+          "hazards": [
+            "Terrain marécageux dense",
+            "Environnement de marécage extraterrestre hostile",
+            "Pression de la traversée de la canopée"
+          ],
+          "featuredContent": [
+            "Bloodstalker",
+            "Exploration de marécages extraterrestres",
+            "Traversée de la canopée"
+          ],
+          "routeNote": "Utilisez la carte Bog pour les joueurs qui recherchent la survie en milieu marécageux, les déplacements intenses dans la canopée et les itinéraires axés sur le Bloodstalker."
+        },
+        {
+          "biome": "Ocean",
+          "officialDescription": "Les fosses sous-marines profondes ont été agrandies dans Ascended en un immense biome Ocean à l'échelle de la carte.",
+          "hazards": [
+            "Déplacement en eau profonde",
+            "Tourbillons",
+            "Vagues dynamiques",
+            "Flottabilité réaliste",
+            "Configuration de combat océanique à grande échelle"
+          ],
+          "featuredContent": [
+            "Palaeoctopus",
+            "Megachelon",
+            "Îles",
+            "Forteresses cachées",
+            "Plateformes Ocean"
+          ],
+          "routeNote": "Utilisez la carte Ocean pour les recherches autour du biome Ocean, les voyages en mer, les bases Ocean mobiles, les forteresses cachées et le nouveau système d'eau Ascended."
+        },
+        {
+          "biome": "Arctic",
+          "officialDescription": "Sommets montagneux glaciaux au sein de la simulation Genesis.",
+          "hazards": [
+            "Pression de survie face au froid",
+            "Traversée de montagnes",
+            "Danger d'avalanche"
+          ],
+          "featuredContent": [
+            "Ferox",
+            "Exploration glaciale",
+            "Survie en montagne"
+          ],
+          "routeNote": "Utilisez la carte Arctic pour les joueurs planifiant des itinéraires en région froide, des trajets en montagne et une préparation centrée sur le Ferox."
+        },
+        {
+          "biome": "Volcanic",
+          "officialDescription": "Enfers volcaniques dangereux avec des châtiments de niveau éruption.",
+          "hazards": [
+            "Pression de chaleur extrême",
+            "Risques d'incendie",
+            "Événements volcaniques"
+          ],
+          "featuredContent": [
+            "Magmasaur",
+            "Survie sur Volcanic",
+            "Progression sur le thème du feu"
+          ],
+          "routeNote": "Utilisez la carte Volcanic pour les joueurs à la recherche de dangers liés au feu, d'exploration de Volcanic et de progression liée au Magmasaur."
+        },
+        {
+          "biome": "Lunar",
+          "officialDescription": "Surface sauvage à faible gravité d'une lune extraterrestre.",
+          "hazards": [
+            "Déplacement en faible gravité",
+            "Terrain extraterrestre",
+            "Traversée à forte exposition"
+          ],
+          "featuredContent": [
+            "Astrocetus",
+            "Exploration de la lune extraterrestre",
+            "Itinéraires axés sur les mouvements"
+          ],
+          "routeNote": "Utilisez la carte Lunar pour les joueurs à la recherche du biome de la lune, de faible gravité, de terrains extraterrestres et d'exploration liée à l'Astrocetus."
+        },
+        {
+          "biome": "Refonte de l'Ocean Ascended",
+          "officialDescription": "Une nouvelle couche d'océan à l'échelle de la carte, construite sur un système de physique de l'eau repensé.",
+          "hazards": [
+            "Météo dynamique en mer",
+            "Vagues dynamiques",
+            "Déplacements basés sur la flottabilité",
+            "Armadas ennemies",
+            "Guerre de forteresses cachées"
+          ],
+          "featuredContent": [
+            "Physique de l'eau repensée",
+            "Flottabilité réaliste",
+            "Vagues dynamiques",
+            "Îles",
+            "Forteresses cachées",
+            "Guerre océanique à grande échelle"
+          ],
+          "routeNote": "Utilisez cette carte vedette pour associer les recherches sur l'océan de Genesis à la construction navale, aux combats navals, aux chasses au trésor et à l'intérêt pour Ocean Outpost de Tides of Fortune."
+        }
+      ]
+    },
+    "arkGenesisMissionsHexagonsAndGlitches": {
+      "title": "Missions, Hexagons et glitches de ARK Genesis Ascended Part 1",
+      "eyebrow": "Missions et récompenses",
+      "displayType": "reward-table",
+      "subtitle": "Suivez la boucle de progression principale de Genesis Part 1 : tests de mission HLN-A, glitches du monde, récompenses en Hexagons et priorités d'échange.",
+      "intro": "Genesis Ascended Part 1 utilise HLN-A comme guide de mission à l'intérieur d'une simulation fracturée. Les joueurs progressent en terminant des missions à travers différents niveaux de difficulté, en réparant des glitches dispersés pour du crédit supplémentaire, et en dépensant les Hexagons obtenus pour des ressources, des objets TEK et d'autres fournitures utiles.",
+      "items": [
+        {
+          "activity": "Tests de mission HLN-A",
+          "type": "Hub de missions",
+          "objective": "Choisissez parmi une vaste gamme de missions de simulation proposées par HLN-A.",
+          "difficulty": "Plusieurs niveaux de difficulté",
+          "rewardLoop": "Gagnez des Hexagons en terminant des missions et utilisez-les pour des fournitures de progression."
+        },
+        {
+          "activity": "Missions de vagues d'ennemis",
+          "type": "Combat",
+          "objective": "Abattez des vagues d'ennemis à l'aide de bonus de mission.",
+          "difficulty": "Variable selon le niveau de la mission",
+          "rewardLoop": "Les missions axées sur le combat alimentent l'économie des récompenses en Hexagons."
+        },
+        {
+          "activity": "Escorte de bébés créatures",
+          "type": "Escorte",
+          "objective": "Protégez les bébés créatures vulnérables lors des itinéraires de mission de type escorte.",
+          "difficulty": "Variable selon l'itinéraire et le niveau de menace",
+          "rewardLoop": "Les escortes réussies contribuent à la réserve de récompenses de la mission."
+        },
+        {
+          "activity": "Traque de boss",
+          "type": "Chasse",
+          "objective": "Traquez de puissants boss à travers la simulation avant la confrontation finale.",
+          "difficulty": "Défi centré sur les boss",
+          "rewardLoop": "La progression du parcours des boss contribue aux objectifs de l'histoire de Genesis et de réussite des missions."
+        },
+        {
+          "activity": "Courses de dinos",
+          "type": "Course",
+          "objective": "Participez à des missions de course de dinos à grande vitesse axées sur les mouvements et le contrôle du parcours.",
+          "difficulty": "Défi de vitesse et de maniabilité",
+          "rewardLoop": "La réussite des courses offre une autre voie répétable pour gagner des Hexagons."
+        },
+        {
+          "activity": "Glitches du monde",
+          "type": "Exploration",
+          "objective": "Réparez les glitches disséminés dans la simulation pour obtenir des crédits supplémentaires.",
+          "difficulty": "Basé sur l'exploration",
+          "rewardLoop": "Le nettoyage des glitches apporte une progression supplémentaire au-delà des missions standard."
+        },
+        {
+          "activity": "Échange d'Hexagons",
+          "type": "Boutique de récompenses",
+          "objective": "Dépensez les Hexagons obtenus en récompense après les missions et le nettoyage des glitches.",
+          "difficulty": "Système économique",
+          "rewardLoop": "Les Hexagons peuvent être dépensés pour obtenir des ressources, des objets TEK et d'autres fournitures utiles."
+        }
+      ]
+    },
+    "arkGenesisCreaturesAndTamingTierList": {
+      "title": "Meilleures créatures de ARK Genesis Ascended Part 1 par rôle",
+      "eyebrow": "Créatures & Apprivoisement",
+      "displayType": "tier-grid",
+      "subtitle": "Un classement pratique des créatures pour le déplacement, le combat, le gameplay dans l'Ocean, les bases mobiles, le soutien à l'artisanat et l'utilité pour la tribu.",
+      "intro": "Genesis Ascended Part 1 réintroduit la liste principale des créatures de Genesis et ajoute les créatures de lancement d'Ascended. Donnez la priorité aux créatures apprivoisées selon les besoins initiaux de votre tribu : déplacement rapide, contrôle de l'Ocean, espace de construction mobile, pression au combat ou soutien à l'artisanat.",
+      "items": [
+        {
+          "creature": "Palaeoctopus",
+          "tier": "S",
+          "role": "Contrôle de l'Ocean et utilité pour la tribu",
+          "movement": "Traversée de l'Ocean et escalade de falaises",
+          "combat": "Des tentacules broyeurs peuvent saisir deux cibles simultanément",
+          "baseUtility": "Fournit à la tribu de l'encre colorée illimitée",
+          "tamingPriority": "Créature apprivoisée utilitaire de premier choix pour l'Ocean dans Genesis Ascended Part 1"
+        },
+        {
+          "creature": "Bloodstalker",
+          "tier": "S",
+          "role": "Chasseur de mobilité",
+          "movement": "Se balance à travers la canopée traîtresse du Bog",
+          "combat": "Prédateur tissant des toiles pour des déplacements agressifs et la poursuite",
+          "baseUtility": "Excellente valeur de reconnaissance pour les biomes dangereux",
+          "tamingPriority": "Tame de mobilité hautement prioritaire"
+        },
+        {
+          "creature": "Magmasaur",
+          "tier": "S",
+          "role": "Soutien au combat et à l'artisanat",
+          "movement": "Conçu pour la pression du terrain Volcanic",
+          "combat": "Monture de combat ardente",
+          "baseUtility": "Sert de forge industrielle vivante",
+          "tamingPriority": "Apprivoisement de combat et de forge à haute priorité"
+        },
+        {
+          "creature": "Megachelon",
+          "tier": "S",
+          "role": "Base océanique mobile",
+          "movement": "Grande plateforme de traversée marine",
+          "combat": "Présence défensive dans l'océan",
+          "baseUtility": "Tortue marine géante servant de fondation pour bases océaniques mobiles",
+          "tamingPriority": "Apprivoisement essentiel pour les tribus basées dans l'Ocean"
+        },
+        {
+          "creature": "Ferox",
+          "tier": "A",
+          "role": "Compagnon et combattant alimenté à l'Element",
+          "movement": "Forme de compagnon compacte avec valeur de transformation en combat",
+          "combat": "Se transforme en un béhémoth mortel alimenté à l'Element",
+          "baseUtility": "Soutien de combat personnel flexible",
+          "tamingPriority": "Fort compagnon de combat pour le début et milieu de partie"
+        },
+        {
+          "creature": "Astrocetus",
+          "tier": "A",
+          "role": "Transport de tribu et baleine spatiale",
+          "movement": "Identité de voyage capable d'hyperespace",
+          "combat": "Présence aérienne à grande échelle",
+          "baseUtility": "Transport de niveau tribu et monture de spectacle",
+          "tamingPriority": "Projet majeur de tribu ; le patch de lancement marque l'Astrocetus comme reproductible"
+        },
+        {
+          "creature": "X-Acro",
+          "tier": "X-Creature de lancement",
+          "role": "Expansion de la liste de lancement de Genesis",
+          "movement": "Emplacement de variante X-Creature",
+          "combat": "Ajouté dans le patch de lancement de Genesis Part 1",
+          "baseUtility": "Valeur de collection et de liste de biome",
+          "tamingPriority": "Suivre dans le cadre de l'ensemble Ascended X-Creature"
+        },
+        {
+          "creature": "X-Deinosuchus",
+          "tier": "X-Creature de lancement",
+          "role": "Extension de la liste de lancement de Genesis",
+          "movement": "Emplacement de variante de X-Creature",
+          "combat": "Ajouté dans le patch de lancement de Genesis Part 1",
+          "baseUtility": "Valeur de collection et de liste de biome",
+          "tamingPriority": "Suivre dans le cadre de l'ensemble Ascended X-Creature"
+        },
+        {
+          "creature": "X-Archelon",
+          "tier": "X-Creature de lancement",
+          "role": "Extension de la liste de lancement de Genesis",
+          "movement": "Emplacement de variante de X-Creature",
+          "combat": "Ajouté dans le patch de lancement de Genesis Part 1",
+          "baseUtility": "Valeur de collection et de liste de biome",
+          "tamingPriority": "Suivre en tant que partie de l'ensemble X-Creature d'Ascended"
+        },
+        {
+          "creature": "X-Xiphactinus",
+          "tier": "X-Creature de lancement",
+          "role": "Extension de la liste de lancement de Genesis",
+          "movement": "Emplacement de variante de X-Creature",
+          "combat": "Ajouté dans le patch de lancement de Genesis Part 1",
+          "baseUtility": "Valeur de collection et de liste de biomes",
+          "tamingPriority": "Suivre dans le cadre de l'ensemble de X-Creatures Ascended"
+        },
+        {
+          "creature": "X-Cryolophosaurus",
+          "tier": "X-Creature de lancement",
+          "role": "Extension de la liste de lancement de Genesis",
+          "movement": "Emplacement de variante de X-Creature",
+          "combat": "Ajouté dans le patch de lancement de Genesis Part 1",
+          "baseUtility": "Valeur de collection et de liste de biomes",
+          "tamingPriority": "Suivre dans le cadre de l'ensemble de X-Creatures Ascended"
+        }
+      ]
+    },
+    "arkGenesisGearWeaponsVehiclesAndStructures": {
+      "title": "Équipements, armes, véhicules et structures d'ARK Genesis Ascended Part 1",
+      "eyebrow": "Équipement & Structures",
+      "displayType": "item-grid",
+      "subtitle": "Utilisez cette grille pour planifier ce que vous devez fabriquer en premier : armes de combat, outils de collecte, technologies de véhicules et structures de base interactives.",
+      "intro": "Genesis Ascended Part 1 étend la boucle de fabrication avec des équipements de combat, des outils de survie, des véhicules avancés et des structures interactives. Les objets les plus recherchés sont les Plasma Claws, Cruise Missiles, Fishing Nets, Mining Drills, Hover Skiff et les pièces de construction océanique.",
+      "items": [
+        {
+          "item": "Plasma Claws",
+          "category": "Arme",
+          "useCase": "Arme de combat rapproché permettant des combos.",
+          "bestFor": "Builds de mêlée agressifs et combats sous haute pression",
+          "displayTag": "Arme de combo"
+        },
+        {
+          "item": "Cruise Missiles",
+          "category": "Arme",
+          "useCase": "Arme à missile téléguidé pour des attaques de précision.",
+          "bestFor": "Ciblage à longue portée et pression de raid",
+          "displayTag": "Téléguidé"
+        },
+        {
+          "item": "Fishing Nets",
+          "category": "Outil",
+          "useCase": "Outil axé sur la pêche dans l'ensemble d'artisanat Genesis.",
+          "bestFor": "Jeu de ressources océaniques et utilité de survie",
+          "displayTag": "Outil de pêche"
+        },
+        {
+          "item": "Mining Drills",
+          "category": "Outil",
+          "useCase": "Outil d'extraction de ressources pour une progression intensive en matériaux.",
+          "bestFor": "Itinéraires de collecte et préparation de la fabrication",
+          "displayTag": "Outil de ressources"
+        },
+        {
+          "item": "Hover Skiff",
+          "category": "Véhicule",
+          "useCase": "Véhicule avancé pour les déplacements et la logistique.",
+          "bestFor": "Transport, support de base et opérations de tribu",
+          "displayTag": "Véhicule avancé"
+        },
+        {
+          "item": "Plaques de pression",
+          "category": "Structure interactive",
+          "useCase": "Élément de base à déclencheur pour les constructions interactives.",
+          "bestFor": "Automatisation de base et routage des pièges",
+          "displayTag": "Déclencheur"
+        },
+        {
+          "item": "Systèmes d'alarme",
+          "category": "Structure interactive",
+          "useCase": "Structure de sécurité de base pour une défense axée sur les alertes.",
+          "bestFor": "Systèmes d'alerte de colonie et configurations défensives",
+          "displayTag": "Sécurité"
+        },
+        {
+          "item": "Tremplins",
+          "category": "Structure interactive",
+          "useCase": "Structure de mouvement pour un repositionnement rapide et le routage de base.",
+          "bestFor": "Configurations de traversée et conception de base verticale",
+          "displayTag": "Mobilité"
+        },
+        {
+          "item": "Ocean Platforms",
+          "category": "Structure de l'Ocean",
+          "useCase": "Grande fondation de construction en Ocean pour les bases marines.",
+          "bestFor": "Bases marines, zones de transit en Ocean et plateformes de tribu",
+          "displayTag": "Base en Ocean"
+        }
+      ]
+    },
+    "arkGenesisPatchNotesServersAndSystemRequirements": {
+      "title": "Notes de mise à jour, serveurs et configuration requise pour ARK Genesis Ascended Part 1",
+      "eyebrow": "Mises à jour et configurations requises",
+      "displayType": "Tableau du journal des mises à jour",
+      "subtitle": "Un suivi des mises à jour en bas de page pour les changements de lancement de Genesis Ascended Part 1, les versions des plateformes, l'état des serveurs et les configurations d'installation.",
+      "intro": "Le patch de lancement pour Genesis Ascended Part 1 a mis à jour le contenu hérité de Genesis pour Ascended, a ajouté la nouvelle gamme de créatures, a révisé le biome Ocean et a ajouté la prise en charge des cartes multicouches. Les joueurs PC devraient également vérifier la configuration de stockage de 180 GB et l'exigence SSD avant l'installation, car apparemment, la survie commence avant même la fin du téléchargement.",
+      "items": [
+        {
+          "date": "2026-07-03",
+          "version": "v89.24 serveur / Steam v89.25 client",
+          "platform": "Steam et serveurs officiels",
+          "category": "Lancement de Genesis Part 1",
+          "playerImpact": "Mise à jour de toutes les créatures, objets, structures et environnements hérités de Genesis pour Genesis Ascended Part 1."
+        },
+        {
+          "date": "2026-07-03",
+          "version": "v89.24 serveur / Xbox v89.19 client",
+          "platform": "Xbox",
+          "category": "Mise à jour du client de la plateforme",
+          "playerImpact": "Version du client Xbox alignée avec le patch de lancement de Genesis Part 1."
+        },
+        {
+          "date": "2026-07-03",
+          "version": "v89.24 serveur / PlayStation v89.19 client",
+          "platform": "PlayStation",
+          "category": "Mise à jour du client de la plateforme",
+          "playerImpact": "Version du client PlayStation alignée avec le patch de lancement de Genesis Part 1."
+        },
+        {
+          "date": "2026-07-03",
+          "version": "Patch de lancement",
+          "platform": "Toutes les plateformes de lancement",
+          "category": "Nouvelles créatures",
+          "playerImpact": "Ajout de Palaeoctopus, X-Acro, X-Deinosuchus, X-Archelon, X-Xiphactinus et X-Cryolophosaurus."
+        },
+        {
+          "date": "2026-07-03",
+          "version": "Patch de lancement",
+          "platform": "Toutes les plateformes de lancement",
+          "category": "Créature reproductible",
+          "playerImpact": "Astrocetus est répertorié comme une nouvelle créature reproductible dans le patch de lancement."
+        },
+        {
+          "date": "2026-07-03",
+          "version": "Patch de lancement",
+          "platform": "Toutes les plateformes de lancement",
+          "category": "Refonte du biome Ocean",
+          "playerImpact": "Genesis Part 1 a reçu une refonte massive du biome Ocean avec la sortie d'Ascended."
+        },
+        {
+          "date": "2026-07-03",
+          "version": "Patch de lancement",
+          "platform": "Toutes les plateformes de lancement",
+          "category": "Interface de la carte",
+          "playerImpact": "Ajout de la prise en charge des cartes multicouches dans les diverses interfaces de carte."
+        },
+        {
+          "date": "2026-07-03",
+          "version": "Patch de lancement",
+          "platform": "Toutes les plateformes de lancement",
+          "category": "Personnalisation du personnage",
+          "playerImpact": "Ajout des options de coiffure et de pilosité faciale Dreadlocks, Viking, Romantique et Queue de cheval avec frange."
+        },
+        {
+          "date": "Configuration PC requise",
+          "version": "Minimum",
+          "platform": "Steam",
+          "category": "Configuration requise",
+          "playerImpact": "Windows 10/11, AMD Ryzen 5 2600X ou Intel Core i7-6800K, 16 Go de RAM, AMD Radeon RX 5600 XT ou NVIDIA GeForce 1080, DirectX 12, connexion Internet haut débit, 180 Go d'espace disponible, SSD requis."
+        },
+        {
+          "date": "Configuration PC requise",
+          "version": "Recommandé",
+          "platform": "Steam",
+          "category": "Configuration requise",
+          "playerImpact": "Windows 10/11, AMD Ryzen 5 3600X ou Intel i5-10600K, 32 GB RAM, AMD Radeon RX 6800 ou NVIDIA GeForce RTX 3080, DirectX 12, connexion internet haut débit, 180 GB d'espace disponible, SSD requis."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Questions fréquemment",
+    "titleHighlight": "posées",
+    "subtitle": "Tout ce que vous devez savoir sur ARK Genesis Ascended Part 1",
+    "questions": [
+      {
+        "question": "Est-ce que ARK Genesis Ascended Part 1 est gratuit ?",
+        "answer": "Oui. ARK Genesis Ascended Part 1 est un DLC gratuit pour ARK: Survival Ascended sur Steam, PS5, et Xbox Series X|S. Vous n'avez besoin que du jeu de base pour y jouer."
+      },
+      {
+        "question": "Est-ce que ARK Genesis Ascended Part 1 nécessite ARK: Survival Ascended ?",
+        "answer": "Oui. ARK Genesis Ascended Part 1 est un DLC, pas un jeu autonome, donc ARK: Survival Ascended doit être installé et possédé sur la même plateforme avant de pouvoir entrer dans la simulation Genesis."
+      },
+      {
+        "question": "Quelle est la différence entre ARK Genesis Ascended Part 1 et ARK Tides of Fortune ?",
+        "answer": "ARK Genesis Ascended Part 1 est la carte, les missions, les biomes et les créatures gratuits de Genesis. ARK Tides of Fortune est une extension nautique payante distincte qui ajoute des navires, des combats navals, des chasses au trésor et des systèmes de pirates en plus de l'océan Genesis."
+      },
+      {
+        "question": "Quand ARK Genesis Ascended Part 1 est-il sorti ?",
+        "answer": "ARK Genesis Ascended Part 1 est sorti début juillet 2026. Steam indique le 3 juillet 2026, tandis que les pages des boutiques Xbox et PlayStation américaines indiquent le 2 juillet 2026."
+      },
+      {
+        "question": "Quels biomes sont présents dans ARK Genesis Ascended Part 1 ?",
+        "answer": "ARK Genesis Ascended Part 1 comprend cinq biomes de simulation principaux : Bog, Ocean, Arctic, Volcanic et Lunar. Ascended ajoute également une refonte de l'océan à l'échelle de la carte avec une nouvelle physique de l'eau, des vagues, de la flottabilité, des îles et des forteresses cachées."
+      },
+      {
+        "question": "Où puis-je télécharger ARK Genesis Ascended Part 1 ?",
+        "answer": "Téléchargez ARK Genesis Ascended Part 1 depuis la page officielle de Steam, du Xbox Store ou du PlayStation Store correspondant à votre plateforme. Utilisez « Télécharger » sur Steam, « Obtenir » sur Xbox ou « Ajouter à la bibliothèque » sur PlayStation."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Prêt à survivre à la simulation Genesis ?",
+    "description": "Téléchargez ARK Genesis Ascended Part 1 gratuitement sur Steam, PS5 ou Xbox, et rejoignez la communauté officielle d'ARK sur Discord pour des guides de missions, d'apprivoisement et de boss !",
+    "joinCommunity": "Rejoindre Discord",
+    "joinGame": "Télécharger le DLC gratuit"
+  },
+  "footer": {
+    "title": "Wiki ARK Genesis Ascended Part 1",
+    "description": "Votre centre de ressources complet pour les missions, biomes, l'apprivoisement, les créatures, les ressources, les boss, les navires et les guides de téléchargement de ARK Genesis Ascended Part 1.",
+    "resources": "Ressources",
+    "community": "Communauté",
+    "legal": "Mentions légales",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "reddit": "Reddit",
+    "youtube": "YouTube",
+    "officialSite": "Site officiel",
+    "about": "À propos",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 ARK Genesis Ascended Part 1 Wiki. Non affilié à Studio Wildcard ou aux développeurs d'ARK.",
+    "disclaimer": "Site de ressources non officiel créé par des fans."
+  },
+  "pages": {
+    "release": {
+      "title": "Date de sortie et plateformes d'ARK Genesis Ascended Part 1",
+      "description": "Suivez la date de sortie de ARK Genesis Ascended Part 1, le statut du lancement, le prix du DLC gratuit, les plateformes Steam / PS5 / Xbox et la configuration requise pour le jeu de base ARK: Survival Ascended.",
+      "metaTitle": "ARK Genesis Ascended Part 1 : Date de sortie, prix et plateformes",
+      "metaDescription": "Obtenez la date de sortie de ARK Genesis Ascended Part 1, le prix du DLC gratuit, les liens de téléchargement Steam / PS5 / Xbox et la configuration requise pour le jeu de base ARK: Survival Ascended.",
+      "categoryLabel": "INFOS SUR LA SORTIE",
+      "whatIs": "Qu'est-ce que la sortie ?",
+      "whatIsDescription": "Tout sur le lancement de ARK Genesis Ascended Part 1 — la date de sortie officielle, le prix du DLC gratuit sur Steam, PS5 et Xbox, le jeu de base ARK: Survival Ascended requis et la disponibilité actuelle selon les plateformes et les régions.",
+      "why": "Pourquoi consulter les infos de sortie ?",
+      "whySteps": {
+        "step1Title": "Confirmez la date de lancement",
+        "step1Description": "Vérifiez la date de sortie officielle et ignorez les rumeurs obsolètes sur les retards",
+        "step2Title": "Choisissez votre plateforme",
+        "step2Description": "Comparez la disponibilité, les prix et les liens de téléchargement sur Steam, PS5 et Xbox",
+        "step3Title": "Vérifiez la configuration requise pour le jeu de base",
+        "step3Description": "Assurez-vous de posséder ARK: Survival Ascended avant d'installer le DLC gratuit"
+      },
+      "featured": "À la une et essentiels",
+      "all": "Tous les articles de sortie"
+    },
+    "guide": {
+      "title": "Guides pour ARK Genesis Ascended Part 1",
+      "description": "Guides complets pour débutants, soluces, conseils du premier jour et analyses du lore pour les survivants de ARK Genesis Ascended Part 1.",
+      "metaTitle": "Guides pour ARK Genesis Ascended Part 1 - Soluces pour débutants et lore",
+      "metaDescription": "Maîtrisez ARK Genesis Ascended Part 1 grâce aux guides pour débutants, aux soluces du premier jour, aux conseils pour les 10 premières minutes et à tout le lore derrière la simulation Genesis.",
+      "categoryLabel": "GUIDES DE JEU",
+      "whatIs": "Que sont les guides ?",
+      "whatIsDescription": "Guides complets pour ARK Genesis Ascended Part 1 — priorités des 10 premières minutes, survie au premier jour, solutions complètes et l'histoire derrière HLN-A et la simulation Genesis.",
+      "why": "Pourquoi lire les guides ?",
+      "whySteps": {
+        "step1Title": "Survivre au premier jour",
+        "step1Description": "Apprenez les priorités de départ, l'équipement de début et les itinéraires en zone sûre",
+        "step2Title": "Suivez des solutions éprouvées",
+        "step2Description": "Parcourez les missions, les biomes et la progression dans le bon ordre",
+        "step3Title": "Comprendre l'histoire",
+        "step3Description": "Découvrez HLN-A, la simulation et l'histoire au cœur de Genesis Part 1"
+      },
+      "featured": "En vedette et essentiels",
+      "all": "Tous les guides"
+    },
+    "map": {
+      "title": "ARK Genesis Ascended Part 1 : Carte & Biomes",
+      "description": "Explorez la carte de ARK Genesis Ascended Part 1 — les biomes Bog, Ocean, Arctic, Volcanic et Lunar, l'emplacement des ressources, les conditions météorologiques et les routes de collecte d'élément.",
+      "metaTitle": "Carte de ARK Genesis Ascended Part 1 - Biomes, ressources & météo",
+      "metaDescription": "Parcourez ARK Genesis Ascended Part 1 avec une couverture complète de la carte des biomes Bog, Ocean, Arctic, Volcanic et Lunar, l'emplacement des ressources, la météo et les routes de collecte d'élément.",
+      "categoryLabel": "CARTE & BIOMES",
+      "whatIs": "Qu'est-ce que la carte ?",
+      "whatIsDescription": "Couverture complète de la carte pour ARK Genesis Ascended Part 1 — les cinq biomes de simulation (Bog, Ocean, Arctic, Volcanic, Lunar), l'emplacement des ressources, les conditions météorologiques, la refonte de l'Ocean et les routes de collecte d'élément.",
+      "why": "Pourquoi étudier la carte ?",
+      "whySteps": {
+        "step1Title": "Trouver des ressources",
+        "step1Description": "Localisez les ressources spécifiques aux biomes, les spots de farm d'Element et les opportunités de Hexagons",
+        "step2Title": "Lire la météo",
+        "step2Description": "Comprendre les modèles météorologiques des biomes et les dangers environnementaux",
+        "step3Title": "Planifier des itinéraires efficaces",
+        "step3Description": "Déplacez-vous entre les biomes avec le bon équipement, les tames et le transport Ocean"
+      },
+      "featured": "En vedette et essentiels",
+      "all": "Tous les guides de cartes"
+    },
+    "bases": {
+      "title": "Emplacements de base ARK Genesis Ascended Part 1",
+      "description": "Meilleurs emplacements de base pour ARK Genesis Ascended Part 1 — forteresses PvP, spots pour survivant solo, avant-postes pour petites tribus, ratholes cachés et emplacements de base défendables dans chaque biome.",
+      "metaTitle": "ARK Genesis Ascended Part 1 Meilleurs emplacements de base - PvP, Solo & Ratholes",
+      "metaDescription": "Trouvez les meilleurs emplacements de base dans ARK Genesis Ascended Part 1 — zones PvP, spots solo, bases pour petites tribus, ratholes cachés et emplacements de base défendables dans tous les biomes.",
+      "categoryLabel": "EMPLACEMENTS DE BASE",
+      "whatIs": "Que sont les emplacements de base ?",
+      "whatIsDescription": "Guides d'emplacements de base sélectionnés pour ARK Genesis Ascended Part 1 — les meilleures forteresses PvP, spots pour survivants solo, avant-postes pour petites tribus, ratholes cachés et emplacements de base défendables à travers les cinq biomes.",
+      "why": "Pourquoi planifier votre base ?",
+      "whySteps": {
+        "step1Title": "Choisissez le bon endroit",
+        "step1Description": "Choisissez des emplacements PvP, solo ou pour petites tribus qui correspondent à votre style de jeu",
+        "step2Title": "Utilisez les défenses naturelles",
+        "step2Description": "Tirez parti des ratholes, du terrain et des points d'étranglement pour protéger votre base",
+        "step3Title": "Adaptez-vous aux biomes",
+        "step3Description": "Adaptez le type de base aux dangers des biomes, aux ressources et à l'exposition aux raids"
+      },
+      "featured": "En vedette & Essentiel",
+      "all": "Tous les emplacements de bases"
+    },
+    "creatures": {
+      "title": "Créatures de ARK Genesis Ascended Part 1",
+      "description": "Liste complète des créatures et dinos de ARK Genesis Ascended Part 1 — nouvelles additions Ascended, X-creatures, apprivoisement du Palaeoctopus, vainqueurs du vote des créatures et tier list de la communauté.",
+      "metaTitle": "Créatures de ARK Genesis Ascended Part 1 - Liste des dinos & Tier list",
+      "metaDescription": "Parcourez toutes les créatures de ARK Genesis Ascended Part 1 — liste complète des dinos, nouvelles additions Ascended, X-creatures, apprivoisement du Palaeoctopus, vainqueurs du vote des créatures et la tier list.",
+      "categoryLabel": "CRÉATURES",
+      "whatIs": "Que sont les créatures ?",
+      "whatIsDescription": "La base de données complète des créatures pour ARK Genesis Ascended Part 1 — la liste complète des dinos, les nouvelles additions Ascended, les X-creatures, l'apprivoisement du Palaeoctopus, les vainqueurs du vote des créatures et les classements de la communauté.",
+      "why": "Pourquoi étudier les créatures ?",
+      "whySteps": {
+        "step1Title": "Constituez le bon groupe de créatures apprivoisées",
+        "step1Description": "Choisissez des créatures adaptées aux rôles de combat, de déplacement, de collecte et de base",
+        "step2Title": "Apprivoisez les nouvelles créatures",
+        "step2Description": "Apprenez à trouver et à apprivoiser le Palaeoctopus et d'autres nouvelles espèces de biomes",
+        "step3Title": "Comparez avec la Tier List",
+        "step3Description": "Classez les créatures par mobilité, combat, collecte et utilité pour l'équipe"
+      },
+      "featured": "À la une et essentiels",
+      "all": "Toutes les créatures"
+    },
+    "features": {
+      "title": "Fonctionnalités de ARK Genesis Ascended Part 1",
+      "description": "Toutes les nouvelles fonctionnalités d'ARK Genesis Ascended Part 1 — nouveaux items, engrammes, systèmes de jeu, détails de la refonte de l'Ocean et ajouts exclusifs à Ascended.",
+      "metaTitle": "Fonctionnalités d'ARK Genesis Ascended Part 1 - Nouveaux items, engrammes et systèmes",
+      "metaDescription": "Découvrez chaque nouvelle fonctionnalité d'ARK Genesis Ascended Part 1 — nouveaux items, engrammes, systèmes de jeu, détails de la refonte de l'Ocean et ajouts exclusifs à Ascended.",
+      "categoryLabel": "NOUVELLES FONCTIONNALITÉS",
+      "whatIs": "Que sont les fonctionnalités ?",
+      "whatIsDescription": "Analyse complète des nouvelles fonctionnalités d'ARK Genesis Ascended Part 1 — nouveaux items, nouveaux engrammes, systèmes de jeu, la refonte de l'Ocean et les ajouts exclusifs à Ascended qui définissent ce DLC.",
+      "why": "Pourquoi apprendre les fonctionnalités ?",
+      "whySteps": {
+        "step1Title": "Débloquez de nouveaux engrammes",
+        "step1Description": "Découvrez de nouveaux items, structures et équipements uniquement disponibles dans Genesis Ascended",
+        "step2Title": "Maîtrisez les nouveaux systèmes",
+        "step2Description": "Comprendre la physique de l'océan, les missions et les ajouts de gameplay",
+        "step3Title": "Rester à jour",
+        "step3Description": "Suivre chaque fonctionnalité exclusive à Ascended pour ne rien manquer"
+      },
+      "featured": "En vedette et essentiels",
+      "all": "Toutes les fonctionnalités"
+    }
   }
 }

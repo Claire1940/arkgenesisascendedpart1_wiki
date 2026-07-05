@@ -7,28 +7,24 @@ export const dynamic = 'force-static'
 
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.arkgenesisascendedpart1.wiki'
 
-// 内容类型优先级配置
+// 内容类型优先级配置（与 navigation.ts 的 6 个 key 对齐）
 const contentTypePriority: Record<string, number> = {
-	'guides': 0.9,
-	'crafting': 0.9,
-	'biomes': 0.8,
+	'release': 0.9,
+	'guide': 0.9,
+	'map': 0.8,
+	'bases': 0.7,
 	'creatures': 0.8,
-	'items': 0.8,
-	'achievements': 0.7,
-	'lore': 0.7,
-	'support': 0.6,
+	'features': 0.8,
 }
 
 // 内容更新频率配置
 const contentTypeChangeFrequency: Record<string, 'daily' | 'weekly' | 'monthly'> = {
-	'guides': 'weekly',
-	'crafting': 'weekly',
-	'biomes': 'weekly',
+	'release': 'daily',
+	'guide': 'weekly',
+	'map': 'weekly',
+	'bases': 'weekly',
 	'creatures': 'weekly',
-	'items': 'weekly',
-	'achievements': 'monthly',
-	'lore': 'monthly',
-	'support': 'monthly',
+	'features': 'weekly',
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
