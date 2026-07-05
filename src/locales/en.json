@@ -10,14 +10,7 @@
       "twitterDescription": "ARK Genesis Ascended Part 1 guide covering missions, biomes, taming, creatures, resources, bosses, ships, and download info for ASA players."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
